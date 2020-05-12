@@ -11,34 +11,39 @@ cloud.init({
 // 云函数入口函数
 exports.main = async (event, context) => {
   const db = cloud.database()
-  const courses = JSON.stringify(await getCourses())
+  let result;
+
+  switch (event.key) {
+    case 'add_courses':
+      const courses = await getCourses()
+      result = await addCourses(courses)
+      break;
+    case 'add_distributions':
+      const _ = db.command
+      const res = await db.collection('lagou_courses').where({
+        
+      })
+      console.log(res)
+  }
 
 
-  const query = `db.collection("lagou_courses").add({data: [{key:1},{key:2}]})`
-  const ids = await axios({
-    method: 'post',
-    url: `https://api.weixin.qq.com/tcb/databaseadd?access_token=33_WV4IV31mLcWelm4YVikFnYI7dF0JziFYx05wWSmQhLuTrhdMPYYaqKYGLVZ_dvw-2SyEiCmvFGWb5ZCNMlOFxbI1IYqEwcoqJfUTS226NilGezE3WjhTEg1o0eDNNYkZsg9gT5GWvAqYUcumUYMfAHACGU`,
-    data: {
-      env: "bytelab-dev-cnoaq",
-      query,
-    }
+
+  console.log({
+    event,
+    result
   })
 
-  console.log(courses)
-  // const id = await db.collection('lagou_courses').add({
-  //   data: courses
-  // })
-  // console.log('courses ', id )
-
-  return ids
+  return result
 }
 
-const getCourses = async function () {
-  const { data } = await axios.get('https://kaiwu.lagou.com');
+const getCourses = async function() {
+  const {
+    data
+  } = await axios.get('https://kaiwu.lagou.com');
 
   const $ = cheerio.load(data);
   let courseList = [];
-  $('script').each(function (index) {
+  $('script').each(function(index) {
     if (index === 2) {
       const window = {};
       const scriptText = $(this).html();
@@ -51,3 +56,26 @@ const getCourses = async function () {
   return courseList;
 }
 
+const addCourses = async courses => {
+  const coursesStringify = JSON.stringify(courses).replace(/"/g, "\\\"")
+  const access_token = "33_lLDdBtVv71SCq0hoV7M4pGXXptsRg-qtMMJQg63staA_2kkdTjtU2s4ya5o9u5s9T2EXq2Mm5qN0cnjcBW6ikUiMmS33vs79VjiI3fhMVFCtJb6rtY9lA6470o05W6w8SHcRH_wxyvU-h-zgLZWgAHAAOL"
+
+  const query = `db.collection("lagou_courses").add({data: ${coursesStringify}})`
+  const {
+    data
+  } = await axios({
+    method: 'post',
+    url: `https://api.weixin.qq.com/tcb/databaseadd?access_token=${access_token}`,
+    data: {
+      env: "bytelab-dev-cnoaq",
+      query,
+    }
+  })
+
+
+  if (data.errcode === 0) {
+    return data.id_list
+  }
+
+  return data.errmsg
+}
