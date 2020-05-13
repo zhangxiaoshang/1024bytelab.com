@@ -1,0 +1,4 @@
+<!--pages/lagou/index.wxml-->
+<view class="container">
+  <lagou-course-item style="width: 100%" wx:for="{{courses}}" wx:key="id" data="{{item}}"></lagou-course-item>
+</view>

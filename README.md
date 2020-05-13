@@ -10,3 +10,6 @@
 
 - [云开发文档](https://developers.weixin.qq.com/miniprogram/dev/wxcloud/basis/getting-started.html)
 
+## QA
+
+* 数据库需要设置权限，默认仅创建者可读写-collection.get 仅返回创建者所属的记录

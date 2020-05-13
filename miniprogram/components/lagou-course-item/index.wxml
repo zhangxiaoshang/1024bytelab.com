@@ -1,0 +1,45 @@
+<!--components/lagou-course-item/index.wxml-->
+<view class="container">
+  <view class="image-view">
+    <image class="image" src="{{data.courseImgUrl}}"></image>
+  </view>
+
+  <view class="content">
+    <view>
+      <text class="name">{{data.courseName}}</text>
+    </view>
+
+    <view>
+      <text class="brief">{{data.brief}}</text>
+    </view>
+
+    <view class="teacher">
+      <text class="tag">--那朋--</text>
+      <text class="tag">--前京东资深架构师--</text>
+    </view>
+
+    <view class="sell-summary">
+      <text wx:if="{{data.isNewDes}}" class="activity-name">{{data.isNewDes}}</text>
+
+      <text class="discout-price-symbol">¥</text>
+      <text class="discout-price-value">{{data.discounts}}</text>
+
+      <text class="default-price-symbol">¥</text>
+      <text class="default-price-value">{{data.price}}</text>
+
+      <view class="title-buy-text">
+        <text>{{data.sales}}</text>
+        <text>人购买</text>
+      </view>
+    </view>
+
+    <view class="fanxian-summary">
+      <view>
+        <text>返现</text>
+        <text>{{data.brokerage}}</text>
+      </view>
+
+      <text bindtap="handleCopy" data-text="{{data.url}}">复制购买链接</text>
+    </view>
+  </view>
+</view>
