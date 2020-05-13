@@ -1,5 +1,7 @@
 // pages/lagou/index.js
 const app = getApp()
+const db = wx.cloud.database()
+const _ = db.command
 
 Page({
 
@@ -9,7 +11,8 @@ Page({
   data: {
     page: 0,
     pageSize: 20,
-    total: 0,
+    distributionsTotal: 0,
+    distributionCourses: [],
     courses: []
   },
 
@@ -17,8 +20,9 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: async function(options) {
-    await this.getCoursesTotal()
-    this.getCourses()
+    await this.getDistributionsTotal()
+    await this.getDistributionCourses()
+    await this.getCourses()
   },
 
   /**
@@ -36,61 +40,103 @@ Page({
   },
 
   onReachBottom: function() {
-    this.getCourses()
+    this.getDistributionCourses()
   },
 
-  getCoursesTotal: async function() {
-    const db = wx.cloud.database()
+  // getCoursesTotal: async function() {
+  //   try {
+  //     const {
+  //       total
+  //     } = await db.collection('lagou_courses').count()
+  //     this.setData({
+  //       total: total
+  //     })
+  //   } catch (err) {
+  //     wx.showToast({
+  //       icon: 'none',
+  //       title: '查询记录失败'
+  //     })
+  //   }
+  // },
 
-    try {
-      const {
-        total
-      } = await db.collection('lagou_courses').count()
+  getDistributionsTotal: async function() {
+    const res = await db.collection('lagou_distributions').count()
+
+    if (res.total) {
       this.setData({
-        total: total
+        distributionsTotal: res.total
       })
-    } catch (err) {
+    } else {
+      wx.showToast({
+        icon: 'node',
+        title: '查询失败',
+      })
+    }
+
+  },
+
+  getDistributionCourses: async function() {
+    const {
+      page,
+      pageSize,
+      distributionsTotal
+    } = this.data
+    const skip = page * pageSize
+
+    if (skip >= distributionsTotal) return
+
+    const res = await db.collection('lagou_distributions')
+      .skip(skip)
+      .limit(pageSize)
+      .get()
+
+    if (res.data) {
+      this.setData({
+        page: page + 1,
+        distributionCourses: this.data.distributionCourses.concat(res.data)
+      })
+    } else {
       wx.showToast({
         icon: 'none',
         title: '查询记录失败'
       })
+      console.error('[数据库] [查询记录] 失败：', err)
     }
-
-
-
   },
 
-  getCourses: function() {
-    const {
-      page,
-      pageSize,
-      total
-    } = this.data
-    const skip = page * pageSize
+  getCourses: async function() {
+    const distributionCourses = this.data.distributionCourses
+    const courseIds = distributionCourses.map(course => course.courseId)
+    const decorateIds = distributionCourses.map(course => course.decorateId)
 
-    if (skip >= total) {
-      console.log('done')
-      return
+    // TODO 这个查询条件好像不严谨
+    const res = await db.collection('lagou_courses')
+      .where({
+        id: _.in(courseIds),
+        decorateId: _.in(decorateIds)
+      })
+      .get()
+
+    const data = res.data // 基本课程数据
+    if (data) {
+      const courseDatas = []
+      // TODO 这里不严谨
+      distributionCourses.forEach((item,index) => {
+        courseDatas.push({
+          ...item,
+          ...data[index]
+        })
+      })
+      this.setData({
+        courses: this.data.courses.concat(courseDatas)
+      })
+    } else {
+      wx.showToast({
+        icon: 'none',
+        title: '查询记录失败'
+      })
+      console.error('[数据库] [查询记录] 失败：', err)
     }
 
-    const db = wx.cloud.database()
-    db.collection('lagou_courses')
-      .skip(page * pageSize)
-      .limit(pageSize)
-      .get({
-        success: res => {
-          this.setData({
-            page: page + 1,
-            courses: this.data.courses.concat(res.data)
-          })
-        },
-        fail: err => {
-          wx.showToast({
-            icon: 'none',
-            title: '查询记录失败'
-          })
-          console.error('[数据库] [查询记录] 失败：', err)
-        }
-      })
   }
 })

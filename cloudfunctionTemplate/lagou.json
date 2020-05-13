@@ -1,0 +1,14 @@
+[
+  {
+    "name": "add_courses",
+    "value": {
+      "key": "add_courses"
+    }
+  },
+  {
+    "name": "add_distributions",
+    "value": {
+      "key": "add_distributions"
+    }
+  }
+]
