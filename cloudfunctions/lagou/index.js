@@ -20,20 +20,20 @@ cloud.init({
 // 云函数入口函数
 exports.main = async(event, context) => {
   switch (event.action) {
-    case 'updateCourses':
-      return updateCourses()
-    case 'updateDistributions':
-      return updateDistributions()
+    case 'initCourses':
+      return initCourses()
+    case 'initDistributions':
+      return initDistributions()
   }
 }
 
-async function updateCourses() {
+async function initCourses() {
   const courses = await _getCourses()
 
   return await bulkCreate('lagou_courses', courses)
 }
 
-async function updateDistributions() {
+async function initDistributions() {
   const db = cloud.database()
   const res = await db.collection('lagou_courses').get() // 云函数默认返回100条记录
   const courses = res.data || []
