@@ -6,11 +6,9 @@ const {
   secret,
   lagou_nickname,
   lagou_cookie
-} = require('../config.js')
-const {
-  axios,
-  bulkCreate
-} = require('../lib/index.js')
+} = require('./config.js')
+const axios = require('./lib/axios.js')
+const bulkCreate = require('./lib/bulkCreate.js')
 
 cloud.init({
   // API 调用都保持和云函数当前所在环境一致
@@ -18,38 +16,48 @@ cloud.init({
 })
 
 // 云函数入口函数
-exports.main = async(event, context) => {
+exports.main = async (event, context) => {
+  console.log(event)
   switch (event.action) {
     case 'initCourses':
       return initCourses()
-    case 'initDistributions':
-      return initDistributions()
+      default:
+      return console.info('action 未定义')
   }
 }
 
 async function initCourses() {
-  const courses = await _getCourses()
+  let courses = await _getCourses()
+  courses = await _insertDistributionData(courses)
+  console.log(courses)
 
   return await bulkCreate('lagou_courses', courses)
 }
 
-async function initDistributions() {
-  const db = cloud.database()
-  const res = await db.collection('lagou_courses').get() // 云函数默认返回100条记录
-  const courses = res.data || []
+// 课程添加分销数据
+async function _insertDistributionData(courses) {
+  const newCourses = []
+  for (const course of courses) {
+    const { showDistributionButton, distributionBaseInfoVo } = await _getDistributionBaseInfo(course);
+    course.distributionBaseInfoVo = distributionBaseInfoVo
+    course.showDistributionButton = showDistributionButton
 
-  const distributions = await _getDistributions(courses)
-  const result = await bulkCreate('lagou_distributions', distributions)
+    if (showDistributionButton) {
+      course.distributionDetail = await _getDistributionDetailData(course)
+    }
 
-  return result
+    newCourses.push(course)
+  }
 
+  return newCourses
 }
 
+// 所有课程
 async function _getCourses() {
   const data = await axios.get('https://kaiwu.lagou.com');
   const $ = cheerio.load(data);
   let courseList = [];
-  $('script').each(function(index) {
+  $('script').each(function (index) {
     if (index === 2) {
       const window = {};
       const scriptText = $(this).html();
@@ -61,29 +69,8 @@ async function _getCourses() {
   return courseList;
 }
 
-async function _getDistributions(courses) {
-  const distributions = []
-  for (let course of courses) {
-    const distributionBaseInfo = await _getDistributionInfo(course);
-    let distributionPosterData = {};
-
-    if (distributionBaseInfo.showDistributionButton) {
-      distributionPosterData = await _getDistributionPosterData(course)
-    }
-
-    distributions.push({
-      courseId: course.id,
-      decorateId: course.decorateId,
-      showDistributionButton: distributionBaseInfo.showDistributionButton,
-      ...distributionBaseInfo.distributionBaseInfoVo,
-      ...distributionPosterData,
-    });
-  }
-
-  return distributions
-}
-
-async function _getDistributionInfo(course) {
+// 分销基本数据
+async function _getDistributionBaseInfo(course) {
   const url = 'https://gate.lagou.com/v1/neirong/kaiwu/getDistributionInfo';
   const {
     id: courseId,
@@ -106,7 +93,8 @@ async function _getDistributionInfo(course) {
   return res.content || {}
 }
 
-async function _getDistributionPosterData(course) {
+// 分销详细数据
+async function _getDistributionDetailData(course) {
   const url =
     'https://gate.lagou.com/v1/neirong/course/distribution/getDistributionPosterData';
   const {

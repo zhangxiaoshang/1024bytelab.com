@@ -5,20 +5,22 @@
   </view>
 
   <view class="content">
-    <view>
+    <view class="content__row">
       <text class="name">{{data.courseName}}</text>
     </view>
 
-    <view>
+    <view class="content__row">
       <text class="brief">{{data.brief}}</text>
     </view>
 
-    <view class="teacher">
-      <text class="tag">--那朋--</text>
-      <text class="tag">--前京东资深架构师--</text>
+    <view class="content__row teacher">
+      <view wx:for="{{data.teachers}}" wx:key="{{item.id}}">
+        <text class="tag">{{item.teacherName}}</text>
+        <text class="tag">{{item.position}}</text>
+      </view>
     </view>
 
-    <view class="sell-summary">
+    <view class="content__row sell-summary">
       <text wx:if="{{data.isNewDes}}" class="activity-name">{{data.isNewDes}}</text>
 
       <text class="discout-price-symbol">¥</text>
@@ -33,13 +35,13 @@
       </view>
     </view>
 
-    <view class="fanxian-summary">
+    <view class="content__row fanxian-summary">
       <view>
         <text>返现</text>
-        <text>{{data.brokerage}}</text>
+        <text>{{data.distributionBaseInfoVo.brokerage}}</text>
       </view>
 
-      <text bindtap="handleCopy" data-text="{{data.url}}">复制购买链接</text>
+      <text class="copy-link" bindtap="handleCopy" data-text="{{data.distributionBaseInfoVo.url}}" data-brokerage="{{data.distributionBaseInfoVo.brokerage}}">复制购买链接</text>
     </view>
   </view>
 </view>

@@ -1,21 +1,15 @@
 // 云函数入口文件
 const cloud = require('wx-server-sdk')
-// const axios = require('axios')
-const {
-  axios
-} = require('../lib')
-const {
-  appid,
-  secret
-} = require('../config.js')
+const axios = require('axios')
+
+const appid = "wx12639acd965bfb76"
+const secret = "6309ecdb8a1f29ac7626941b863c7870"
 
 
 cloud.init()
 
 // 云函数入口函数
 exports.main = async(event, context) => {
-  console.log('event', event)
-
   switch (event.action) {
     case 'getAccessToken':
       {
@@ -30,7 +24,9 @@ exports.main = async(event, context) => {
 }
 
 async function getAccessToken() {
-  const res = await  axios({
+  const {
+    data
+  } = await axios({
     method: 'get',
     url: 'https://api.weixin.qq.com/cgi-bin/token',
     params: {
@@ -41,5 +37,5 @@ async function getAccessToken() {
   })
 
 
-  return res.access_token
+  return data.access_token
 }

@@ -1,14 +1,8 @@
 [
   {
-    "name": "add_courses",
+    "name": "initCourses",
     "value": {
-      "key": "add_courses"
-    }
-  },
-  {
-    "name": "add_distributions",
-    "value": {
-      "key": "add_distributions"
+      "action": "initCourses"
     }
   }
 ]

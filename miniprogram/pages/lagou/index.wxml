@@ -1,4 +1,6 @@
 <!--pages/lagou/index.wxml-->
 <view class="container">
   <lagou-course-item style="width: 100%" wx:for="{{courses}}" wx:key="id" data="{{item}}"></lagou-course-item>
+
+  <van-divider>最后同步: 2020-05-16 24:00:00</van-divider>
 </view>
