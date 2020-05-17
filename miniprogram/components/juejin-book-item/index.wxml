@@ -1,0 +1,43 @@
+<!--components/juejin-book-item/index.wxml-->
+<view class="container">
+  <view class="image-view">
+    <image class="image" src=""></image>
+  </view>
+
+  <view class="content">
+    <view class="content__row">
+      <text class="name">{{book.title}}</text>
+    </view>
+
+    <view class="content__row">
+      <text class="teacher">{{book.userData.username}}</text>
+    </view>
+
+
+    <view class="content__row sell-summary">
+      <view>
+        <text>{{book.lastSectionCount}}小节</text>
+      </view>
+
+      <view class="title-buy-text">
+        <text>{{book.buyCount}}</text>
+        <text>人已购买</text>
+      </view>
+
+      <view class="price-tag">
+        <text class="price">¥{{book.price}}</text>
+      </view>
+    </view>
+
+    <van-divider custom-style="margin:0;transform: translateY(6px)" hairline />
+
+    <view class="content__row fanxian-summary">
+      <view>
+        <text>返现</text>
+        <text>{{data.distributionBaseInfoVo.brokerage}}</text>
+      </view>
+
+      <text class="copy-link" bindtap="onClickBuy" data-image="{{book.img}}">扫码购买</text>
+    </view>
+  </view>
+</view>

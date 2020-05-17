@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/juejin/juejin",
     "pages/home/home",
     "pages/lagou/index",
     "pages/index/index",
@@ -30,8 +31,12 @@
     "van-tabbar-item": "@vant/weapp/tabbar-item/index",
     "van-grid": "@vant/weapp/grid/index",
     "van-grid-item": "@vant/weapp/grid-item/index",
-    "lagou-course-item": "./components/lagou-course-item/index",
     "van-divider": "@vant/weapp/divider/index",
-    "van-action-sheet": "@vant/weapp/action-sheet/index"
+    "van-action-sheet": "@vant/weapp/action-sheet/index",
+    "van-tab": "@vant/weapp/tab/index",
+    "van-tabs": "@vant/weapp/tabs/index",
+    "van-popup": "@vant/weapp/popup/index",
+    "lagou-course-item": "./components/lagou-course-item/index",
+    "juejin-book-item": "./components/juejin-book-item/index"
   }
 }

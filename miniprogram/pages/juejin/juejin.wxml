@@ -1,0 +1,28 @@
+<!--pages/juejin/juejin.wxml-->
+<van-tabs active="{{ type }}" bind:change="onChangeType" color="#007fff">
+  <van-tab title="全部">
+    <juejin-book-item book="{{book}}" bind:onclick="showImage"></juejin-book-item>
+  </van-tab>
+  <van-tab title="前端">内容 2</van-tab>
+  <van-tab title="后端">内容 3</van-tab>
+  <van-tab title="移动开发">内容 4</van-tab>
+  <van-tab title="区块链">内容 4</van-tab>
+  <van-tab title="通用">内容 4</van-tab>
+</van-tabs>
+
+  <!-- <van-action-sheet show="{{showActionSheet}}" close-on-click-overlay title="操作说明"  bind:close="onClose">
+    <view class="action-sheet-panel">
+    购买链接已复制,使用浏览器粘贴并打开链接,完成购买后联系微信：bolingboling 获取返现红包{{brokerage}}元
+
+    <image src="{{image}}"></image>
+    </view>
+  </van-action-sheet> -->
+
+  <!-- <van-popup
+  show="{{ showPopup }}"
+  position="bottom"
+  custom-style="height: 100%;text-align: center;"
+  bind:close="onClose"
+>
+ <image class="share-image" src="{{image}}"></image>
+</van-popup> -->

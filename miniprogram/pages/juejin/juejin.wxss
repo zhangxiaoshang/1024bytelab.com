@@ -1,0 +1,6 @@
+/* pages/juejin/juejin.wxss */
+.share-image {
+width: 262px;
+height: 467px;
+
+}
