@@ -1,0 +1,25 @@
+/* pages/home/home.wxss */
+page {
+  background: #F5F5F5;  
+}
+.home .van-tabbar {
+  background-color: #F5F5F5;
+}
+
+.van-grid {
+  background: #F5F5F5;
+}
+.van-grid-item .van-grid-item__content {
+  background-color: #F5F5F5;
+}
+.logo {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+}
+
+.title-text {
+  font-size: 24rpx;
+  color: #666;
+  margin-top: 10rpx;
+}

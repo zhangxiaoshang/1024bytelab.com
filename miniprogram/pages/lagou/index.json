@@ -1,4 +1,6 @@
 {
   "navigationBarTitleText": "拉钩教育",
+  "navigationBarBackgroundColor": "#FFC731",
+  "navigationBarTextStyle": "black",
   "usingComponents": {}
 }

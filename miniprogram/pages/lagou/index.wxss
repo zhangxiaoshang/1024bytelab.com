@@ -1,0 +1,10 @@
+.container {
+  padding-top: 20px;
+}
+
+.action-sheet-panel {
+  padding: 20px;
+  padding-bottom: 40px;
+  line-height: 1.8em;
+  color: #666;
+}

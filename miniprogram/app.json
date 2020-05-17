@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/home/home",
     "pages/lagou/index",
     "pages/index/index",
     "pages/userConsole/userConsole",
@@ -19,7 +20,7 @@
     "backgroundColor": "#F6F6F6",
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#F6F6F6",
-    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTitleText": "字节实验室",
     "navigationBarTextStyle": "black"
   },
   "sitemapLocation": "sitemap.json",
@@ -30,6 +31,7 @@
     "van-grid": "@vant/weapp/grid/index",
     "van-grid-item": "@vant/weapp/grid-item/index",
     "lagou-course-item": "./components/lagou-course-item/index",
-    "van-divider": "@vant/weapp/divider/index"
+    "van-divider": "@vant/weapp/divider/index",
+    "van-action-sheet": "@vant/weapp/action-sheet/index"
   }
 }

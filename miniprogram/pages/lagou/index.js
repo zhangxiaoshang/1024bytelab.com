@@ -1,4 +1,5 @@
 // pages/lagou/index.js
+const dayjs = require('dayjs')
 const app = getApp()
 const db = wx.cloud.database()
 const _ = db.command
@@ -12,7 +13,10 @@ Page({
     page: 0,
     pageSize: 20,
     total: 0,
-    courses: []
+    courses: [],
+    lastSyncTime: '',
+    brokerage: 0,
+    showActionSheet: false
   },
 
   /**
@@ -21,6 +25,7 @@ Page({
   onLoad: async function(options) {
     await this.getCoursesTotal()
     await this.getCourses()
+    await this.getLastSyncTime()
   },
 
   onReachBottom: function() {
@@ -42,7 +47,6 @@ Page({
       })
     }
   },
-
 
   getCourses: async function() {
     const {
@@ -68,6 +72,30 @@ Page({
     this.setData({
       page: page + 1,
       courses: this.data.courses.concat(data)
+    })
+  },
+
+  getLastSyncTime: async function() {
+    const {data} = await db.collection('sync_db_log').doc('lagou_courses').get()
+    console.log(data.at)
+    if (data) {
+      this.setData ({
+        lastSyncTime: dayjs(data.at).format('YYYY-MM-DD HH:mm:ss')
+      })
+    }
+  },
+
+  onCopyLink: async function (e) {
+
+    this.setData({
+      brokerage: e.detail,
+      showActionSheet: true
+    })
+  },
+
+  onClose: function() {
+    this.setData({
+      showActionSheet: false
     })
   }
 })

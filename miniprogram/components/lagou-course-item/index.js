@@ -31,20 +31,21 @@ Component({
       } = event
       wx.setClipboardData({
         data: text,
-        success(res) {
-          setTimeout(() => {
-            wx.showModal({
-              showCancel: false,
-              content: `使用浏览器粘贴并打开链接,完成购买后联系微信：bolingboling 获取返现红包${brokerage}元`,
-              success(res) {
-                if (res.confirm) {
-                  console.log('用户点击确定')
-                } else if (res.cancel) {
-                  console.log('用户点击取消')
-                }
-              }
-            })
-          }, 1500)
+        success: (res)=> {
+          this.triggerEvent('onCopyLink', brokerage, null)
+          // setTimeout(() => {
+          //   wx.showModal({
+          //     showCancel: false,
+          //     content: `使用浏览器粘贴并打开链接,完成购买后联系微信：bolingboling 获取返现红包${brokerage}元`,
+          //     success(res) {
+          //       if (res.confirm) {
+          //         console.log('用户点击确定')
+          //       } else if (res.cancel) {
+          //         console.log('用户点击取消')
+          //       }
+          //     }
+          //   })
+          // }, 1500)
 
         }
       })

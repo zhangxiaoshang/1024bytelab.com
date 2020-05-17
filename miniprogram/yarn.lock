@@ -6,3 +6,8 @@
   version "1.3.0"
   resolved "https://registry.npm.taobao.org/@vant/weapp/download/@vant/weapp-1.3.0.tgz#626ba373618d0a93d943c6d0dbad3fbf5a15b1d5"
   integrity sha1-Ymujc2GNCpPZQ8bQ260/v1oVsdU=
+
+dayjs@^1.8.27:
+  version "1.8.27"
+  resolved "https://registry.npm.taobao.org/dayjs/download/dayjs-1.8.27.tgz#a8ae63ee990af28c05c430f0e160ae835a0fbbf8"
+  integrity sha1-qK5j7pkK8owFxDDw4WCug1oPu/g=
