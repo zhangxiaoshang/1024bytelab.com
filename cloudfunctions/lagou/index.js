@@ -15,11 +15,8 @@ cloud.init({
 
 // 云函数入口函数
 exports.main = async(event, context) => {
-  switch (event.action) {
-    // TODO 这个函数可以弃用了 统一使用updateCourses
-    case 'initCourses':
-      console.log('event')
-      return initCourses()
+  const action = event.action || 'updateCourses'
+  switch (action) {
     case 'updateCourses':
       return updateCourses()
     default:
@@ -27,24 +24,16 @@ exports.main = async(event, context) => {
   }
 }
 
-async function initCourses() {
-  let courses = await _getCourses()
-  courses = await _setPrimaryKeyId(courses)
-  courses = await _insertDistributionData(courses)
-
-  return await bulkCreate('lagou_courses', courses)
-}
-
 async function updateCourses() {
   let courses = await _getCourses()
   courses = await _setPrimaryKeyId(courses)
   courses = await _insertDistributionData(courses)
-  await syncDBLog()
+  await _syncDBLog()
 
   return await _bulkCreateOrUpdate(courses)
 }
 
-async function syncDBLog() {
+async function _syncDBLog() {
   const db = cloud.database()
   const res = await db.collection('sync_db_log').doc(`lagou_courses`).set({
     data: {
@@ -152,8 +141,6 @@ async function _getDistributionDetailData(course) {
 
   return {}
 }
-
-
 
 /**
  * @desc 批量创建或更新
