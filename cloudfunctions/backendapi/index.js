@@ -18,7 +18,7 @@ exports.main = async(event, context) => {
 
     default:
       {
-        return
+        return console.info('未定义action: ' + event.action)
       }
   }
 }

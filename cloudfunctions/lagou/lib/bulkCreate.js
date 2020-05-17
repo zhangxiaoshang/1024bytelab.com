@@ -12,7 +12,6 @@ async function bulkCreate(collectionName, arr) {
       action: 'getAccessToken'
     }
   })
-  console.log(access_token)
 
   const query = `db.collection("${collectionName}").add({data: ${arrStringify}})`
 
@@ -24,7 +23,6 @@ async function bulkCreate(collectionName, arr) {
       query,
     }
   })
-
 
   return res
 }

@@ -4,5 +4,11 @@
     "value": {
       "action": "initCourses"
     }
+  },
+  {
+    "name": "updateCourses",
+    "value": {
+      "action": "updateCourses"
+    }
   }
 ]

@@ -1,5 +1,5 @@
 const cloud = require('wx-server-sdk')
-const {axios}  = require('./index.js')
+const axios = require('./axios.js')
 
 cloud.init()
 

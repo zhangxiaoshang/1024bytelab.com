@@ -2,8 +2,6 @@
 const cloud = require('wx-server-sdk')
 const cheerio = require('cheerio')
 const {
-  appid,
-  secret,
   lagou_nickname,
   lagou_cookie
 } = require('./config.js')
@@ -16,29 +14,60 @@ cloud.init({
 })
 
 // 云函数入口函数
-exports.main = async (event, context) => {
-  console.log(event)
+exports.main = async(event, context) => {
   switch (event.action) {
+    // TODO 这个函数可以弃用了 统一使用updateCourses
     case 'initCourses':
+      console.log('event')
       return initCourses()
-      default:
+    case 'updateCourses':
+      return updateCourses()
+    default:
       return console.info('action 未定义')
   }
 }
 
 async function initCourses() {
   let courses = await _getCourses()
+  courses = await _setPrimaryKeyId(courses)
   courses = await _insertDistributionData(courses)
-  console.log(courses)
 
   return await bulkCreate('lagou_courses', courses)
+}
+
+async function updateCourses() {
+  let courses = await _getCourses()
+  courses = await _setPrimaryKeyId(courses)
+  courses = await _insertDistributionData(courses)
+  await syncDBLog()
+
+  return await _bulkCreateOrUpdate(courses)
+}
+
+async function syncDBLog() {
+  const db = cloud.database()
+  const res = await db.collection('sync_db_log').doc(`lagou_courses`).set({
+    data: {
+      at: db.serverDate()
+    }
+  })
+}
+
+async function _setPrimaryKeyId(courses) {
+  return courses.map(item => ({
+    _id: `${item.id}_${item.decorateId}`,
+    ...item
+  }))
 }
 
 // 课程添加分销数据
 async function _insertDistributionData(courses) {
   const newCourses = []
   for (const course of courses) {
-    const { showDistributionButton, distributionBaseInfoVo } = await _getDistributionBaseInfo(course);
+    const {
+      showDistributionButton,
+      distributionBaseInfoVo
+    } = await _getDistributionBaseInfo(course);
     course.distributionBaseInfoVo = distributionBaseInfoVo
     course.showDistributionButton = showDistributionButton
 
@@ -57,7 +86,7 @@ async function _getCourses() {
   const data = await axios.get('https://kaiwu.lagou.com');
   const $ = cheerio.load(data);
   let courseList = [];
-  $('script').each(function (index) {
+  $('script').each(function(index) {
     if (index === 2) {
       const window = {};
       const scriptText = $(this).html();
@@ -121,6 +150,49 @@ async function _getDistributionDetailData(course) {
     return content
   }
 
-  console.info('获取分销数据错误,可能是cookie失效：nickName ' + content.nickName)
   return {}
+}
+
+
+
+/**
+ * @desc 批量创建或更新
+ * @desc 更新课程
+ * @desc 创建未存在的课程
+ */
+async function _bulkCreateOrUpdate(courses) {
+  const db = cloud.database()
+  const {
+    data: oldCourses
+  } = await db.collection('lagou_courses')
+    .orderBy('id', 'desc')
+    .limit(100) // 最多100条 超过100条时需要修改程序
+    .get()
+
+  const newCourses = []
+  for (const course of courses) {
+    const existed = oldCourses.find(item => item.id === course.id)
+    if (existed) {
+      await _updateCourse(course)
+    } else {
+      newCourses.push(course)
+    }
+  }
+  if (newCourses.length) {
+    await bulkCreate('lagou_courses', newCourses)
+    console.info(`新增课程总计: ${newCourses.length} 条, `)
+  }
+
+  console.info(`更新完成`)
+}
+
+async function _updateCourse(course) {
+  console.log(`更新课程 ${course.courseName}`)
+  const db = cloud.database()
+  delete course._id
+  const res = await db.collection('lagou_courses').doc(`${course.id}_${course.decorateId}`).set({
+    data: course
+  })
+
+  return res
 }
