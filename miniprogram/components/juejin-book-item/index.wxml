@@ -29,15 +29,13 @@
       </view>
     </view>
 
-    <van-divider custom-style="margin:0;transform: translateY(6px)" hairline />
-
     <view class="content__row fanxian-summary">
       <view>
         <text>返现</text>
         <text>¥{{book.brokerage}}</text>
       </view>
 
-      <text class="copy-link" bindtap="onClickBuy" data-image="{{book.postImage}}" data-brokerage="{{book.brokerage}}">扫码购买</text>
+      <text class="copy-link" bindtap="onClickBuy" data-image="{{book.postImage}}" data-brokerage="{{book.brokerage}}" data-title="{{book.title}}">扫码购买</text>
     </view>
   </view>
 </view>

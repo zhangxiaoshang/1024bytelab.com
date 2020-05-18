@@ -1,5 +1,6 @@
 <!--miniprogram/pages/post/post.wxml-->
 <view class="container">
+<text class="tip-text">扫码购买可联系微信：bolingboling 获取返现红包¥{{brokerage}}元</text>
   <image class="post-image" src="{{image}}" mode="widthFix"></image>
   <view class="handle-wrap">
     <button class="handle-item send-button" open-type="share">

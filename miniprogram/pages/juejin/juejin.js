@@ -14,8 +14,6 @@ Page({
     total: 0,
     books: [],
 
-    showPopup: false,
-
   },
 
   /**
@@ -49,40 +47,19 @@ Page({
     this._getBooks()
   },
 
-  onChangeType(event) {
-    wx.showToast({
-      title: `切换到标签 ${event.detail.name}`,
-      icon: 'none',
-    });
-
-    this.setData({
-      type: event.detail.name
-    })
-  },
 
   /**
    * 打开海报页
    */
   onclickBuy: function(event) {
     const {
+      title,
       image,
       brokerage
     } = event.detail
 
-    // this.setData({
-    //   image: '../../images/000.png',
-    //   showPopup: true
-    // })
-    console.log({
-      image,
-      brokerage
-    })
-
     wx.navigateTo({
-      url: `/pages/post/post?image=${image}&brokerage=${brokerage}`,
-      success: function(res) {
-        console.log(res)
-      }
+      url: `/pages/post/post?image=${image}&brokerage=${brokerage}&title=${title}`,
     })
   },
 
@@ -97,9 +74,11 @@ Page({
       const {
         total
       } = await db.collection('juejin_books').count()
+
       this.setData({
         total: total
       })
+
     } catch (err) {
       wx.showToast({
         icon: 'none',
@@ -123,12 +102,13 @@ Page({
       data
     } = await db.collection('juejin_books')
       .where({
-        brokerage: _.neq('undefined')
+        brokerage: _.exists(true),
       })
       .orderBy('createdAt', 'desc')
       .skip(page * pageSize)
       .limit(pageSize)
       .get()
+
 
     this.setData({
       page: page + 1,

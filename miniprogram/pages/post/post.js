@@ -14,6 +14,7 @@ Page({
    */
   onLoad: function(options) {
     this.setData({
+      title: options.title,
       image: options.image,
       brokerage: options.brokerage
     })
@@ -66,9 +67,10 @@ Page({
    * 用户点击右上角分享
    */
   onShareAppMessage: function(res) {
+    const { image, brokerage, title} = this.data
     return {
-      title: '买课返现',
-      path: 'pages/post/post'
+      title: title,
+      path: `pages/post/post?image=${image}&brokerage=${brokerage}&title=${title}`
     }
   },
 

@@ -1,14 +1,18 @@
 <!--pages/juejin/juejin.wxml-->
-<van-tabs active="{{ type }}" bind:change="onChangeType" color="#007fff">
+<!-- <van-tabs active="{{ type }}" bind:change="onChangeCategory" color="#007fff">
   <van-tab title="全部">
     <juejin-book-item wx:for="{{books}}" wx:key="_id" book="{{item}}" bind:onclickBuy="onclickBuy"></juejin-book-item>
   </van-tab>
-  <van-tab title="前端">内容 2</van-tab>
-  <van-tab title="后端">内容 3</van-tab>
-  <van-tab title="移动开发">内容 4</van-tab>
-  <van-tab title="区块链">内容 4</van-tab>
+  <van-tab title="前端" name="5562b415e4b00c57d9b94ac8">
+   <juejin-book-item wx:for="{{books}}" wx:key="_id" book="{{item}}" bind:onclickBuy="onclickBuy"></juejin-book-item>
+  </van-tab>
+  <van-tab title="后端" name="5562b419e4b00c57d9b94ae2">
+   <juejin-book-item wx:for="{{books}}" wx:key="_id" book="{{item}}" bind:onclickBuy="onclickBuy"></juejin-book-item>
+  </van-tab>
+  <van-tab title="移动开发" name="5562b419e4b00c57d9b94ae2">内容 4</van-tab>
+  <van-tab title="区块链" name="5562b415e4b00c57d9b94ac8">内容 4</van-tab>
   <van-tab title="通用">内容 4</van-tab>
-</van-tabs>
+</van-tabs> -->
 
   <!-- <van-action-sheet show="{{showActionSheet}}" close-on-click-overlay title="操作说明"  bind:close="onClose">
     <view class="action-sheet-panel">
@@ -26,3 +30,5 @@
 >
  <image class="share-image" src="{{image}}"></image>
 </van-popup> -->
+
+ <juejin-book-item wx:for="{{books}}" wx:key="_id" book="{{item}}" bind:onclickBuy="onclickBuy"></juejin-book-item>

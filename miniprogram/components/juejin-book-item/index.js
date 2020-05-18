@@ -21,12 +21,13 @@ Component({
    */
   methods: {
     onClickBuy: function(event) {
-      console.log(event)
+      const title = event.currentTarget.dataset.title
       const image = event.currentTarget.dataset.image
       const brokerage = event.currentTarget.dataset.brokerage
 
 
       this.triggerEvent('onclickBuy', {
+        title,
         image,
         brokerage
       }, null)
