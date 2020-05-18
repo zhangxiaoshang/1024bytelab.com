@@ -1,7 +1,7 @@
 <!--components/juejin-book-item/index.wxml-->
 <view class="container">
   <view class="image-view">
-    <image class="image" src=""></image>
+    <image class="image" src="{{book.bookImage}}"></image>
   </view>
 
   <view class="content">
@@ -34,10 +34,10 @@
     <view class="content__row fanxian-summary">
       <view>
         <text>返现</text>
-        <text>{{data.distributionBaseInfoVo.brokerage}}</text>
+        <text>¥{{book.brokerage}}</text>
       </view>
 
-      <text class="copy-link" bindtap="onClickBuy" data-image="{{book.img}}">扫码购买</text>
+      <text class="copy-link" bindtap="onClickBuy" data-image="{{book.postImage}}" data-brokerage="{{book.brokerage}}">扫码购买</text>
     </view>
   </view>
 </view>

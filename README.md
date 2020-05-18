@@ -13,3 +13,4 @@
 ## QA
 
 * 数据库需要设置权限，默认仅创建者可读写-collection.get 仅返回创建者所属的记录
+* 小程序 image 高度不能根据宽度等比例适应，需要给iamge标签添加属性 mode="widthFix"

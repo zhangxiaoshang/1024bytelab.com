@@ -1,7 +1,7 @@
 <!--pages/juejin/juejin.wxml-->
 <van-tabs active="{{ type }}" bind:change="onChangeType" color="#007fff">
   <van-tab title="全部">
-    <juejin-book-item book="{{book}}" bind:onclick="showImage"></juejin-book-item>
+    <juejin-book-item wx:for="{{books}}" wx:key="_id" book="{{item}}" bind:onclickBuy="onclickBuy"></juejin-book-item>
   </van-tab>
   <van-tab title="前端">内容 2</van-tab>
   <van-tab title="后端">内容 3</van-tab>

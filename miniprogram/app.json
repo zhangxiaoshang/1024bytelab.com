@@ -1,7 +1,10 @@
 {
   "pages": [
-    "pages/juejin/juejin",
     "pages/home/home",
+    
+    "pages/juejin/juejin",
+    
+    "pages/post/post",
     "pages/lagou/index",
     "pages/index/index",
     "pages/userConsole/userConsole",

@@ -23,7 +23,13 @@ Component({
     onClickBuy: function(event) {
       console.log(event)
       const image = event.currentTarget.dataset.image
-      this.triggerEvent('onclick', image, null)
+      const brokerage = event.currentTarget.dataset.brokerage
+
+
+      this.triggerEvent('onclickBuy', {
+        image,
+        brokerage
+      }, null)
     }
   }
 })

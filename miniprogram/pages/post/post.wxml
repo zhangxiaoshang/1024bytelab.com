@@ -1,0 +1,15 @@
+<!--miniprogram/pages/post/post.wxml-->
+<view class="container">
+  <image class="post-image" src="{{image}}" mode="widthFix"></image>
+  <view class="handle-wrap">
+    <button class="handle-item send-button" open-type="share">
+      <image class="handle-icon" src="../../images/weixin.png"></image>
+      <text class="handle-text">发送给朋友</text>
+    </button>
+
+    <view class="handle-item" bindtap="ontapDownload">
+      <image class="handle-icon" src="../../images/xiazai.png"></image>
+      <text class="handle-text">保存到手机</text>
+    </view>
+  </view>
+</view>

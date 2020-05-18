@@ -2,7 +2,7 @@
 
 .container {
   display: flex;
-  padding: 0 40rpx 60rpx;
+  padding: 40rpx 40rpx 20rpx;
   justify-content: space-between;
   width: 100%;
   box-sizing: border-box;
@@ -24,7 +24,7 @@
 
 .content {
   margin-left: 40rpx;
-  flex: 0 0 1;
+  flex: 0 0 440rpx;
   box-sizing: border-box;
   overflow: hidden;
   /* padding-right: 20px; */

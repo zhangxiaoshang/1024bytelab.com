@@ -2,14 +2,14 @@
 <view class="home container">
 
   <van-grid border="{{false}}" gutter="{{ 10 }}">
-    <van-grid-item  use-slot url="/pages/lagou/index">
-      <image class="logo" src="../../images/logo-lagou.jpeg" />
-      <text class="title-text">拉钩教育</text>
+    <van-grid-item use-slot url="/pages/juejin/juejin">
+      <image class="logo" src="../../images/juejin.jpeg" />
+      <text class="title-text">掘金小册</text>
     </van-grid-item>
 
-     <van-grid-item use-slot>
+    <van-grid-item use-slot url="/pages/lagou/index">
       <image class="logo" src="../../images/logo-lagou.jpeg" />
-      <text class="title-text">极客时间</text>
+      <text class="title-text">拉钩教育</text>
     </van-grid-item>
   </van-grid>
 
