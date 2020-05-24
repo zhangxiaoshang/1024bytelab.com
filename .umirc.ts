@@ -2,7 +2,6 @@ import { defineConfig } from 'umi';
 
 export default defineConfig({
   outputPath: './docs',
-  base: '/1024bytelab.com',
   publicPath: 'https://zhangxiaoshang.github.io/1024bytelab.com/',
   nodeModulesTransform: {
     type: 'none',
