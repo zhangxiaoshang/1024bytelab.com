@@ -7,6 +7,7 @@ const { Header, Content, Footer } = Layout;
 const menuData = [
   { route: '/lagou', name: '拉勾教育' },
   { route: '/juejin', name: '掘金小册' },
+  { route: 'https://m.imooc.com/act/onlivelist', name: '慕课直播' },
 ];
 
 interface Props {
@@ -34,7 +35,11 @@ function BasicLayout(props: Props) {
         >
           {menuData.map(menu => (
             <Menu.Item key={menu.route}>
-              <Link to={menu.route}>{menu.name}</Link>
+              {menu.route.indexOf('http') === 0 ? (
+                <a href={menu.route}>{menu.name}</a>
+              ) : (
+                <Link to={menu.route}>{menu.name}</Link>
+              )}
             </Menu.Item>
           ))}
         </Menu>
