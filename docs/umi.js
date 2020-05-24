@@ -7926,7 +7926,11 @@
                     Cu.Item,
                     { key: e.route },
                     0 === e.route.indexOf('http')
-                      ? o.a.createElement('a', { href: e.route }, e.name)
+                      ? o.a.createElement(
+                          'a',
+                          { href: e.route, target: '_blank' },
+                          e.name,
+                        )
                       : o.a.createElement(ju['a'], { to: e.route }, e.name),
                   ),
                 ),
