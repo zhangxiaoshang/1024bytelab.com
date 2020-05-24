@@ -7892,6 +7892,10 @@
       Du = [
         { route: '/lagou', name: '\u62c9\u52fe\u6559\u80b2' },
         { route: '/juejin', name: '\u6398\u91d1\u5c0f\u518c' },
+        {
+          route: 'https://m.imooc.com/act/onlivelist',
+          name: '\u6155\u8bfe\u76f4\u64ad',
+        },
       ];
     function Nu(e) {
       var t = e.location.pathname,
@@ -7921,7 +7925,9 @@
                   o.a.createElement(
                     Cu.Item,
                     { key: e.route },
-                    o.a.createElement(ju['a'], { to: e.route }, e.name),
+                    0 === e.route.indexOf('http')
+                      ? o.a.createElement('a', { href: e.route }, e.name)
+                      : o.a.createElement(ju['a'], { to: e.route }, e.name),
                   ),
                 ),
               ),
