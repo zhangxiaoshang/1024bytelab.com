@@ -3,6 +3,7 @@
   "scripts": {
     "start": "UMI_ENV=dev umi dev",
     "build": "umi build",
+    "build:deploy": "umi build && cp CNAME ./docs/ && git add . && git commit -m 'update docs' && git push origin master:master",
     "postinstall": "umi generate tmp",
     "prettier": "prettier --write '**/*.{js,jsx,tsx,ts,less,md,json}'",
     "test": "umi-test",
