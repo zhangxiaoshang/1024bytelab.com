@@ -36,7 +36,9 @@ function BasicLayout(props: Props) {
           {menuData.map(menu => (
             <Menu.Item key={menu.route}>
               {menu.route.indexOf('http') === 0 ? (
-                <a href={menu.route}>{menu.name}</a>
+                <a href={menu.route} target="_blank">
+                  {menu.name}
+                </a>
               ) : (
                 <Link to={menu.route}>{menu.name}</Link>
               )}
