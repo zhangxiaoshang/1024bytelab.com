@@ -1,0 +1,2456 @@
+[
+  {
+    "_id": "185_80",
+    "courseUrl": "https://kaiwu.lagou.com/course/courseInfo.htm?courseId=185&sid=30-aggregation-0",
+    "topNCourseLesson": [
+      {
+        "id": 3329,
+        "courseId": 185,
+        "sectionId": 653,
+        "theme": "开篇词 | 数据结构与算法，应该这样学！",
+        "isFree": true,
+        "existMedia": true
+      },
+      {
+        "id": 3339,
+        "courseId": 185,
+        "sectionId": 660,
+        "theme": "01 | 复杂度：如何衡量程序运行的效率？",
+        "isFree": false,
+        "existMedia": true
+      },
+      {
+        "id": 3340,
+        "courseId": 185,
+        "sectionId": 660,
+        "theme": "02 | 数据结构：将“昂贵”的时间复杂度转换成“廉价”的空间复杂度",
+        "isFree": false,
+        "existMedia": true
+      },
+      {
+        "id": 3341,
+        "courseId": 185,
+        "sectionId": 661,
+        "theme": "03 | 增删查：掌握数据处理的基本操作,以不变应万变",
+        "isFree": false,
+        "existMedia": false
+      }
+    ],
+    "id": 185,
+    "courseCId": "",
+    "courseName": "重学数据结构与算法",
+    "teachers": [
+      {
+        "id": 186,
+        "teacherName": "公瑾",
+        "position": "中科院博士，资深算法专家",
+        "teacherHeadPicUrl": "https://s0.lgstatic.com/i/image/M00/06/BC/Ciqc1F64shiAbSVIAAAS_Vh0ueE298.jpg",
+        "description": "<p><span data-shimo-docs=\"[[20,&quot;国内首批从事机器学习和数据挖掘工程师。拥有深厚的一线代码开发经验，对数据结构、算法思想有多年研究并深入理解。热衷于知识分享和技能输出，出品了多篇技术博客和技术教程。&quot;]]\"></span></p><p line=\"TEM7\"><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 14px;\"></span><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 14px;\">国内首批从事机器学习和数据挖掘的工程师，拥有深厚的一线代码开发经验，对数据结构、算法思想有多年研究和深入理解，热衷于知识分享和技能输出。</span></p>"
+      }
+    ],
+    "totalDuration": 300,
+    "sales": 40607,
+    "pruchasedCount": "4.06w人购买",
+    "price": "98",
+    "discounts": "68",
+    "courseImgUrl": "https://s0.lgstatic.com/i/image/M00/0E/4C/Ciqc1F7FyMuAJByFAABR9fDDUF4749.jpg",
+    "sellGoodsId": 225,
+    "sellGoodsPriceId": 676,
+    "lgCoinPrice": 68,
+    "isBuy": false,
+    "isFavorite": false,
+    "isNewDes": "拉勾补贴",
+    "brief": "从容应对实战场景，轻松掌握刷题技巧",
+    "h5Url": "https://www.lagou.com/center/login?forward=https%3a%2f%2fkaiwu.lagou.com%2fcourse%2fcourseInfo.htm%3fcourseId%3d185%26sid%3d20-h5Url-0",
+    "activityName": "上新优惠",
+    "courseListImg": "https://s0.lgstatic.com/i/image/M00/0E/58/CgqCHl7FyPyAec2OAABR9fDDUF4817.jpg",
+    "tag": "专栏",
+    "courseType": 1,
+    "decorateId": 80,
+    "appDecorateId": 0,
+    "recruitAppDecorateId": 0,
+    "distributionBaseInfoVo": {
+      "courseName": "重学数据结构与算法",
+      "brief": "从容应对实战场景，轻松掌握刷题技巧",
+      "shareImage": "https://s0.lgstatic.com/i/image/M00/0E/40/Ciqc1F7FWCuAPYTBAA4FT36hWLI148.jpg",
+      "url": "https://t.lagou.com/nRF4RERQR3813",
+      "brokerage": "13.60"
+    },
+    "showDistributionButton": true,
+    "distributionDetail": {
+      "profile": "https://s0.lgstatic.com/images/myresume/default_headpic.png",
+      "nickName": "bolingboling",
+      "courseName": "重学数据结构与算法",
+      "posterImage": "https://s0.lgstatic.com/i/image/M00/0E/40/Ciqc1F7FWCuAPYTBAA4FT36hWLI148.jpg",
+      "url": "https://t.lagou.com/nR5BRORQR3488",
+      "urlImageBase64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAEsAQAAAABRBrPYAAABp0lEQVR42u3aW3IDIAgFUHfG1llSd0AbhAta8vhsZ246adrk+MOgKGbZJ4+vRUb2J5kuf4jG8/GOqKj/55+QjUweEfx5Xx5/OtxI8hOymXlg43cM2QHP98heMM9Gz0p/UTGyj9jOTfX5vCIxyV4wpKLcY6ZZT3aVj98/Y5Uhk2O7opGKFelxV0MGphncvm2JyGqFl+xktfTZrhuxGqKIkM1sxcqX2+K2Au5XspEJQhwiThd7JNnMkI/WdigY5JhsYGbWQ6mCJzKUbGKKc2vmYx4zsvqSDUx7jwRlI3J1jyMbGKayZUjzMCs7wGQjU9Raa5U3MtTutCRrbNVEjh1eazyRPWNVPCLEcbqIOS5kE6uWSeurY4DHl2xgsdahn34sgXUcI7tZa86hBEula5/OZCdDHqI5J9GCOmY92cFwfMiDRe37pK5ZyU6G9mYkZKQlDrZ3W5jsbKe3KiLtCnGJkY0sd8G6pDrr6ELd1/pk67qe7tWjprOSvWFx/Ir6i2ankr1huDLM8EpvC5PdDNO5fVOpyi/ZE1blw1oPXeu2kGxi/CIl2T9l3wmG9NMQM3CXAAAAAElFTkSuQmCC",
+      "copywriterList": [
+        "这是我看过讲「数据结构与算法」非常有深度的内容，分享给你。"
+      ]
+    }
+  },
+  {
+    "_id": "158_77",
+    "courseUrl": "https://kaiwu.lagou.com/course/courseInfo.htm?courseId=158&sid=30-aggregation-0",
+    "topNCourseLesson": [
+      {
+        "id": 3130,
+        "courseId": 158,
+        "sectionId": 600,
+        "theme": "开篇词：选择 ZooKeeper，一步到位掌握分布式开发",
+        "isFree": true,
+        "existMedia": true
+      },
+      {
+        "id": 3131,
+        "courseId": 158,
+        "sectionId": 601,
+        "theme": "第01讲：ZooKeeper 数据模型：节点的特性与应用",
+        "isFree": false,
+        "existMedia": true
+      },
+      {
+        "id": 3132,
+        "courseId": 158,
+        "sectionId": 601,
+        "theme": "第02讲：发布订阅模式：如何使用 Watch 机制实现分布式通知",
+        "isFree": false,
+        "existMedia": true
+      },
+      {
+        "id": 3133,
+        "courseId": 158,
+        "sectionId": 601,
+        "theme": "第03讲：ACL 权限控制：如何避免未经授权的访问？",
+        "isFree": false,
+        "existMedia": true
+      }
+    ],
+    "id": 158,
+    "courseCId": "",
+    "courseName": "ZooKeeper源码分析与实战",
+    "teachers": [
+      {
+        "id": 159,
+        "teacherName": "那朋",
+        "position": "前京东资深架构师",
+        "teacherHeadPicUrl": "https://s0.lgstatic.com/i/image/M00/02/EE/CgqCHl6yQNCAKKLJAAAcZe_AhkE453.jpg",
+        "description": "<p><span data-shimo-docs=\"[[20,&quot;那朋   前京东资深架构师&quot;,&quot;0:\\&quot;%23494949\\&quot;|8:1&quot;],[20,&quot;\\n&quot;,&quot;24:\\&quot;efIU\\&quot;&quot;],[20,&quot;\\n&quot;,&quot;24:\\&quot;GKrC\\&quot;&quot;],[20,&quot;曾负责京东白条、金条、企业小贷等项目的架构研发工作，目前在一家知名在线教育公司担任架构师，负责公司整体的系统架构工作。&quot;],[20,&quot;\\n&quot;,&quot;24:\\&quot;E7f5\\&quot;&quot;],[20,&quot;\\n&quot;,&quot;24:\\&quot;Ckbb\\&quot;&quot;],[20,&quot;他在 Java 领域从业十年，平时喜欢研究开源项目代码，擅长分布式架构设计，对 ZooKeeper 架构以及底层实现原理，以及如何解决不同应用场景下多变的现实问题具有丰富的实践经验。&quot;],[20,&quot;\\n&quot;,&quot;24:\\&quot;jPX2\\&quot;&quot;]]\"></span></p><p line=\"efIU\"><span style=\"font-size: 14px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">曾负责京东白条、金条、企业小贷等项目的架构研发工作，目前在一家知名在线教育公司担任架构师，负责公司整体的系统架构工作。</span></p><p line=\"Ckbb\"><span style=\"font-size: 14px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">&nbsp;</span></p><p line=\"jPX2\"><span style=\"font-size: 14px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">他在 Java 领域从业十年，平时喜欢研究开源项目代码，擅长分布式架构设计，对 ZooKeeper 架构以及底层实现原理，以及如何解决不同应用场景下多变的现实问题具有丰富的实践经验。</span></p><p><br/></p>"
+      }
+    ],
+    "totalDuration": 480,
+    "sales": 13334,
+    "pruchasedCount": "1.33w人购买",
+    "price": "98",
+    "discounts": "68",
+    "courseImgUrl": "https://s0.lgstatic.com/i/image/M00/02/F1/Ciqc1F6yRACAGPPmAABsPPo9LiY460.jpg",
+    "sellGoodsId": 181,
+    "sellGoodsPriceId": 610,
+    "lgCoinPrice": 68,
+    "isBuy": false,
+    "isFavorite": false,
+    "isNewDes": "上新优惠",
+    "brief": "掌握框架原理，精通经典应用场景",
+    "h5Url": "https://www.lagou.com/center/login?forward=https%3a%2f%2fkaiwu.lagou.com%2fcourse%2fcourseInfo.htm%3fcourseId%3d158%26sid%3d20-h5Url-0",
+    "activityName": "上新优惠",
+    "courseListImg": "https://s0.lgstatic.com/i/image/M00/02/ED/CgqCHl6yP2mARfeDAABsPPo9LiY365.jpg",
+    "tag": "专栏",
+    "courseType": 1,
+    "decorateId": 77,
+    "appDecorateId": 0,
+    "recruitAppDecorateId": 0,
+    "distributionBaseInfoVo": {
+      "courseName": "ZooKeeper源码分析与实战",
+      "brief": "掌握框架原理，精通经典应用场景",
+      "shareImage": "https://s0.lgstatic.com/i/image/M00/04/8C/Ciqc1F60MQyAUSFxAAKM4Nu-Wfk556.jpg",
+      "url": "https://t.lagou.com/nR5CR9RQR309B",
+      "brokerage": "13.60"
+    },
+    "showDistributionButton": true,
+    "distributionDetail": {
+      "profile": "https://s0.lgstatic.com/images/myresume/default_headpic.png",
+      "nickName": "bolingboling",
+      "courseName": "ZooKeeper源码分析与实战",
+      "posterImage": "https://s0.lgstatic.com/i/image/M00/04/8C/Ciqc1F60MQyAUSFxAAKM4Nu-Wfk556.jpg",
+      "url": "https://t.lagou.com/nRF2RQRQR3A37",
+      "urlImageBase64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAEsAQAAAABRBrPYAAABrklEQVR42u2aUW4DIQxEuZmv7iP1BjS79oyBeKN8ttJsojaBlx8L8HjMmN88P0OYsD+J+bgfe30wv/7fHyy+xYywDrMrgq+/8Y6fXVTNCGuxK6gxdH+5Ax0/yhlhnzCPoF4DNoV9i20L0xBrYc8YtjMOw4mTsN/1wrb04e+vLssISwwPl6XzUOxUjTBikTHGvjDnklSEdVimixz0ECuQfobtLOzAEFyvmcwgjhwsrMOMeTZGWVtwZQrrMJZixjU6KfSmsAcsz8FKHBlg4sIesKi+cBpyTaK6ENZirFtT7K1ZOLe2sA7DZvbddcIZuKYPYRuGVBvuHDReSRhhHdZUr1XCeq1eYQ2GjItMsll2wjqMqoRpd/omk4W1WHkm5TI5Vd9qNwlby1g2H4x2XbZvYAgI6zB4S1mUUeI5vWJhDZannaVfgk4h1AvbrMJ2jPYmLKay1te0K+zAaKfnzFgkS4o+YR1W7enqHFK3eNPWF3a0p9PlXK5CjEXVCGux9NSXWE8MCfuEVcsQAUaVJqzFKPVw6cbrVHzvYgs7rntNXzZxdQ/Pa3LCdJFS2L/GfgEGWpRCdVmg2gAAAABJRU5ErkJggg==",
+      "copywriterList": [
+        "这个 ZooKeeper 源码解读太好了，简单易懂。",
+        "后端工程师的必备的 ZooKeeper 这么学才对！"
+      ]
+    }
+  },
+  {
+    "_id": "88_71",
+    "courseUrl": "https://kaiwu.lagou.com/course/courseInfo.htm?courseId=88&sid=30-aggregation-0",
+    "topNCourseLesson": [
+      {
+        "id": 2260,
+        "courseId": 88,
+        "sectionId": 501,
+        "theme": "开篇词：Webpack 现代化前端应用的基石",
+        "isFree": true,
+        "existMedia": true
+      },
+      {
+        "id": 2261,
+        "courseId": 88,
+        "sectionId": 502,
+        "theme": "第01讲：Webpack 究竟解决了什么问题？",
+        "isFree": false,
+        "existMedia": true
+      },
+      {
+        "id": 2262,
+        "courseId": 88,
+        "sectionId": 503,
+        "theme": "第02讲：如何使用 Webpack 实现模块化打包？",
+        "isFree": false,
+        "existMedia": true
+      },
+      {
+        "id": 2263,
+        "courseId": 88,
+        "sectionId": 503,
+        "theme": "第03讲：如何通过 Loader 实现特殊资源加载？",
+        "isFree": false,
+        "existMedia": true
+      }
+    ],
+    "id": 88,
+    "courseCId": "",
+    "courseName": "Webpack原理与实践",
+    "teachers": [
+      {
+        "id": 89,
+        "teacherName": "汪磊",
+        "position": "拉勾资深前端技术专家",
+        "teacherHeadPicUrl": "https://s0.lgstatic.com/i/image3/M01/04/9A/CgoCgV6cXPSAftmKAAAfXcow6VU714.jpg",
+        "description": "<p><span data-shimo-docs=\"[[20,&quot;曾任某知名电商企业技术总监，&quot;,&quot;27:\\&quot;11\\&quot;|31:8&quot;],[20,&quot;主导 C 端产品开发和技术规划。他&quot;,&quot;31:8&quot;],[20,&quot;精通各类企业级前端技术与业务解决方案，具有丰富的 Node.js 平台、中间层解决方案、工程化、多端统一开发经验。此外，他还是国内最早一批微信小程序开发人员，热衷于开源事业，并为多个开源项目贡献代码。&quot;,&quot;27:\\&quot;11\\&quot;|31:8&quot;]]\"></span></p><p line=\"urZl\"><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 14px;\">曾任某知名电商企业技术总监，主导 C 端产品开发和技术规划。他精通各类企业级前端技术与业务解决方案，具有丰富的 Node.js 平台、中间层解决方案、工程化、多端统一开发经验。此外，他还是国内最早一批微信小程序开发人员，热衷于开源事业，并为多个开源项目贡献代码。</span></p><p><br/></p>"
+      }
+    ],
+    "totalDuration": 200,
+    "sales": 6677,
+    "pruchasedCount": "6677人购买",
+    "price": "48",
+    "discounts": "18",
+    "courseImgUrl": "https://s0.lgstatic.com/i/image/M00/04/61/Ciqc1F6z8nOARLv-AABbq0iGM6Y237.jpg",
+    "sellGoodsId": 143,
+    "sellGoodsPriceId": 500,
+    "lgCoinPrice": 18,
+    "isBuy": false,
+    "isFavorite": false,
+    "isNewDes": "上新优惠",
+    "brief": "把知识打包，成为真正的前端高手",
+    "h5Url": "https://www.lagou.com/center/login?forward=https%3a%2f%2fkaiwu.lagou.com%2fcourse%2fcourseInfo.htm%3fcourseId%3d88%26sid%3d20-h5Url-0",
+    "activityName": "上新优惠",
+    "courseListImg": "https://s0.lgstatic.com/i/image3/M01/07/F0/CgoCgV6ipCyAPpGnAABbq0iGM6Y527.jpg",
+    "tag": "专栏",
+    "courseType": 1,
+    "decorateId": 71,
+    "appDecorateId": 0,
+    "recruitAppDecorateId": 0,
+    "distributionBaseInfoVo": {
+      "courseName": "Webpack原理与实践",
+      "brief": "把知识打包，成为真正的前端高手",
+      "shareImage": "https://s0.lgstatic.com/i/image3/M01/05/F6/CgoCgV6fGKqAbzpjAAIeAkdSSyI049.jpg",
+      "url": "https://t.lagou.com/nR0CR6RQR3FB3",
+      "brokerage": "3.60"
+    },
+    "showDistributionButton": true,
+    "distributionDetail": {
+      "profile": "https://s0.lgstatic.com/images/myresume/default_headpic.png",
+      "nickName": "bolingboling",
+      "courseName": "Webpack原理与实践",
+      "posterImage": "https://s0.lgstatic.com/i/image3/M01/05/F6/CgoCgV6fGKqAbzpjAAIeAkdSSyI049.jpg",
+      "url": "https://t.lagou.com/nR6DRKRQR3829",
+      "urlImageBase64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAEsAQAAAABRBrPYAAABq0lEQVR42u3aW1LDMAwFUO1MW9eS2IEh1tXDRE37CTO3DIWmhx9hRw9X1iePLyEj+5PMZD/U8H1dUVPbr/Y7ZCPTK4I/1/X6dUNHGu+QzWwHFs/4Ew94XCN7YNdq3LH2uJouso/Y8jW5AyxYmGQPLLezb16/Hz7serIjfdy/xixDpke5gkUomstyrGrIkmX6kChS8qfvcLKJIV34RUVkK50Y2QsmkXarYAnhL8lGhhLFEF/NleqebGS5HqOtiIxrsSrJRqa9+0KMV+3nqgbJDpa9P5LFsra9+3+BrDPUKStaV0Q4komQzczkjC8qvKiPdZGNrN3uakJXLW1blmQni3YslLam1oRsZjnYVIwCcp1iMKxkE6thsOQEvY+fjGxkv2fnlonjaMfIbiwnJjksqeq4lcdkN9a7VoR7YSbQjr3ITob2AbPMfFskputkA+vjTZQskj2ZL1SygeXQPPMthptVH5NNLG98t0wSnRrZyCwOb6SdS0eJZ2RvmLQurA6op9N/stvHITLMMUvRlmXIDnYcS1e2jRE72cyk1Sk1Q2mnhWQT4wcpyf4p+wbtnIVDonH55AAAAABJRU5ErkJggg==",
+      "copywriterList": [
+        "优秀前端人必备 | Webpack 原理与实践，帮你把知识打包，成为真正的前端高手。"
+      ]
+    }
+  },
+  {
+    "_id": "180_79",
+    "courseUrl": "https://kaiwu.lagou.com/course/courseInfo.htm?courseId=180&sid=30-aggregation-0",
+    "topNCourseLesson": [
+      {
+        "id": 3170,
+        "courseId": 180,
+        "sectionId": 610,
+        "theme": "开篇词：带你一起筑建前端工程师的“护城河”",
+        "isFree": true,
+        "existMedia": true
+      },
+      {
+        "id": 3171,
+        "courseId": 180,
+        "sectionId": 611,
+        "theme": "第01讲：你真的熟悉 HTML 标签吗？",
+        "isFree": false,
+        "existMedia": true
+      },
+      {
+        "id": 3172,
+        "courseId": 180,
+        "sectionId": 611,
+        "theme": "第02讲：如何高效操作 DOM 元素？",
+        "isFree": false,
+        "existMedia": true
+      },
+      {
+        "id": 3173,
+        "courseId": 180,
+        "sectionId": 611,
+        "theme": "第03讲：3 个使用场景助你用好 DOM 事件",
+        "isFree": false,
+        "existMedia": true
+      }
+    ],
+    "id": 180,
+    "courseCId": "",
+    "courseName": "前端高手进阶",
+    "teachers": [
+      {
+        "id": 181,
+        "teacherName": "朱德龙",
+        "position": "前中兴软创主任工程师",
+        "teacherHeadPicUrl": "https://s0.lgstatic.com/i/image/M00/06/BA/CgqCHl64sO6AfK33AAAsTHn-CdU944.jpg",
+        "description": "<p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 14px;\">2011 年毕业后进入中兴旗下子公司成为 JSP 全栈工程师，负责开发 B/S 架构的软件系统，参与过亿级数据量的复杂系统。后来加入创业公司作为核心骨干，开发网上预约平台，作为资深前端工程师从 0 到 1 搭建和开发云服务平台的前端项目。目前是一家创业公司的前端负责人，带领团队成员完成各个前端项目的开发任务。</span></p>"
+      }
+    ],
+    "totalDuration": 380,
+    "sales": 9386,
+    "pruchasedCount": "9386人购买",
+    "price": "98",
+    "discounts": "98",
+    "courseImgUrl": "https://s0.lgstatic.com/i/image/M00/06/DF/Ciqc1F64xjaAKx2EAAB1Q7dcLMY490.jpg",
+    "sellGoodsId": 186,
+    "sellGoodsPriceId": 673,
+    "lgCoinPrice": 98,
+    "isBuy": false,
+    "isFavorite": false,
+    "isNewDes": "",
+    "brief": "重构前端知识框架，提升实战能力",
+    "h5Url": "https://www.lagou.com/center/login?forward=https%3a%2f%2fkaiwu.lagou.com%2fcourse%2fcourseInfo.htm%3fcourseId%3d180%26sid%3d20-h5Url-0",
+    "activityName": "",
+    "courseListImg": "https://s0.lgstatic.com/i/image/M00/06/BA/CgqCHl64sL2AYP4xAAB1Q7dcLMY150.jpg",
+    "tag": "专栏",
+    "courseType": 1,
+    "decorateId": 79,
+    "appDecorateId": 79,
+    "recruitAppDecorateId": 79,
+    "distributionBaseInfoVo": {
+      "courseName": "前端高手进阶",
+      "brief": "重构前端知识框架，提升实战能力",
+      "shareImage": "https://s0.lgstatic.com/i/image/M00/0E/4B/CgqCHl7FVDKALi4EAAIE71U4-fY397.png",
+      "url": "https://t.lagou.com/nR38RhRQR3EB6",
+      "brokerage": "19.60"
+    },
+    "showDistributionButton": true,
+    "distributionDetail": {
+      "profile": "https://s0.lgstatic.com/images/myresume/default_headpic.png",
+      "nickName": "bolingboling",
+      "courseName": "前端高手进阶",
+      "posterImage": "https://s0.lgstatic.com/i/image/M00/0E/4B/CgqCHl7FVDKALi4EAAIE71U4-fY397.png",
+      "url": "https://t.lagou.com/nRBFRVRQR3DCD",
+      "urlImageBase64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAEsAQAAAABRBrPYAAABpklEQVR42u2aUZICMQhEuRlX50h7g6wGusMoY/m5W9VRx8Q8f6gQGhJb37QfEybsT2Jhu/kKj8fzOfb9cc4ImzB/WjA25vtrVZczwkYMxnwgZeVtYceMsI/Y05joJinsC2yVZ2cnF6iwT1hz54WVCceevV7YCR/x/pqijLDCLq0CLx53qkYYJk+0MK5N/E3YiF32vL0Nwo9zJOwGgz5poQOK5WyDwiasgkcYA69jrXbzCjvYns0frXXTofMtbMCa28KRa2lyHxQ2YEz3L5KFMbiVTYR1DOEDWWxKvtXzDGF3mJVIgSYGk6YWNmBR+gSxF2IvjPmtsAmrWlPTeVWpq2jiwiZswYgBX4baYxlF2IyhSnKUi7dCirARq5S1lN2Rx+Xgwu6w8lt7K9fB0YXNWEpkoGnhMDq4sBnL7Muc2yDiCHlhA9Yqm1iO3gavVVBhL+f18OKmV5DfCpswbn+ULYGaXZ30CxuxczzNRcnWsg9hM9bOB6n9YjrFFnY5no5WBWDcbdFZ2Au2KId5IwISOUzYHcbrXq2afi58+ds1OWG6SCnsP2O/2vWlI6g6iRcAAAAASUVORK5CYII=",
+      "copywriterList": [
+        "带你成为前端高手！ 超全知识框架+提升综合能力+培养架构思维",
+        "前端人如何从青铜上王者？ 看这个就够了"
+      ]
+    }
+  },
+  {
+    "_id": "144_74",
+    "courseUrl": "https://kaiwu.lagou.com/course/courseInfo.htm?courseId=144&sid=30-aggregation-0",
+    "topNCourseLesson": [
+      {
+        "id": 3075,
+        "courseId": 144,
+        "sectionId": 568,
+        "theme": "开篇词：掌握大数据，把握未来",
+        "isFree": true,
+        "existMedia": true
+      },
+      {
+        "id": 3076,
+        "courseId": 144,
+        "sectionId": 569,
+        "theme": "第01讲：大话 Hadoop 生态圈",
+        "isFree": false,
+        "existMedia": true
+      },
+      {
+        "id": 3077,
+        "courseId": 144,
+        "sectionId": 569,
+        "theme": "第02讲：Hadoop 发行版选型和伪分布式平台的构建",
+        "isFree": false,
+        "existMedia": true
+      },
+      {
+        "id": 3078,
+        "courseId": 144,
+        "sectionId": 569,
+        "theme": "第03讲：自动化运维工具 Ansible 在部署大数据平台下的应用（上）",
+        "isFree": false,
+        "existMedia": true
+      }
+    ],
+    "id": 144,
+    "courseCId": "",
+    "courseName": "大数据运维实战",
+    "teachers": [
+      {
+        "id": 145,
+        "teacherName": "高俊峰（南非蚂蚁）",
+        "position": "前新浪资深运维专家",
+        "teacherHeadPicUrl": "https://s0.lgstatic.com/i/image3/M01/09/EC/CgoCgV6m0nCAPk5FAAAQ0fMR_NU993.jpg",
+        "description": "<p line=\"F1IJ\"><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 14px;\">专业运维专家、系统架构师、DBA 和技术顾问，曾就职于新浪、阿里云、新好耶等企业，从事 Linux/Unix 服务器系统的架构、运维和管理工作。他负责设计并运维过 PB 数量级、日百亿量的大数据平台，擅长大规模服务器集群的运维和管理，在故障诊断与排除、自动化运维、安全运维、性能调优、虚拟化等方面有丰富的实战经验。目前，他任国内某创业公司 CTO，主要从事基于 Hadoop 的云平台，以及 Hadoop 相关生态系统的运维、监控与优化等技术研究工作。</span></p><p line=\"tBaT\"><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 14px;\">&nbsp;</span></p><p line=\"zHJu\"><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 14px;\">此外，他还著有畅销书《循序渐进Linux》和《高性能Linux服务器构建实战：运维监控、性能调优与集群应用》等书，其中后者是 Linux 运维领域公认的经典著作。</span></p><p><br/></p>"
+      }
+    ],
+    "totalDuration": 400,
+    "sales": 8010,
+    "pruchasedCount": "8010人购买",
+    "price": "98",
+    "discounts": "98",
+    "courseImgUrl": "https://s0.lgstatic.com/i/image/M00/04/61/CgqCHl6z8mGAdLrgAAAqrDBVXWA889.jpg",
+    "sellGoodsId": 160,
+    "sellGoodsPriceId": 608,
+    "lgCoinPrice": 98,
+    "isBuy": false,
+    "isFavorite": false,
+    "isNewDes": "",
+    "brief": "给大数据工程师的运维修炼手册",
+    "h5Url": "https://www.lagou.com/center/login?forward=https%3a%2f%2fkaiwu.lagou.com%2fcourse%2fcourseInfo.htm%3fcourseId%3d144%26sid%3d20-h5Url-0",
+    "activityName": "",
+    "courseListImg": "https://s0.lgstatic.com/i/image3/M01/17/1A/Ciqah16m0j2AGxhHAAAqrDBVXWA175.jpg",
+    "tag": "专栏",
+    "courseType": 1,
+    "decorateId": 74,
+    "appDecorateId": 74,
+    "recruitAppDecorateId": 74,
+    "distributionBaseInfoVo": {
+      "courseName": "大数据运维实战",
+      "brief": "给大数据工程师的运维修炼手册",
+      "shareImage": "https://s0.lgstatic.com/i/image/M00/04/8C/CgqCHl60MFqABFNzAAIOT9Q6ZiM000.png",
+      "url": "https://t.lagou.com/nR54RfRQR32C2",
+      "brokerage": "19.60"
+    },
+    "showDistributionButton": true,
+    "distributionDetail": {
+      "profile": "https://s0.lgstatic.com/images/myresume/default_headpic.png",
+      "nickName": "bolingboling",
+      "courseName": "大数据运维实战",
+      "posterImage": "https://s0.lgstatic.com/i/image/M00/04/8C/CgqCHl60MFqABFNzAAIOT9Q6ZiM000.png",
+      "url": "https://t.lagou.com/nR97RIRQR3F34",
+      "urlImageBase64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAEsAQAAAABRBrPYAAABpklEQVR42u3aUVLDMAwEUN1MV9eRegNDY628jhXoJ8xsGRrqvPKhiSNLjo1PXi8TE/uTLOx6eeTve8TD4/p0nRFrmb8j+D3u7z8vOJHjjFjPrsDme35lBhxjYj+w62q0dfAh9hlzvjbjMbxit+kcuBZzKj/MerE9fZw/bZYR8225Mm99o+6J5u2qRqwYpY8M9AhDBl7hFdtZzt2ZMkadncF2TGexg2VIcywQXvyDIdYzr4FZVpCcXKxhM7rmdcTCBdEWa9m8EVbCqMDmvRDLPLGGZck/UP7jg+3hFSMWjil9ptzso4h1DKuUgZDmZbkWe2INo3p/degqk6yrV+zGBo0Z0sZqPIk9sKDoetVlUW9iTywzhlEHvbp0VH2IMcP0dV4o5yCVY2IHG0F7N2ifYGlMyxWxO8M6eARXF/UVsZYthbLfqvW0tlnFdkaFBR9R/cfRFhbb2umDOpzmW3dYrGNYBVOLiXLJfVtfzI7tabSdnGs0sV8ZtUyQd6Pb/Rc7HocIPHlTYaYsI7YxTGcuK2rHWuyJUQW2tnDQ3OyyjJgepBT7x+wLh8LU8+qk4fMAAAAASUVORK5CYII=",
+      "copywriterList": [
+        "掌握大数据平台运维实战必备技能，学完即可解决绝大多数企业级业务需求！"
+      ]
+    }
+  },
+  {
+    "_id": "81_68",
+    "courseUrl": "https://kaiwu.lagou.com/course/courseInfo.htm?courseId=81&sid=30-aggregation-0",
+    "topNCourseLesson": [
+      {
+        "id": 2035,
+        "courseId": 81,
+        "sectionId": 488,
+        "theme": "开篇词：实时计算领域最锋利的武器 Flink",
+        "isFree": true,
+        "existMedia": true
+      },
+      {
+        "id": 2036,
+        "courseId": 81,
+        "sectionId": 489,
+        "theme": "第01讲：Flink 的应用场景和架构模型",
+        "isFree": false,
+        "existMedia": true
+      },
+      {
+        "id": 2037,
+        "courseId": 81,
+        "sectionId": 489,
+        "theme": "第02讲：Flink 入门程序 WordCount 和 SQL 实现",
+        "isFree": false,
+        "existMedia": true
+      },
+      {
+        "id": 2038,
+        "courseId": 81,
+        "sectionId": 489,
+        "theme": "第03讲：Flink 的编程模型与其他框架比较",
+        "isFree": false,
+        "existMedia": true
+      }
+    ],
+    "id": 81,
+    "courseCId": "",
+    "courseName": "42讲轻松通关 Flink",
+    "teachers": [
+      {
+        "id": 82,
+        "teacherName": "王知无",
+        "position": "资深大数据工程师",
+        "teacherHeadPicUrl": "https://s0.lgstatic.com/i/image3/M01/02/49/CgoCgV6VlFiAdYQVAAAZhG5fEcY324.jpg",
+        "description": "<p><span data-shimo-docs=\"[[20,&quot;曾在京东等一线互联网公司任职，主导和参与多个大型实时计算项目的开发和上线，在大数据平台、实时数据仓库、实时/离线计算中间件开发方面有丰富经验。目前，作者在一线互联网公司从事大数据平台建设，是公众号《大数据技术与架构》作者。&quot;]]\"></span></p><p line=\"0mtI\" class=\"ql-long-14513000\" style=\"line-height: 1.7; margin-bottom: 0pt; margin-top: 0pt; font-size: 11pt; color: rgb(73, 73, 73);\"><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 14px;\">曾在京东等一线互联网公司任职，主导和参与多个大型实时计算项目的开发和上线，在大数据平台、实时数据仓库、实时/离线计算中间件开发方面有丰富经验。目前，作者在一线互联网公司从事大数据平台建设，是公众号《大数据技术与架构》作者。</span></p><p><br/></p>"
+      }
+    ],
+    "totalDuration": 500,
+    "sales": 9581,
+    "pruchasedCount": "9581人购买",
+    "price": "98",
+    "discounts": "98",
+    "courseImgUrl": "https://s0.lgstatic.com/i/image/M00/04/61/CgqCHl6z8oWAEbGCAABTUfbVzVg394.jpg",
+    "sellGoodsId": 97,
+    "sellGoodsPriceId": 560,
+    "lgCoinPrice": 98,
+    "isBuy": false,
+    "isFavorite": false,
+    "isNewDes": "",
+    "brief": "快速掌握大厂必备的大数据前沿技术",
+    "h5Url": "https://www.lagou.com/center/login?forward=https%3a%2f%2fkaiwu.lagou.com%2fcourse%2fcourseInfo.htm%3fcourseId%3d81%26sid%3d20-h5Url-0",
+    "activityName": "",
+    "courseListImg": "https://s0.lgstatic.com/i/image3/M01/15/20/Ciqah16ipDuAQT9LAABTUfbVzVg816.jpg",
+    "tag": "Flink",
+    "courseType": 1,
+    "decorateId": 68,
+    "appDecorateId": 68,
+    "recruitAppDecorateId": 68,
+    "distributionBaseInfoVo": {
+      "courseName": "42讲轻松通关 Flink",
+      "brief": "快速掌握大厂必备的大数据前沿技术",
+      "shareImage": "https://s0.lgstatic.com/i/image3/M01/15/59/Ciqah16jDQ6AFw7CAAbjaukPTyw793.jpg",
+      "url": "https://t.lagou.com/nRC0RHRQR37C4",
+      "brokerage": "19.60"
+    },
+    "showDistributionButton": true,
+    "distributionDetail": {
+      "profile": "https://s0.lgstatic.com/images/myresume/default_headpic.png",
+      "nickName": "bolingboling",
+      "courseName": "42讲轻松通关 Flink",
+      "posterImage": "https://s0.lgstatic.com/i/image3/M01/15/59/Ciqah16jDQ6AFw7CAAbjaukPTyw793.jpg",
+      "url": "https://t.lagou.com/nR8ERyRQR3726",
+      "urlImageBase64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAEsAQAAAABRBrPYAAABpklEQVR42u2aUXLDMAhEuRlX15F6A9WW2AU1xM1nO7NOJrGtl3zsSLAg2/zk+DJhwv4kNmwdfp358Lne94c5R4R1mN8KXkPX/eAWuC7WiLAeu2R0qHrLvbSdZUTYb9j+MlwI+wBb0los6LlnqbAHLJfzjoZm9rzqhZX0MV5fXZYRFhgOLl+jsp2rEVawmImg+SPfs1ZYi4WWNHYwLUgowjpsS2vMtxENl9sLzYW1GDMtZuTOvxBZWI95OBZGQhC4KazDWH+Fuaul2RZfWIfBmjDnxuLeAdGEvcPW2czSNZb0yHAorMVw3zztHgra4qKFndiOd0XlUWbnES2FFQx51pPw4ccsFdZitUEHuUuvTliLRZFvpWviVNtc2DuM6WJWW5w9TmEthgI2PXER2WhXhDWYH/s17AHAxQhrsIh22T1HSWYMhsIajO1NttIhMP5CWIeVdnrGQG61/ky7wo70UYovWOOQd7xs6ws7tgtH7rVC7Kg0hD1hM5ucrMyiJBP2hNWnb7IH8CKvsDO+VY/nuTkh7B3Gx70Ow8cNneHCOkwPUgr7p9g3uYzMCpriH88AAAAASUVORK5CYII=",
+      "copywriterList": [
+        "Flink 从入门到进阶，大厂必备的大数据前沿技术，42 讲带你轻松通关！"
+      ]
+    }
+  },
+  {
+    "_id": "71_0",
+    "courseUrl": "https://kaiwu.lagou.com/course/courseInfo.htm?courseId=71&sid=30-aggregation-0",
+    "topNCourseLesson": [
+      {
+        "id": 1971,
+        "courseId": 71,
+        "sectionId": 463,
+        "theme": "开篇词：学了就能用的 Spark？",
+        "isFree": true,
+        "existMedia": true
+      },
+      {
+        "id": 1972,
+        "courseId": 71,
+        "sectionId": 464,
+        "theme": "第01讲： MapReduce：计算框架和编程模型",
+        "isFree": false,
+        "existMedia": true
+      },
+      {
+        "id": 1973,
+        "courseId": 71,
+        "sectionId": 464,
+        "theme": "第02讲：Hadoop：集群的操作系统",
+        "isFree": false,
+        "existMedia": true
+      },
+      {
+        "id": 1974,
+        "courseId": 71,
+        "sectionId": 464,
+        "theme": "第03讲：如何设计与实现统一资源管理与调度系统",
+        "isFree": false,
+        "existMedia": true
+      }
+    ],
+    "id": 71,
+    "courseCId": "",
+    "courseName": "即学即用的Spark实战44讲",
+    "teachers": [
+      {
+        "id": 72,
+        "teacherName": "范东来",
+        "position": "Spark Contributor",
+        "teacherHeadPicUrl": "https://s0.lgstatic.com/i/image3/M01/0C/68/Ciqah16Ogf6AdgloAAAmMlOoNTA214.jpg",
+        "description": "<p><span style=\"caret-color: rgb(73, 73, 73); color: rgb(73, 73, 73); background-color: rgb(255, 255, 255); font-size: 14px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">Spark Contributor 和 Superset Contributor，泛山科技联合创始人，曾任知名大数据公司技术负责人、架构师，负责搭建整个公司的大数据架构和平台，主导和参与过国内诸多金融机构大数据项目与平台实施，具有丰富的大数据技术经验。此外，他还是《Spark 海量数据处理》与《Hadoop 海量数据处理》图书作者。</span></p>"
+      }
+    ],
+    "totalDuration": 500,
+    "sales": 9877,
+    "pruchasedCount": "9877人购买",
+    "price": "",
+    "discounts": "98",
+    "courseImgUrl": "https://s0.lgstatic.com/i/image/M00/04/61/Ciqc1F6z822AH8mZAABOwIAIMO8199.jpg",
+    "sellGoodsId": 81,
+    "sellGoodsPriceId": 538,
+    "lgCoinPrice": 98,
+    "isBuy": false,
+    "isFavorite": false,
+    "isNewDes": "",
+    "brief": "掌握大数据必备技术，挑战高薪职位",
+    "h5Url": "https://www.lagou.com/center/login?forward=https%3a%2f%2fkaiwu.lagou.com%2fcourse%2fcourseInfo.htm%3fcourseId%3d71%26sid%3d20-h5Url-0",
+    "activityName": "",
+    "courseListImg": "https://s0.lgstatic.com/i/image/M00/04/61/Ciqc1F6z822AH8mZAABOwIAIMO8199.jpg",
+    "tag": "专栏",
+    "courseType": 1,
+    "decorateId": 0,
+    "appDecorateId": 0,
+    "recruitAppDecorateId": 0,
+    "distributionBaseInfoVo": {
+      "courseName": "即学即用的Spark实战44讲",
+      "brief": "掌握大数据必备技术，挑战高薪职位",
+      "shareImage": "https://s0.lgstatic.com/i/image3/M01/0C/68/Ciqah16Ogf6AdgloAAAmMlOoNTA214.jpg",
+      "url": "https://t.lagou.com/nR1AR8RQR3E84",
+      "brokerage": "19.60"
+    },
+    "showDistributionButton": true,
+    "distributionDetail": {
+      "profile": "https://s0.lgstatic.com/images/myresume/default_headpic.png",
+      "nickName": "bolingboling",
+      "courseName": "即学即用的Spark实战44讲",
+      "posterImage": "https://s0.lgstatic.com/i/image3/M01/07/F1/CgoCgV6ipHGAUPjtAAZq5u6R9sI530.jpg",
+      "url": "https://t.lagou.com/nRB8RuRQR353E",
+      "urlImageBase64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAEsAQAAAABRBrPYAAABqElEQVR42u2aUXLDIAxEuZmuriP1BjSGXQnFitvPdmadDLHNIx8ahLSCMX9zfQ1hwv4k5mNd9roxv37Xje2n3SOsw+yy4Kvd3z3sorJHWItdRt2v1sMy9B6EHmFPGDv3GMxNYT9hsOdyYrizsEcMTouWg9x6rxdWw4ffP12UEQaMF6Iul8FPWY2wwHbP6qI7T05PYR8xt8xSZiyHfKQ7C3vDaNzs3kEESZ8J+4DFnIRXY1ZazkxhHUYpBhKZyqk0hDUYxVjA4diRxQhrMDdqCc5EuDhtLKzHRoaPlGWljiKswWYWlkrViWtgRGdhFUOtJKpzCCIWlhfWY1z4Znh1SlgfJqzFGGajzVoApZmwBksrkowYPCFohTUY8mFqCC9q9pRjwqqMLQrCS3kT/yGsw0JPRKz1bM4qgbATw2qXmxFQsRFTprAOC93PErpHxvcWnYWVPOQsp4/I+KZn0iesw3J7+lz6nOa9b+sLq9usFiU7LwJN2BOGjS4LW/N0hAl7xA7YsgZwVKWEVSxSPYsTEbn7dd/FFlaPexUnRsHpHmWE6SClsP+NfQPw+zSiQ6jo+QAAAABJRU5ErkJggg==",
+      "copywriterList": [
+        "Spark 从入门到进阶，掌握大数据必备技术，挑战高薪职位！"
+      ]
+    }
+  },
+  {
+    "_id": "3_0",
+    "courseUrl": "https://kaiwu.lagou.com/course/courseInfo.htm?courseId=3&sid=30-aggregation-0",
+    "topNCourseLesson": [
+      {
+        "id": 28,
+        "courseId": 3,
+        "sectionId": 3,
+        "theme": "开篇寄语：算法功底决定Offer质量",
+        "isFree": true,
+        "fileId": "5285890790515051854",
+        "existMedia": true
+      },
+      {
+        "id": 29,
+        "courseId": 3,
+        "sectionId": 3,
+        "theme": "第01讲：常用数据结构",
+        "isFree": false,
+        "fileId": "5285890791146854284",
+        "existMedia": true
+      },
+      {
+        "id": 30,
+        "courseId": 3,
+        "sectionId": 3,
+        "theme": "第02讲：高级数据结构",
+        "isFree": false,
+        "fileId": "5285890791096284021",
+        "existMedia": true
+      },
+      {
+        "id": 31,
+        "courseId": 3,
+        "sectionId": 3,
+        "theme": "第03讲：排序",
+        "isFree": false,
+        "fileId": "5285890791358502423",
+        "existMedia": true
+      }
+    ],
+    "id": 3,
+    "courseCId": "36",
+    "courseName": "300分钟搞定数据结构与算法",
+    "teachers": [
+      {
+        "id": 3,
+        "teacherName": "苏勇",
+        "position": "资深软件工程师",
+        "teacherHeadPicUrl": "https://s0.lgstatic.com/i/image2/M01/4B/EE/CgoB5l0J77GAYcxRAAAo6dlmJ6s945.png",
+        "description": "<p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 14px;\">Leetcode 骨灰级用户，曾用5个月，把力扣（LeetCode）的算法题基本都刷了一遍，并且他把一些常见题目、巧妙的解法都整理成了一套刷题笔记，靠着这套笔记，成功拿到硅谷某巨头的高薪 offer。<br/></span></p><p><br/><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 14px;\">作为面试官，他负责技术候选人的考察、设计面试考题与评分标准等重要环节，拥有大量技术人才选拔经验。</span></p>"
+      }
+    ],
+    "totalDuration": 300,
+    "sales": 41040,
+    "pruchasedCount": "4.1w人购买",
+    "price": "",
+    "discounts": "98",
+    "courseImgUrl": "https://s0.lgstatic.com/i/image/M00/04/62/Ciqc1F6z9KCAVC9tAADn9L3IVkk332.png",
+    "sellGoodsId": 7,
+    "sellGoodsPriceId": 554,
+    "lgCoinPrice": 98,
+    "isBuy": false,
+    "isFavorite": false,
+    "isNewDes": "",
+    "brief": "力扣（Leetcode）刷题秘籍首次公开",
+    "h5Url": "https://www.lagou.com/center/login?forward=https%3a%2f%2fkaiwu.lagou.com%2fcourse%2fcourseInfo.htm%3fcourseId%3d3%26sid%3d30-h5Url-0",
+    "activityName": "",
+    "courseListImg": "https://s0.lgstatic.com/i/image/M00/04/62/Ciqc1F6z9KCAVC9tAADn9L3IVkk332.png",
+    "tag": "专栏",
+    "courseType": 1,
+    "decorateId": 0,
+    "appDecorateId": 0,
+    "recruitAppDecorateId": 0,
+    "distributionBaseInfoVo": {
+      "courseName": "300分钟搞定数据结构与算法",
+      "brief": "力扣（Leetcode）刷题秘籍首次公开",
+      "shareImage": "https://s0.lgstatic.com/i/image2/M01/4B/EE/CgoB5l0J77GAYcxRAAAo6dlmJ6s945.png",
+      "url": "https://t.lagou.com/nR52RZRQR34B8",
+      "brokerage": "19.60"
+    },
+    "showDistributionButton": true,
+    "distributionDetail": {
+      "profile": "https://s0.lgstatic.com/images/myresume/default_headpic.png",
+      "nickName": "bolingboling",
+      "courseName": "300分钟搞定数据结构与算法",
+      "posterImage": "https://s0.lgstatic.com/i/image3/M01/07/F5/CgoCgV6iqHSATaw2AAMeGucqzjs904.png",
+      "url": "https://t.lagou.com/nRD9R2RQR3A4F",
+      "urlImageBase64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAEsAQAAAABRBrPYAAABrklEQVR42u2aUXLDMAhEdTOuriP1Bmps2AVS6vaznVklE9vx8w8jaWHxOr8ZH0uYsD+J7XUPe53Yvo73ifmV3xE2YXZF8PXrX3/sovKOsBG7gup/3Rd3oP2huCPsCUNEt+2cm8J+wjbYcinsCYtF6yvZ9z+P8LjqhXX52F8/k8oICwzjWs0RYT/amNUII+aKsWISbiYtFBVhE0a5oGQgw0MKI2zAENxQDctoU4OFTRjn5M6wnnjAZ6awCYPWIiU2TFRWGsIGLKSCRWzUY5HAWN0thb1hsfcZ5NYrDKZ6wgaMYQSa2yAiLmzATrWWyk3sgUWdhRUMxT8KV+MKP1GWCRsxKC69EixluE/CRgwJHdfyacwR9h22mdvhS9ldJbzCOkbPpFoB4QZYtZuE1TI2mw8cxe1Mu0lYxxDW4piwwmgugbCKRcemeMG0m1bdBoV1LJdwJHmYo9ZkV9gb1uz01ZqF0F1hE1baN1Z9dUNLTNiMsbCgN5zlWal2hY1YmibFrvMwC3vCsmWIAMeuKGzGmOrhpZvoSqy5iy2sv+51ttUk2dhyFTZhepFS2D/FPgELnjSi1LcjNwAAAABJRU5ErkJggg==",
+      "copywriterList": [
+        "LeetCode 官方国内唯一合作课程，专注于面试场景，全程动态动画教学。"
+      ]
+    }
+  },
+  {
+    "_id": "67_63",
+    "courseUrl": "https://kaiwu.lagou.com/course/courseInfo.htm?courseId=67&sid=30-aggregation-0",
+    "topNCourseLesson": [
+      {
+        "id": 1854,
+        "courseId": 67,
+        "sectionId": 443,
+        "theme": "开篇词：跳出舒适区，走在行业前端",
+        "isFree": true,
+        "existMedia": true
+      },
+      {
+        "id": 1855,
+        "courseId": 67,
+        "sectionId": 444,
+        "theme": "第01讲：程序运行时，内存到底是如何进行分配的？",
+        "isFree": false,
+        "existMedia": true
+      },
+      {
+        "id": 1856,
+        "courseId": 67,
+        "sectionId": 444,
+        "theme": "第02讲：GC 回收机制与分代回收策略",
+        "isFree": false,
+        "existMedia": true
+      },
+      {
+        "id": 1857,
+        "courseId": 67,
+        "sectionId": 444,
+        "theme": "第03讲：字节码层面分析 class 类文件结构",
+        "isFree": false,
+        "existMedia": true
+      }
+    ],
+    "id": 67,
+    "courseCId": "",
+    "courseName": "Android 工程师进阶 34 讲",
+    "teachers": [
+      {
+        "id": 68,
+        "teacherName": "姜新星",
+        "position": "前 360 技术专家",
+        "teacherHeadPicUrl": "https://s0.lgstatic.com/i/image3/M01/01/A3/Ciqah155s0eAcq1JAAAdh06nJSc807.jpg",
+        "description": "<p><span data-shimo-docs=\"[[20,&quot;姜新星，深耕 Andorid 领域十余年的老兵。\\n\\n先后任职于斐讯、一号药店、360、英孚教育等多家公司，参与过 Launcher 定制化、ROM 定制、在线教育、电商等众多领域的开发工作，见证了国内智能手机厮杀的前世今生，也对 Android 开发具有独到见解。&quot;]]\"></span></p><p line=\"xvWt\"><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 14px;\">深耕 Andorid 领域十余年的老兵。</span><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 14px;\">先后任职于斐讯、一号药店、360、英孚教育等多家公司，参与过 Launcher 定制化、ROM 定制、在线教育、电商等众多领域的开发工作</span><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 14px;\">，</span><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 14px;\">见证了国内智能手机厮杀的前世今生，也对 Android 开发</span><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 14px;\">具</span><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 14px;\">有独到见解。</span></p><p><br/></p>"
+      }
+    ],
+    "totalDuration": 600,
+    "sales": 13553,
+    "pruchasedCount": "1.36w人购买",
+    "discounts": "98",
+    "courseImgUrl": "https://s0.lgstatic.com/i/image/M00/04/61/Ciqc1F6z8tWAZmaEAABS0mM49Mo788.jpg",
+    "sellGoodsId": 76,
+    "sellGoodsPriceId": 535,
+    "lgCoinPrice": 98,
+    "isBuy": false,
+    "isFavorite": false,
+    "isNewDes": "",
+    "brief": "从面试真题入手，成为高级 Android  开发",
+    "h5Url": "https://www.lagou.com/center/login?forward=https%3a%2f%2fkaiwu.lagou.com%2fcourse%2fcourseInfo.htm%3fcourseId%3d67%26sid%3d20-h5Url-0",
+    "activityName": "",
+    "courseListImg": "https://s0.lgstatic.com/i/image3/M01/07/F1/CgoCgV6ipL2ADfX5AABS0mM49Mo779.jpg",
+    "tag": "专栏",
+    "courseType": 1,
+    "decorateId": 63,
+    "appDecorateId": 63,
+    "recruitAppDecorateId": 63,
+    "distributionBaseInfoVo": {
+      "courseName": "Android 工程师进阶 34 讲",
+      "brief": "从面试真题入手，成为高级 Android  开发",
+      "shareImage": "https://s0.lgstatic.com/i/image3/M01/07/EF/CgoCgV6io3uASQy8AAH7uGPOMdU524.png",
+      "url": "https://t.lagou.com/nR4BRrRQR3E48",
+      "brokerage": "19.60"
+    },
+    "showDistributionButton": true,
+    "distributionDetail": {
+      "profile": "https://s0.lgstatic.com/images/myresume/default_headpic.png",
+      "nickName": "bolingboling",
+      "courseName": "Android 工程师进阶 34 讲",
+      "posterImage": "https://s0.lgstatic.com/i/image3/M01/07/EF/CgoCgV6io3uASQy8AAH7uGPOMdU524.png",
+      "url": "https://t.lagou.com/nR08RvRQR3F08",
+      "urlImageBase64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAEsAQAAAABRBrPYAAABrklEQVR42u3aUW7DMAgGYG7G1TlSb+AlNj/gFK993KQ/raY0+bQHZAeMI+Ob4yVkZH+SmcxDrzM1HfN7/xGNO2Qd0zuC163rursJ5495h6xnVxgVUb3DPWM7yh2yD0wk4Aow2TfMyZgXhOwD8+k8L6/hiCvdrCfb04e9f7osQ+YMhyeQGU9bebirasgKM4kZvUbmSr6rhiE7sDVtUeDhQRg5hKxlK7SC9AG78HoUkrXM1xIj5rKOmonJehYFnpXx6JNca3Ym25ifW5Z6sTTzu2QNi7IYRbFP7lXDCNmJ+fiLpWs+DTFCyToWYZVcYOS6NspjsgcbWRbjR47OeAySPZlnDU2hto9SsoZl5ohweu6VR5eArDKEVkqXDoWKl4BkDfMoImNoFsgi23KMbGMIqF8yhNprZSE7M/Q2MSJ9Neb/gqxjllsPIhlYlCpkB1bam6UDIOibNF1Qsq2dLpoJI8bqqG06ssrKZg0qvtqne27rk+3bhajqsk6OvQiyX9goizGJNl12pcgOrL59kz2At/CS7c+3sk2IMxOyM4vXvbLgU8tsYkrWMb5ISfZP2Q/A6UuZtdAwYQAAAABJRU5ErkJggg==",
+      "copywriterList": [
+        "还原 BAT 面试现场 |  从面试真题入手带你成为高阶 Android 开发"
+      ]
+    }
+  },
+  {
+    "_id": "64_0",
+    "courseUrl": "https://kaiwu.lagou.com/course/courseInfo.htm?courseId=64&sid=30-aggregation-0",
+    "topNCourseLesson": [
+      {
+        "id": 1804,
+        "courseId": 64,
+        "sectionId": 429,
+        "theme": "开篇词：实战是学习新技术的不二法门",
+        "isFree": true,
+        "existMedia": true
+      },
+      {
+        "id": 1805,
+        "courseId": 64,
+        "sectionId": 430,
+        "theme": "第01讲：什么是微服务架构",
+        "isFree": false,
+        "existMedia": true
+      },
+      {
+        "id": 1806,
+        "courseId": 64,
+        "sectionId": 430,
+        "theme": "第02讲：什么是 Docker 与容器化技术",
+        "isFree": false,
+        "existMedia": true
+      },
+      {
+        "id": 1807,
+        "courseId": 64,
+        "sectionId": 430,
+        "theme": "第03讲：云原生应用的 15 个特征",
+        "isFree": false,
+        "existMedia": true
+      }
+    ],
+    "id": 64,
+    "courseCId": "",
+    "courseName": "云原生微服务架构实战精讲",
+    "teachers": [
+      {
+        "id": 65,
+        "teacherName": "成富",
+        "position": "资深架构师",
+        "teacherHeadPicUrl": "https://s0.lgstatic.com/i/image3/M01/76/9C/Cgq2xl5wsraAUx3aAAAdpJGILgw151.jpg",
+        "description": "<p><span class=\"ql-author-14513000\" style=\"margin: 0px; padding: 0px; outline: none; box-sizing: border-box; caret-color: rgb(73, 73, 73); color: rgb(73, 73, 73); font-family: -apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, Helvetica, Tahoma, Arial, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, 微软雅黑, sans-serif; font-size: 14.666666984558105px;\"></span><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 14px;\">拥有多年一线开发经验，曾就职于 IBM。后移居海外创业，现任公司首席软件工程师，负责基于微服务架构的云原生产品研发。资深技术作家，10 多年前就开始在国内外各知名技术社区及媒体发表文章，至今已百余篇，包括“Java 深度历险”系列技术文章等。另著有多本中英文技术图书：《深入理解 Java 7》《Exploring Java 9》等。</span></p><p line=\"UT9p\"><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 14px;\">&nbsp;</span></p>"
+      }
+    ],
+    "totalDuration": 700,
+    "sales": 12170,
+    "pruchasedCount": "1.22w人购买",
+    "price": "",
+    "discounts": "98",
+    "courseImgUrl": "https://s0.lgstatic.com/i/image/M00/04/61/Ciqc1F6z84qANMCrAABKWZ8ihxs929.jpg",
+    "sellGoodsId": 73,
+    "sellGoodsPriceId": 541,
+    "lgCoinPrice": 98,
+    "isBuy": false,
+    "isFavorite": false,
+    "isNewDes": "",
+    "brief": "一站式通关微服务云原生应用开发",
+    "h5Url": "https://www.lagou.com/center/login?forward=https%3a%2f%2fkaiwu.lagou.com%2fcourse%2fcourseInfo.htm%3fcourseId%3d64%26sid%3d20-h5Url-0",
+    "activityName": "",
+    "courseListImg": "https://s0.lgstatic.com/i/image/M00/04/61/Ciqc1F6z84qANMCrAABKWZ8ihxs929.jpg",
+    "tag": "专栏",
+    "courseType": 1,
+    "decorateId": 0,
+    "appDecorateId": 0,
+    "recruitAppDecorateId": 0,
+    "distributionBaseInfoVo": {
+      "courseName": "云原生微服务架构实战精讲",
+      "brief": "一站式通关微服务云原生应用开发",
+      "shareImage": "https://s0.lgstatic.com/i/image3/M01/76/9C/Cgq2xl5wsraAUx3aAAAdpJGILgw151.jpg",
+      "url": "https://t.lagou.com/nRAAR+RQR3C7F",
+      "brokerage": "19.60"
+    },
+    "showDistributionButton": true,
+    "distributionDetail": {
+      "profile": "https://s0.lgstatic.com/images/myresume/default_headpic.png",
+      "nickName": "bolingboling",
+      "courseName": "云原生微服务架构实战精讲",
+      "posterImage": "https://s0.lgstatic.com/i/image3/M01/07/F1/CgoCgV6ipRKAHB6cAAXG89ewq_Q885.jpg",
+      "url": "https://t.lagou.com/nR3CRTRQR3D53",
+      "urlImageBase64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAEsAQAAAABRBrPYAAABo0lEQVR42u3aUXKDMAwEUN1MV9eRcgMXjHYtQCT5TGeWZlLA70tjY0nBxjfHy8TEfpKFzcO3Mw8f87N/mXNErGO+R3Ab2u6nm3BezBGxnm1hdER1D/eM7SgjYp/Y8c9wIfYtm+t3zkwT+8ByOWdAc3SsEbGW5SYR979ulxFLhmMFF3FusxqxwiLja5iRg3Kfm2ItCz8Fec7EcK5xsZYdobVMiOfGMS/yjg+xB5a1BHbgTPVwU+yBOTIWwxk23CzSxFpmQLFWsXkpMsQ6doQxMmfBZ2SibGLPDHUEz9dcPW27YoUhuEjsmO4NVGdiHTs981i+YnbyMSh2Y4Y2iXnp1pVZKtawVXcxnJkhc0CsY7nrchqSoGEn1jPE1FFGHLsJeilDrGP56EMhYSW9y91D7Il5+aWLSZ5zjYs1LOwSTvTqjA9DsYax0cQGXXaKmTKLdWy101dfrpzXNp1YZSwmVi2GvlM+H8VaFtlL50hdzpc0T+zK0M9kSTGY+om9Y/Xtm9UDuIVX7Px8W3UYz8LEnhlf96q/7rO57uFiHdOLlGL/lP0BrlH72oCByf8AAAAASUVORK5CYII=",
+      "copywriterList": [
+        "资深架构师带你一站式通关云原生应用开发！",
+        "大厂之选+未来趋势+晋升必备，一站式通关微服务云原生应用开发！",
+        "掌握「微服务云原生应用开发实战」，跟随时代的步伐，成为优秀的程序员。"
+      ]
+    }
+  },
+  {
+    "_id": "59_0",
+    "courseUrl": "https://kaiwu.lagou.com/course/courseInfo.htm?courseId=59&sid=30-aggregation-0",
+    "topNCourseLesson": [
+      {
+        "id": 1760,
+        "courseId": 59,
+        "sectionId": 418,
+        "theme": "开篇词：大厂技术面试“潜规则”",
+        "isFree": true,
+        "existMedia": true
+      },
+      {
+        "id": 1761,
+        "courseId": 59,
+        "sectionId": 419,
+        "theme": "第01讲：String 的特点是什么？它有哪些重要的方法？",
+        "isFree": false,
+        "existMedia": true
+      },
+      {
+        "id": 1762,
+        "courseId": 59,
+        "sectionId": 419,
+        "theme": "第02讲：HashMap 底层实现原理是什么？JDK8 做了哪些优化？",
+        "isFree": false,
+        "existMedia": true
+      },
+      {
+        "id": 1763,
+        "courseId": 59,
+        "sectionId": 419,
+        "theme": "第03讲：线程的状态有哪些？它是如何工作的？",
+        "isFree": false,
+        "existMedia": true
+      }
+    ],
+    "id": 59,
+    "courseCId": "",
+    "courseName": "Java 源码剖析 34 讲",
+    "teachers": [
+      {
+        "id": 60,
+        "teacherName": "王磊",
+        "position": "前 360 技术专家",
+        "teacherHeadPicUrl": "https://s0.lgstatic.com/i/image3/M01/72/5B/Cgq2xl5oUBaAC0qpAAAP9iHn7EQ592.jpg",
+        "description": "<p><span data-shimo-docs=\"[[20,&quot;王磊，前 360 技术专家&quot;,&quot;0:\\&quot;%23494949\\&quot;|31:8|8:1&quot;],[20,&quot;\\n&quot;],[20,&quot;10 多年 Java 老兵，5 年大厂面试官经验。&quot;,&quot;0:\\&quot;%23494949\\&quot;|31:8&quot;],[20,&quot;拥有 10 多年大型系统设计、开发和调优经验，热衷于技术分享，是阿里云社区的认证专家，腾讯社区 2019 年年度最佳作者。资深面试官与面试辅导讲师，曾辅导过 1000+ Java 工程师找到满意工作。&quot;]]\"></span></p><p line=\"DmEI\"><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 14px;\">10 多年 Java 老兵，5 年大厂面试官经验。拥有 10 多年大型系统设计、开发和调优经验，热衷于技术分享，是阿里云社区的认证专家，腾讯社区 2019 年年度最佳作者。资深面试官与面试辅导讲师，曾辅导过 1000+ Java 工程师找到满意工作。</span></p><p><br/></p>"
+      }
+    ],
+    "totalDuration": 450,
+    "sales": 15214,
+    "pruchasedCount": "1.52w人购买",
+    "price": "",
+    "discounts": "98",
+    "courseImgUrl": "https://s0.lgstatic.com/i/image/M00/04/61/CgqCHl6z85iAJMcJAAAxtheKqYc610.jpg",
+    "sellGoodsId": 68,
+    "sellGoodsPriceId": 542,
+    "lgCoinPrice": 98,
+    "isBuy": false,
+    "isFavorite": false,
+    "isNewDes": "",
+    "brief": "从源码剖析开始，掌握Java核心知识",
+    "h5Url": "https://www.lagou.com/center/login?forward=https%3a%2f%2fkaiwu.lagou.com%2fcourse%2fcourseInfo.htm%3fcourseId%3d59%26sid%3d20-h5Url-0",
+    "activityName": "",
+    "courseListImg": "https://s0.lgstatic.com/i/image/M00/04/61/CgqCHl6z85iAJMcJAAAxtheKqYc610.jpg",
+    "tag": "专栏",
+    "courseType": 1,
+    "decorateId": 0,
+    "appDecorateId": 66,
+    "recruitAppDecorateId": 66,
+    "distributionBaseInfoVo": {
+      "courseName": "Java 源码剖析 34 讲",
+      "brief": "从源码剖析开始，掌握Java核心知识",
+      "shareImage": "https://s0.lgstatic.com/i/image3/M01/72/5B/Cgq2xl5oUBaAC0qpAAAP9iHn7EQ592.jpg",
+      "url": "https://t.lagou.com/nR14R5RQR3AF6",
+      "brokerage": "19.60"
+    },
+    "showDistributionButton": true,
+    "distributionDetail": {
+      "profile": "https://s0.lgstatic.com/images/myresume/default_headpic.png",
+      "nickName": "bolingboling",
+      "courseName": "Java 源码剖析 34 讲",
+      "posterImage": "https://s0.lgstatic.com/i/image3/M01/07/F1/CgoCgV6ipUCAaJwwAAHhQSAqwgs404.png",
+      "url": "https://t.lagou.com/nR68RzRQR3427",
+      "urlImageBase64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAEsAQAAAABRBrPYAAABrUlEQVR42u2aS5LDMAhEdTOuzpFyA00smo8U4mSZqWonJVv284YS0CCP+c3xGMSI/SSmYx3yvBC9zutCbGZPiHWYXBZ8jva31y4qnxBrscuodmtNlqHtJTwhdoe5RVVsJPYVhiVps8uriX3A4LTrNCwQuoUbrye2pw99/XVZhhgwPywCWs69UTXEArOM4R5sKFxbiL3F4lGxrLr0E3dnYgfmxkXaUEjlmoOJdVhZkylS8m2ZxFoMVYT6MJBxs9Ig1mCuVSCQvR6Lm5NYiylKihTIcPGUesTeYWFVTUfOPgqxBvM4qEfXyWNgZmdiOzaQMxAKYesilYk1WGjhOcOrY6naa8QaLIzo8TDrftiaWIeZN7tIKf1NmH0IsR7TFHahkL28kNpOJ1bL2Nh8EB9R0KoU8xI7sSj59456hkRiHQYHjv1BKXl4C4PENizbm+g5udaTPe0Sk0OujNhYDbGcDYFzW59Y6pCZ2QPLM/PJy7Y+sXN7GoZOZ8aM2B2mpbqQUC4rJhK7w3LL0Pvq3rgj1mLFnYfULkq/i01s/9xrc+IUy+dncsT4ISWxf439AZsblEI7ebHnAAAAAElFTkSuQmCC",
+      "copywriterList": ["掌握 BAT 面试真题以及背后的源码剖析，看这个就够了"]
+    }
+  },
+  {
+    "_id": "50_0",
+    "courseUrl": "https://kaiwu.lagou.com/course/courseInfo.htm?courseId=50&sid=30-aggregation-0",
+    "topNCourseLesson": [
+      {
+        "id": 1720,
+        "courseId": 50,
+        "sectionId": 403,
+        "theme": "开篇词：从剖析 SkyWalking 源码到吃透 APM 核心知识",
+        "isFree": true,
+        "existMedia": true
+      },
+      {
+        "id": 1721,
+        "courseId": 50,
+        "sectionId": 404,
+        "theme": "第01讲：同九义，为何 SkyWalking 一枝独秀？",
+        "isFree": false,
+        "existMedia": true
+      },
+      {
+        "id": 1722,
+        "courseId": 50,
+        "sectionId": 404,
+        "theme": "第02讲：链路追踪利器，快速上手 SkyWalking",
+        "isFree": false,
+        "existMedia": true
+      },
+      {
+        "id": 1723,
+        "courseId": 50,
+        "sectionId": 404,
+        "theme": "第03讲：掌握 Java Agent 真的可以为所欲为？",
+        "isFree": false,
+        "existMedia": true
+      }
+    ],
+    "id": 50,
+    "courseCId": "",
+    "courseName": "31 讲带你搞懂 SkyWalking",
+    "teachers": [
+      {
+        "id": 51,
+        "teacherName": "徐郡明",
+        "position": "前搜狗资深技术专家、源码剖析系列畅销书作者",
+        "teacherHeadPicUrl": "https://s0.lgstatic.com/i/image3/M01/6E/28/CgpOIF5fGNKABrZ4AAAdkaho6p0510.jpg",
+        "description": "<p><span data-shimo-docs=\"[[20,&quot;徐郡明，网名&quot;],[20,&quot;吴小胖&quot;,&quot;8:1&quot;],[20,&quot;，前搜狗资深技术专家，&quot;],[20,&quot;目前就职于某知名短视频互联网公司，主要负责开发、运维全公司的 APM 系统，深入研究多个开源中间件，对 APM 系统有十分深入的研究。曾牵头&quot;,&quot;0:\\&quot;%233f3f3f\\&quot;|31:8&quot;],[20,&quot;改造过多个开源产品，在架构设计方面经验丰富。\\n\\n热衷技术分享，著有畅销书《Apache Kafka 源码剖析》《MyBatis 技术内幕》《etcd 技术内幕》《OpenTSDB  技术内幕》《Promethus 技术秘籍》等。\\n\\n&quot;]]\"></span></p><p line=\"c1o2\"><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 14px;\">徐郡明，网名吴小胖，前搜狗资深技术专家，目前就职于某知名短视频互联网公司，主要负责开发、运维全公司的 APM 系统，深入研究多个开源中间件，对 APM 系统有十分深入的研究。曾牵头改造过多个开源产品，在架构设计方面经验丰富。</span></p><p line=\"NdcM\"><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 14px;\">&nbsp;</span></p><p line=\"BEAl\"><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 14px;\">热衷技术分享，著有畅销书《Apache Kafka 源码剖析》《MyBatis 技术内幕》《etcd 技术内幕》《OpenTSDB &nbsp;技术内幕》《Promethus 技术秘籍》等。</span></p><p line=\"7LbC\"><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 14px;\">&nbsp;</span></p><p style=\"text-align:center\"><img src=\"https://s0.lgstatic.com/i/image3/M01/6E/52/Cgq2xl5fSTuAQUSxAAkC5CT52Gk616.png\" title=\"APP banner  2\" alt=\"APP banner  2.png\"/></p><p><br/></p>"
+      }
+    ],
+    "totalDuration": 500,
+    "sales": 5998,
+    "pruchasedCount": "5998人购买",
+    "price": "",
+    "discounts": "98",
+    "courseImgUrl": "https://s0.lgstatic.com/i/image/M00/04/62/CgqCHl6z86SAUfqEAABd7oJZdqw886.jpg",
+    "sellGoodsId": 59,
+    "sellGoodsPriceId": 543,
+    "lgCoinPrice": 98,
+    "isBuy": false,
+    "isFavorite": false,
+    "isNewDes": "",
+    "brief": "从源码剖析到应用，一键通关 SkyWalking",
+    "h5Url": "https://www.lagou.com/center/login?forward=https%3a%2f%2fkaiwu.lagou.com%2fcourse%2fcourseInfo.htm%3fcourseId%3d50%26sid%3d20-h5Url-0",
+    "activityName": "",
+    "courseListImg": "https://s0.lgstatic.com/i/image/M00/04/62/CgqCHl6z86SAUfqEAABd7oJZdqw886.jpg",
+    "tag": "专栏",
+    "courseType": 1,
+    "decorateId": 0,
+    "appDecorateId": 0,
+    "recruitAppDecorateId": 0,
+    "distributionBaseInfoVo": {
+      "courseName": "31 讲带你搞懂 SkyWalking",
+      "brief": "从源码剖析到应用，一键通关 SkyWalking",
+      "shareImage": "https://s0.lgstatic.com/i/image3/M01/6E/28/CgpOIF5fGNKABrZ4AAAdkaho6p0510.jpg",
+      "url": "https://t.lagou.com/nR9ARtRQR3F97",
+      "brokerage": "19.60"
+    },
+    "showDistributionButton": true,
+    "distributionDetail": {
+      "profile": "https://s0.lgstatic.com/images/myresume/default_headpic.png",
+      "nickName": "bolingboling",
+      "courseName": "31 讲带你搞懂 SkyWalking",
+      "posterImage": "https://s0.lgstatic.com/i/image3/M01/15/21/Ciqah16ipXOATdOsAAJbzDgyvKs806.jpg",
+      "url": "https://t.lagou.com/nRB2RiRQR3FBD",
+      "urlImageBase64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAEsAQAAAABRBrPYAAABoElEQVR42u2aURLCMAhEuRlXz5G8QdQAC7Gk46fObNWqzcsPw8pClfnN8RBixH4SG7IOHeu5vut6aawQazF9R/B1fl3Hab1jhViLIZhYGBbwuEbsBlvC9R2LI/YV9s5F0QV6rhK7x6qcDYWwT6onluXj+mirDDHd7EosWfGddr66GmIVMyFr5Ki4pr34EuuwIWlRRFLW5vYQXmIXzIpEuhb/iF9CYi0W2Te8t3A52yYl1mNY90+p50hWYgdsomjUSmIrSqzHPJpQ9ISYI8bEOmzEtARtRZST2E+sxbJoBASvYraFWIsV3QLLmUCmJbEN8/hWZ+fbLFE3e0xM9rqgcxaP7LL2LpZYh8HP5Vy9XNEyNiG2Y8UYuzX2zJTSjhH7xKJ/dRZ9bMia2AmbaU+iv0B8620vYrL7N3EnDGOs9S4isQ7LHiwcX8lJYkcMQ/MZI6cyXN/KLrENU3T8UT7qYJjYEasdhHu+onFRYvdYhDmHTqKjvYtNrGA+BIDn01gj1mNePIpJ1jQsZWxCbMOifIzsKHK4ea0yxPhHSmJ/jT0BPZP8ywEAuJwAAAAASUVORK5CYII=",
+      "copywriterList": ["从源码剖析到应用，31讲轻松通关 SkyWalking"]
+    }
+  },
+  {
+    "_id": "46_0",
+    "courseUrl": "https://kaiwu.lagou.com/course/courseInfo.htm?courseId=46&sid=30-aggregation-0",
+    "topNCourseLesson": [
+      {
+        "id": 1661,
+        "courseId": 46,
+        "sectionId": 392,
+        "theme": "开篇词：如何高效学好网络爬虫",
+        "isFree": true,
+        "existMedia": true
+      },
+      {
+        "id": 1662,
+        "courseId": 46,
+        "sectionId": 393,
+        "theme": "第01讲：必知必会，掌握 HTTP 基本原理",
+        "isFree": false,
+        "existMedia": true
+      },
+      {
+        "id": 1663,
+        "courseId": 46,
+        "sectionId": 393,
+        "theme": "第02讲：夯实根基，Web 网页基础",
+        "isFree": false,
+        "existMedia": true
+      },
+      {
+        "id": 1664,
+        "courseId": 46,
+        "sectionId": 393,
+        "theme": "第03讲：原理探究，了解爬虫的基本原理",
+        "isFree": false,
+        "existMedia": true
+      }
+    ],
+    "id": 46,
+    "courseCId": "",
+    "courseName": "52讲轻松搞定网络爬虫",
+    "teachers": [
+      {
+        "id": 47,
+        "teacherName": "崔庆才",
+        "position": "《Python3 网络爬虫开发实战》作者、微软",
+        "teacherHeadPicUrl": "https://s0.lgstatic.com/i/image3/M01/6B/1B/Cgq2xl5XI8eAWCdOAAAcS_aYpyc395.jpg",
+        "description": "<p><span data-shimo-docs=\"[[20,&quot;崔庆才，豆瓣评分8.9分的超级畅销书《Python3 网络爬虫开发实战》作者， 7w+ 爬虫工程师的入门书籍。在微软就职期间，曾担任爬虫工程师一职，为公司爬取亿级别的数据。\\n\\n从2015年开始钻研爬虫技术，并在博客上记录和分享爬虫心得，访问量已过千万。技术组织 NightTeam 成员；主要研究网络爬虫、Web 开发、机器学习方向。\\n\\n&quot;]]\"></span></p><p line=\"YoiN\"><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 14px;\">豆瓣评分8.9分的超级畅销书《Python3 网络爬虫开发实战》作者， 7w+ 爬虫工程师的入门书籍。在微软就职期间，曾担任爬虫工程师一职，为公司爬取亿级别的数据。</span></p><p line=\"3ofv\"><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 14px;\">&nbsp;</span></p><p line=\"s1kS\"><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 14px;\">从2015年开始钻研爬虫技术，并在博客上记录和分享爬虫心得，访问量已过千万。技术组织 NightTeam 成员；主要研究网络爬虫、Web 开发、机器学习方向。</span></p><p line=\"3vDR\"><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 14px;\">&nbsp;</span></p><p><br/></p>"
+      }
+    ],
+    "totalDuration": 700,
+    "sales": 17812,
+    "pruchasedCount": "1.78w人购买",
+    "price": "",
+    "discounts": "98",
+    "courseImgUrl": "https://s0.lgstatic.com/i/image/M00/04/62/Ciqc1F6z87iAINkjAABaDEUZXkY507.jpg",
+    "sellGoodsId": 55,
+    "sellGoodsPriceId": 544,
+    "lgCoinPrice": 98,
+    "isBuy": false,
+    "isFavorite": false,
+    "isNewDes": "",
+    "brief": "实战案例解析，掌握数据爬虫核心技术",
+    "h5Url": "https://www.lagou.com/center/login?forward=https%3a%2f%2fkaiwu.lagou.com%2fcourse%2fcourseInfo.htm%3fcourseId%3d46%26sid%3d20-h5Url-0",
+    "activityName": "",
+    "courseListImg": "https://s0.lgstatic.com/i/image/M00/04/62/Ciqc1F6z87iAINkjAABaDEUZXkY507.jpg",
+    "tag": "专栏",
+    "courseType": 1,
+    "decorateId": 0,
+    "appDecorateId": 0,
+    "recruitAppDecorateId": 0,
+    "distributionBaseInfoVo": {
+      "courseName": "52讲轻松搞定网络爬虫",
+      "brief": "实战案例解析，掌握数据爬虫核心技术",
+      "shareImage": "https://s0.lgstatic.com/i/image3/M01/6B/1B/Cgq2xl5XI8eAWCdOAAAcS_aYpyc395.jpg",
+      "url": "https://t.lagou.com/nR49RWRQR3FF1",
+      "brokerage": "19.60"
+    },
+    "showDistributionButton": true,
+    "distributionDetail": {
+      "profile": "https://s0.lgstatic.com/images/myresume/default_headpic.png",
+      "nickName": "bolingboling",
+      "courseName": "52讲轻松搞定网络爬虫",
+      "posterImage": "https://s0.lgstatic.com/i/image3/M01/07/F2/CgoCgV6ipZWATZwIAANbs6jBP-I164.jpg",
+      "url": "https://t.lagou.com/nR7FRxRQR3467",
+      "urlImageBase64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAEsAQAAAABRBrPYAAABo0lEQVR42u3aUXKDMAwEUN9MV/eRegMnoF1JDoJp/5qZJWlDwuNHg7EsMdZvtp8hJvYv2RznZu8dm8fnuWP+zY+IdcyOCL7/+9tPO1QeEWvZEVT/6fxyBtpPwhGxJ8aIThP7A9svScZa7J5h0K4IsZ9zM+rF9uljXl/dLCMGxs2nXP9EsLusRiyYzxiZsmA8z5hUxDoWd0AfxpMwJhGxjiG4aQZGMi5OsRtmGMklrgwurFjHkKFQIcx1pSHWsJUzBW9/fkfMjEWsYTOGLe+GK7I9OLGGpRtlWbbVUcQ6Rjn3qlNJ98RaxtUXboWZKzPRE2vYHAwmJYcyKyhiHcuyJsfy2kxm0WKVlRJTJChcVSD2Yh0jKcsy/9uXY2I7W6scjbAa45zlJrGdZV2J9TmOZWKxhrHrwMsTGYsheynLCrHKMrbI8EqiUqddMbukK6wAYKcWBD7b+mJxWUZ7Opv5tqJzeG3ri+3t6Vjw56MQI5axYjcMja5aNEHWLPbICrasAZSqlNjOsj3Njk3kfH0XW6w+7rVmGcQoCVxnGTE9SCn23ewFoX5kctCGfLgAAAAASUVORK5CYII=",
+      "copywriterList": [
+        "《Python3 网络爬虫开发实战》作者，带你用52讲带你搞定数据爬虫"
+      ]
+    }
+  },
+  {
+    "_id": "45_32",
+    "courseUrl": "https://kaiwu.lagou.com/course/courseInfo.htm?courseId=45&sid=30-aggregation-0",
+    "topNCourseLesson": [
+      {
+        "id": 1636,
+        "courseId": 45,
+        "sectionId": 384,
+        "theme": "开篇词：道理都懂，为啥做不好社群运营",
+        "isFree": true,
+        "existMedia": true
+      },
+      {
+        "id": 1637,
+        "courseId": 45,
+        "sectionId": 385,
+        "theme": "第01讲：社群运营演变的 3 个阶段 ：萌芽期－粗放期－精细化运营",
+        "isFree": false,
+        "existMedia": true
+      },
+      {
+        "id": 1638,
+        "courseId": 45,
+        "sectionId": 385,
+        "theme": "第02讲：社群运营新思维模式：C-ACM-MT 模型，全链路思考",
+        "isFree": false,
+        "existMedia": true
+      },
+      {
+        "id": 1639,
+        "courseId": 45,
+        "sectionId": 385,
+        "theme": "第03讲：社群运营新方法（一）：PMP 式社群运营法",
+        "isFree": false,
+        "existMedia": true
+      }
+    ],
+    "id": 45,
+    "courseCId": "",
+    "courseName": "社群运营增长与变现 22 讲",
+    "teachers": [
+      {
+        "id": 46,
+        "teacherName": "类延昊（类类）",
+        "position": "前蚂蚁金服运营专家",
+        "teacherHeadPicUrl": "https://s0.lgstatic.com/i/image3/M01/67/FE/Cgq2xl5NEMOAMo-OAAAgS023U7U540.jpg",
+        "description": "<p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 14px;\"></span></p><p line=\"x7lk\"><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 14px;\">骨灰级运营专家，15 年运营老兵。历任蚂蚁金服运营专家、猫扑网运营总监、酷我音乐产品总监、360 手机粉丝运营总监。他擅长经验总结，致力于知识分享，著有畅销书《运营笔记》，长期维护栏目“类类有话说”，同时创立了在线教育平台“栀枝微课”。</span></p><p><br/></p><p><br/></p>"
+      }
+    ],
+    "totalDuration": 300,
+    "sales": 3996,
+    "pruchasedCount": "3996人购买",
+    "price": "98",
+    "discounts": "98",
+    "courseImgUrl": "https://s0.lgstatic.com/i/image/M00/04/61/Ciqc1F6z8zKAcxPPAABnWomZKgQ152.jpg",
+    "sellGoodsId": 54,
+    "sellGoodsPriceId": 557,
+    "lgCoinPrice": 98,
+    "isBuy": false,
+    "isFavorite": false,
+    "isNewDes": "",
+    "brief": "让你营收翻倍的社群运营操作法则",
+    "h5Url": "https://www.lagou.com/center/login?forward=https%3a%2f%2fkaiwu.lagou.com%2fcourse%2fcourseInfo.htm%3fcourseId%3d45%26sid%3d20-h5Url-0",
+    "activityName": "",
+    "courseListImg": "https://s0.lgstatic.com/i/image3/M01/71/F7/CgpOIF5nUj6Af14CAABonFNPSw0928.png",
+    "tag": "专栏",
+    "courseType": 1,
+    "decorateId": 32,
+    "appDecorateId": 32,
+    "recruitAppDecorateId": 0,
+    "distributionBaseInfoVo": {
+      "courseName": "社群运营增长与变现 22 讲",
+      "brief": "让你营收翻倍的社群运营操作法则",
+      "shareImage": "https://s0.lgstatic.com/i/image3/M01/15/25/Ciqah16iqSSAS1FuAAfwWSq8zqs436.jpg",
+      "url": "https://t.lagou.com/nR2ARDRQR3921",
+      "brokerage": "19.60"
+    },
+    "showDistributionButton": true,
+    "distributionDetail": {
+      "profile": "https://s0.lgstatic.com/images/myresume/default_headpic.png",
+      "nickName": "bolingboling",
+      "courseName": "社群运营增长与变现 22 讲",
+      "posterImage": "https://s0.lgstatic.com/i/image3/M01/15/25/Ciqah16iqSSAS1FuAAfwWSq8zqs436.jpg",
+      "url": "https://t.lagou.com/nR27RCRQR38C1",
+      "urlImageBase64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAEsAQAAAABRBrPYAAABnklEQVR42u3aUXLDMAgEUN1MV+dIvYEaC5ZFDs7ks51Zt9Mm8XM/GGEE7ljfHD9DTOxPMhv7mK8X067f+8X0d35GrGPziuDrp3/7ZZfiGbGWXUH1j/abHWi/KM6IfWI2YHaUxb5jO8DI5Iy12DNjOiOfpwf3KevFSvmw96+uyogFw2FJI6j9rkYsmd/8sFEZkc6lqIh1zCPKysEViS2MWMMQXENSl7Ibf0OsY7kmb0HmyhTrGLsIvwJ7F3YaYg3LfPZ2Av2YFxC/D4o9MqzALCO8WOyB+cdYkazCOUcR65gbVto4mQGfYj1DB1ta2DKvO7d5YiVPuUeJ0sHmwsrqFTuYZZlFBanGxHoWuxIuwxyfZDURa5nllG4tLk0Oh8U6VuNYJnSIOsdNYidDYI0PbezEYg3D3c4Y35hr7tDmY1axk+V4E+2XxTZv3quzWGV1nL7QxY5ZH+SIdWzyVsiG4oi0WMs4OEfbf8tosQ+MxXehscCmRewT4yPDeIgzMLgTa9kqdQObu2koujbFWpZZW5M4bofvVUZM/0gp9r/ZL/mvA+FLzqwpAAAAAElFTkSuQmCC",
+      "copywriterList": ["资深运营专家带你玩转社群运营，实现营收翻倍！"]
+    }
+  },
+  {
+    "_id": "43_0",
+    "courseUrl": "https://kaiwu.lagou.com/course/courseInfo.htm?courseId=43&sid=30-aggregation-0",
+    "topNCourseLesson": [
+      {
+        "id": 1585,
+        "courseId": 43,
+        "sectionId": 375,
+        "theme": "开篇词：重剑无锋、大道至简",
+        "isFree": true,
+        "existMedia": true
+      },
+      {
+        "id": 1586,
+        "courseId": 43,
+        "sectionId": 376,
+        "theme": "第01讲：究竟什么是敏捷测试？",
+        "isFree": false,
+        "existMedia": true
+      },
+      {
+        "id": 1587,
+        "courseId": 43,
+        "sectionId": 376,
+        "theme": "第02讲：通过案例全面比较传统测试与敏捷测试",
+        "isFree": false,
+        "existMedia": true
+      },
+      {
+        "id": 1588,
+        "courseId": 43,
+        "sectionId": 376,
+        "theme": "第03讲：敏捷测试思维方式",
+        "isFree": false,
+        "existMedia": true
+      }
+    ],
+    "id": 43,
+    "courseCId": "",
+    "courseName": "高效敏捷测试 49 讲",
+    "teachers": [
+      {
+        "id": 44,
+        "teacherName": "朱少民",
+        "position": "知名测试专家、畅销书《全程软件测试》作者",
+        "teacherHeadPicUrl": "https://s0.lgstatic.com/i/image3/M01/67/04/Cgq2xl5J8keAfAYtAAAv51ivADM628.png",
+        "description": "<p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 14px;\">朱少民，国内知名测试专家，曾任思科（中国）QA高级总监、软件绿色联盟标准评测组组长。热衷于知识分享，著有《全程软件测试》《软件测试方法和技术》等</span><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 14px;\">十几部优质</span><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 14px;\">技术</span><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 14px;\">图</span><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 14px;\">书、个人技术博客曾获“CSDN 十大博客”称号、长期维护个人公众号“软件质量报道”</span><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 14px;\">、也是各大技术会议最喜欢邀请的演讲嘉宾之一</span><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 14px;\">。</span></p>"
+      }
+    ],
+    "totalDuration": 600,
+    "sales": 3228,
+    "pruchasedCount": "3228人购买",
+    "price": "",
+    "discounts": "98",
+    "courseImgUrl": "https://s0.lgstatic.com/i/image/M00/04/62/CgqCHl6z89mAKcOFAABKdGYxY1s141.jpg",
+    "sellGoodsId": 52,
+    "sellGoodsPriceId": 545,
+    "lgCoinPrice": 98,
+    "isBuy": false,
+    "isFavorite": false,
+    "isNewDes": "",
+    "brief": "用敏捷思维重构你的测试技能",
+    "h5Url": "https://www.lagou.com/center/login?forward=https%3a%2f%2fkaiwu.lagou.com%2fcourse%2fcourseInfo.htm%3fcourseId%3d43%26sid%3d20-h5Url-0",
+    "activityName": "",
+    "courseListImg": "https://s0.lgstatic.com/i/image/M00/04/62/CgqCHl6z89mAKcOFAABKdGYxY1s141.jpg",
+    "tag": "专栏",
+    "courseType": 1,
+    "decorateId": 0,
+    "appDecorateId": 0,
+    "recruitAppDecorateId": 0,
+    "distributionBaseInfoVo": {
+      "courseName": "高效敏捷测试 49 讲",
+      "brief": "用敏捷思维重构你的测试技能",
+      "shareImage": "https://s0.lgstatic.com/i/image3/M01/67/04/Cgq2xl5J8keAfAYtAAAv51ivADM628.png",
+      "url": "https://t.lagou.com/nR00RaRQR3133",
+      "brokerage": "19.60"
+    },
+    "showDistributionButton": true,
+    "distributionDetail": {
+      "profile": "https://s0.lgstatic.com/images/myresume/default_headpic.png",
+      "nickName": "bolingboling",
+      "courseName": "高效敏捷测试 49 讲",
+      "posterImage": "https://s0.lgstatic.com/i/image3/M01/07/F2/CgoCgV6ipc2AV6OiAAJoUGCW3EM035.jpg",
+      "url": "https://t.lagou.com/nRA8R3RQR3407",
+      "urlImageBase64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAEsAQAAAABRBrPYAAABqklEQVR42u2aXZLDMAiDfTOuzpF6A3YdEOCGdPq4O6P+x/nywjiWkLvsm8drESP2JzFd10M03ntEVPQ6us4QGzHZFfwdl/3zAh0SnCE2Y1dh4zMu8YJjjNgHbM/Gq9ZeVxUj9h2Gu9mxx/ISu93Oe+nbh17px7ueWJeP+3NUGWJy2JXQjlRfL+7N1RBLDPLh81K84lDgKi+xE8tlr2occ9UNDLEHbIVR0WbtVOqL2IyJda0Il+dC4kUnNmAYg7tr1Y4XsRETeBXU0wsrZVqIPWDe6hcabQbUl9iI+clcDrUkN04Rm7DowaC5WADDH7dlkFjHqhWzSuhwteW0JDZgZj3Y7C2sLmJPGFxJRAGKlDiCYSE2YUc/oQnEBVLbEMROrGXnWABX6rD0OJ3YgVXCWa0Z3PGbPSb2ZvNyyEptcWcTmzG0D7VDGLoLmtiAtXizetq2F3GPhYn1ON0QblpFTzFBiU2YVJjeUvSmJMRmLOL0tHjZwcYvYh+x1ZxdbVDfd/+JDX+HSBkRJCdmxGbs3CxMtdWsObEJW7XF1TL0nncSGzD+kZLYP8V+AF09VIKNg6bCAAAAAElFTkSuQmCC",
+      "copywriterList": ["和知名测试专家朱少民，一起掌握大厂测试人的必备能力"]
+    }
+  },
+  {
+    "_id": "42_0",
+    "courseUrl": "https://kaiwu.lagou.com/course/courseInfo.htm?courseId=42&sid=30-aggregation-0",
+    "topNCourseLesson": [
+      {
+        "id": 1545,
+        "courseId": 42,
+        "sectionId": 365,
+        "theme": "开篇词：运维开发架构师的晋级之路",
+        "isFree": true,
+        "existMedia": true
+      },
+      {
+        "id": 1546,
+        "courseId": 42,
+        "sectionId": 366,
+        "theme": "第01讲：工作累积的最常用 Shell 命令合集及使用技巧",
+        "isFree": false,
+        "existMedia": true
+      },
+      {
+        "id": 1547,
+        "courseId": 42,
+        "sectionId": 366,
+        "theme": "第02讲（上）：企业 Nginx 高性能优化配置实战总结",
+        "isFree": false,
+        "existMedia": true
+      },
+      {
+        "id": 1584,
+        "courseId": 42,
+        "sectionId": 366,
+        "theme": "第02讲（下）：企业 Nginx 高性能优化配置实战总结",
+        "isFree": false,
+        "existMedia": true
+      }
+    ],
+    "id": 42,
+    "courseCId": "",
+    "courseName": "运维高手的36项修炼",
+    "teachers": [
+      {
+        "id": 43,
+        "teacherName": "牧客",
+        "position": "前阿里巴巴运维专家",
+        "teacherHeadPicUrl": "https://s0.lgstatic.com/i/image3/M01/64/36/CgpOIF46cn-ARYlQAAAxXXwkUBQ796.png",
+        "description": "<p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 14px;\">曾就职于大型互联网公司阿里巴巴、大型国企中体彩等，先后担任运维专家、SRE 负责人、架构师等核心岗位。曾经主导开源国内第一个基于ansible2.4 实现的完整运维自动化项目；曾带领 SRE、运维开发、DBA 三个团队出色重构近千级别主机的运维架构。</span><br/></p>"
+      }
+    ],
+    "totalDuration": 600,
+    "sales": 3465,
+    "pruchasedCount": "3465人购买",
+    "price": "",
+    "discounts": "98",
+    "courseImgUrl": "https://s0.lgstatic.com/i/image/M00/04/62/CgqCHl6z8-mAR2uuAACo8Bl1Qqc380.png",
+    "sellGoodsId": 51,
+    "sellGoodsPriceId": 546,
+    "lgCoinPrice": 98,
+    "isBuy": false,
+    "isFavorite": false,
+    "isNewDes": "",
+    "brief": "前阿里运维专家的实战笔记",
+    "h5Url": "https://www.lagou.com/center/login?forward=https%3a%2f%2fkaiwu.lagou.com%2fcourse%2fcourseInfo.htm%3fcourseId%3d42%26sid%3d20-h5Url-0",
+    "activityName": "",
+    "courseListImg": "https://s0.lgstatic.com/i/image/M00/04/62/CgqCHl6z8-mAR2uuAACo8Bl1Qqc380.png",
+    "tag": "专栏",
+    "courseType": 1,
+    "decorateId": 0,
+    "appDecorateId": 0,
+    "recruitAppDecorateId": 0,
+    "distributionBaseInfoVo": {
+      "courseName": "运维高手的36项修炼",
+      "brief": "前阿里运维专家的实战笔记",
+      "shareImage": "https://s0.lgstatic.com/i/image3/M01/64/36/CgpOIF46cn-ARYlQAAAxXXwkUBQ796.png",
+      "url": "https://t.lagou.com/nR1ERMRQR35FE",
+      "brokerage": "19.60"
+    },
+    "showDistributionButton": true,
+    "distributionDetail": {
+      "profile": "https://s0.lgstatic.com/images/myresume/default_headpic.png",
+      "nickName": "bolingboling",
+      "courseName": "运维高手的36项修炼",
+      "posterImage": "https://s0.lgstatic.com/i/image3/M01/08/24/CgoCgV6i-gOAD1ivAAGa8USra6Q774.jpg",
+      "url": "https://t.lagou.com/nR69RmRQR3517",
+      "urlImageBase64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAEsAQAAAABRBrPYAAABp0lEQVR42u3aSZLDIAwFUN1MV+dIuQFti68BW06yTFf9dFc88LJRARLYMr/5vISM7CfZEPvocaZDp/2fX6LRQtYxPSN4NB334QzahbWQ9ewIo3pUz3BbbGdpIfvE1kH8guw7ZqMXN4TsA8NwzknQOmW2kLUMSWLc/7osQwbmn2F31iS4emNb1ZAVthr8y7iuRGInZC0bZfSuINsxEgpZxxBVRNKLvbyYZA8ssoZ3ScG6wgNP1jHvhZ55o3lgkUbWsZV3kSyGbkszTIVkDfPlw/SieA1ulMpC9sBQG2do12H6j8l6NmKjSXKBsa3PyHqG6EIJGHJx2W4iq6z0SxcZ7FoNkm0semO0lJVZLivI7mxtnSNXxFl0TLKWeaUiudUU1V7plmTXZawHcsu7EiUL2SPTmmtzQHvUyRqGjhg7TTmUYzIka1hsb2rZMsG4LtMg2YXFdjqeUIteH0yQtUyz0MtixVOwjutjfbL9cWH0yHxU6FMh2Rs2Z0kesU1Xt5vIWlbfvsk0fAsv2T6/lSolxzTZM4vXvbLg03iXJF+HINsZX6Qk+6fsD9HpK7mv7CwAAAAAAElFTkSuQmCC",
+      "copywriterList": [
+        "运维人快收藏！前阿里巴巴运维专家的 36 个运维面试&工作常见问题，都在这了",
+        "运维催人老，项目人肉搞。技术含量低，发展也不好？高手来指点，学习搞一搞。"
+      ]
+    }
+  },
+  {
+    "_id": "31_64",
+    "courseUrl": "https://kaiwu.lagou.com/course/courseInfo.htm?courseId=31&sid=30-aggregation-0",
+    "topNCourseLesson": [
+      {
+        "id": 1041,
+        "courseId": 31,
+        "sectionId": 219,
+        "theme": "开篇词：JVM，一块难啃的骨头",
+        "isFree": true,
+        "existMedia": true
+      },
+      {
+        "id": 1025,
+        "courseId": 31,
+        "sectionId": 220,
+        "theme": "第01讲：一探究竟：为什么需要 JVM？它处在什么位置？",
+        "isFree": false,
+        "existMedia": true
+      },
+      {
+        "id": 1026,
+        "courseId": 31,
+        "sectionId": 220,
+        "theme": "第02讲：大厂面试题：你不得不掌握的 JVM 内存管理",
+        "isFree": false,
+        "existMedia": true
+      },
+      {
+        "id": 1027,
+        "courseId": 31,
+        "sectionId": 220,
+        "theme": "第03讲：大厂面试题：从覆盖 JDK 的类开始掌握类的加载机制",
+        "isFree": false,
+        "existMedia": true
+      }
+    ],
+    "id": 31,
+    "courseCId": "",
+    "courseName": "深入浅出 Java 虚拟机",
+    "teachers": [
+      {
+        "id": 32,
+        "teacherName": "李国",
+        "position": "前京东高级架构师",
+        "teacherHeadPicUrl": "https://s0.lgstatic.com/i/image3/M01/5F/D6/Cgq2xl4T9bmAaofWAAAd9GBR4TQ128.jpg",
+        "description": "<p><span data-shimo-docs=\"[[20,&quot;曾任京东、陌陌高级架构师。负责过京东金融调用链系统 SGM，以及数据库中间件 CDS 的开发工作；曾负责陌陌基础社交业务线的整体架构工作，对高并发下的 JVM 调优有丰富的经验。&quot;]]\"></span></p><p line=\"bANp\" class=\"ql-long-23644815\" style=\"line-height: 1.7;margin-bottom: 0pt;margin-top: 0pt;font-size: 11pt;color: #494949;\"><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">曾任京东、陌陌高级架构师。负责过京东金融调用链系统 SGM，以及数据库中间件 CDS 的开发工作；曾负责陌陌基础社交业务线的整体架构工作，对高并发下的 JVM 调优有丰富的经验。</span></p><p><br/></p>"
+      }
+    ],
+    "totalDuration": 500,
+    "sales": 7240,
+    "pruchasedCount": "7240人购买",
+    "price": "98",
+    "discounts": "98",
+    "courseImgUrl": "https://s0.lgstatic.com/i/image/M00/04/61/Ciqc1F6z8r2AHePwAADTcoqoacE526.png",
+    "sellGoodsId": 40,
+    "sellGoodsPriceId": 534,
+    "lgCoinPrice": 98,
+    "isBuy": false,
+    "isFavorite": false,
+    "isNewDes": "",
+    "brief": "23 个真实生产案例，还原 JVM 问题现场",
+    "h5Url": "https://www.lagou.com/center/login?forward=https%3a%2f%2fkaiwu.lagou.com%2fcourse%2fcourseInfo.htm%3fcourseId%3d31%26sid%3d20-h5Url-0",
+    "activityName": "",
+    "courseListImg": "https://s0.lgstatic.com/i/image3/M01/07/F2/CgoCgV6ipiOAbJOUAADTcoqoacE896.png",
+    "tag": "专栏",
+    "courseType": 1,
+    "decorateId": 64,
+    "appDecorateId": 64,
+    "recruitAppDecorateId": 64,
+    "distributionBaseInfoVo": {
+      "courseName": "深入浅出 Java 虚拟机",
+      "brief": "23 个真实生产案例，还原 JVM 问题现场",
+      "shareImage": "https://s0.lgstatic.com/i/image3/M01/15/1E/Ciqah16ioy-AUAX-AANkW9OMLBc758.png",
+      "url": "https://t.lagou.com/nRC2RURQR32EF",
+      "brokerage": "19.60"
+    },
+    "showDistributionButton": true,
+    "distributionDetail": {
+      "profile": "https://s0.lgstatic.com/images/myresume/default_headpic.png",
+      "nickName": "bolingboling",
+      "courseName": "深入浅出 Java 虚拟机",
+      "posterImage": "https://s0.lgstatic.com/i/image3/M01/15/1E/Ciqah16ioy-AUAX-AANkW9OMLBc758.png",
+      "url": "https://t.lagou.com/nRDBRLRQR30B0",
+      "urlImageBase64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAEsAQAAAABRBrPYAAABoElEQVR42u2aW3LDIAxF2Zm2riVlBzSgNxFu+9fOXDtjG3PIh0ZCL4/5k+M1gAH7kxiPfdD7gXjd9wPJSGaAdRgtCb6v8pNli4oZYC22hCqv9mALWhbpDLAnzCTKBOwXWNjvNuE5gX2DqdGaIZMK+GL1wKr74M+z8zLAFLPD7Xfd6BrVAHNMPIYFK1vecjccWIeJNFmmVMYjO19gHebCpayfHvQRsAsmlCNTXQfHamAdZqmYRsbqSXKmAazBpgvUTFqtWc17ArtgZrYa6qlmuoyBXTCfS2lZqaMA6zAN7SbXqpPtge6dgRWMU9KveVjSTldLYAfmGawXNiOx0GXAOmxmLSx5vw2AtZi9iKBlmudgLzcBOzDTSBVu8rhHOgasprFRopP2Q6rW6X8A67BSW+Ika9sSgXUYhyaq651RW49yE7ADS4L1jEL7hdXtAitYGHK+qlYOOtv6wCI8LlshuSexxhewHvPEa2R1TJ1DYA9YqqnHtigDYE9YtAwtarHCHbAWS6U6L6AQR3MfWIu51WYjHlZa//hMDhg+pAT2r7EvgaKkMtYdfg4AAAAASUVORK5CYII=",
+      "copywriterList": [
+        "揭秘面试必备的 23 个 JVM 真题，\"理论知识+实践场景\"助你系统搞定大厂 JVM 面试，搭建 JVM 完整体系框架!",
+        "23 个真实生产案例，还原 JVM 问题现场。前陌陌高级架构师李国带你轻松搞定故障排查和性能调优，体验不一样的 JVM!"
+      ]
+    }
+  },
+  {
+    "_id": "20_61",
+    "courseUrl": "https://kaiwu.lagou.com/course/courseInfo.htm?courseId=20&sid=30-aggregation-0",
+    "topNCourseLesson": [
+      {
+        "id": 524,
+        "courseId": 20,
+        "sectionId": 106,
+        "theme": "开篇词：从此不再“面试造火箭、工作拧螺丝”",
+        "isFree": true,
+        "existMedia": true
+      },
+      {
+        "id": 513,
+        "courseId": 20,
+        "sectionId": 107,
+        "theme": "第 01 讲：数组内存模型",
+        "isFree": true,
+        "existMedia": true
+      },
+      {
+        "id": 514,
+        "courseId": 20,
+        "sectionId": 107,
+        "theme": "第 02 讲：位图数组在 Redis 中的应用",
+        "isFree": false,
+        "existMedia": true
+      },
+      {
+        "id": 517,
+        "courseId": 20,
+        "sectionId": 107,
+        "theme": "第 03 讲：链表基础原理",
+        "isFree": false,
+        "existMedia": true
+      }
+    ],
+    "id": 20,
+    "courseCId": "",
+    "courseName": "数据结构精讲：从原理到实战",
+    "teachers": [
+      {
+        "id": 21,
+        "teacherName": "蔡元楠",
+        "position": "Google Brain 资深工程师",
+        "teacherHeadPicUrl": "https://s0.lgstatic.com/i/image3/M01/55/D2/Cgq2xl3t7X2ATw1xAAAuubIWP5I644.png",
+        "description": "<p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\"></span></p><p line=\"eEzC\" class=\"ql-long-23644815\" style=\"line-height: 1.7;margin-bottom: 0pt;margin-top: 0pt;font-size: 11pt;color: #494949;\"><span style=\"font-size: 14px;\">Google Brain 资深工程师，工作领域为 AI Healthcare（人工智能的健康医疗应用），领导并开发超大规模数据驱动的全新 AI 应用与商业模式。</span></p><p line=\"UDyT\" style=\"line-height: 1.7;margin-bottom: 0pt;margin-top: 0pt;font-size: 11pt;color: #494949;\"><span style=\"font-size: 14px;\">&nbsp;</span></p><p line=\"mbsX\" class=\"ql-long-23644815\" style=\"line-height: 1.7;margin-bottom: 0pt;margin-top: 0pt;font-size: 11pt;color: #494949;\"><span style=\"font-size: 14px;\">在加入 Google 之前，分别于哥伦比亚大学和上海交通大学获计算机硕士和信息工程学士学位，并曾于哈佛医学院执行官项目学习。同时，在 Google 兼任 C++语言评审以及 AI 挑战赛评委会委员。</span></p><p><br/></p>"
+      }
+    ],
+    "totalDuration": 270,
+    "sales": 6238,
+    "pruchasedCount": "6238人购买",
+    "price": "98",
+    "discounts": "98",
+    "courseImgUrl": "https://s0.lgstatic.com/i/image/M00/04/61/CgqCHl6z8uqAYTvKAADPATeluYQ856.png",
+    "sellGoodsId": 29,
+    "sellGoodsPriceId": 537,
+    "lgCoinPrice": 98,
+    "isBuy": false,
+    "isFavorite": false,
+    "isNewDes": "",
+    "brief": "Google 资深工程师带你玩转数据结构",
+    "h5Url": "https://www.lagou.com/center/login?forward=https%3a%2f%2fkaiwu.lagou.com%2fcourse%2fcourseInfo.htm%3fcourseId%3d20%26sid%3d20-h5Url-0",
+    "activityName": "",
+    "courseListImg": "https://s0.lgstatic.com/i/image3/M01/86/BD/Cgq2xl6Qmb-AErnmAADPATeluYQ284.png",
+    "tag": "专栏",
+    "courseType": 1,
+    "decorateId": 61,
+    "appDecorateId": 61,
+    "recruitAppDecorateId": 61,
+    "distributionBaseInfoVo": {
+      "courseName": "数据结构精讲：从原理到实战",
+      "brief": "Google 资深工程师带你玩转数据结构",
+      "shareImage": "https://s0.lgstatic.com/i/image3/M01/07/F0/CgoCgV6io-eAWGegAAPZzv6J7o4582.png",
+      "url": "https://t.lagou.com/nR03RBRQR3145",
+      "brokerage": "19.60"
+    },
+    "showDistributionButton": true,
+    "distributionDetail": {
+      "profile": "https://s0.lgstatic.com/images/myresume/default_headpic.png",
+      "nickName": "bolingboling",
+      "courseName": "数据结构精讲：从原理到实战",
+      "posterImage": "https://s0.lgstatic.com/i/image3/M01/07/F0/CgoCgV6io-eAWGegAAPZzv6J7o4582.png",
+      "url": "https://t.lagou.com/nR87RgRQR31C4",
+      "urlImageBase64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAEsAQAAAABRBrPYAAABpklEQVR42u2aUY6EMAxDc7NcPUeaG3SXYqcpBDSfu5IZgTT08WMlxAm18c3xMWHC/iQWNg8f4fF7Pf77PD1XhHWYHwpOJubipI+7XBHWYxRz6onLVBsrwl6xhfIpYV9iCM+Rd4S9YEjnYxUnE7vLemF7+Yj7r6sywoCtA7ftLL7+5GqEAZsBaQzEKFrjGWENBiHh7owvQXi99RoUtmPweMjpdHhB02zCWixWzR0suXwYFURYh9GknGDG6JnmXquzsIIxlZ2mBYLbbleE2dXmlfx1SkvVXdgDRnHZUDCxs5cdwh4w2JWa2QjPU2xhDbYEPWnDxMSzQxPWYSe47F2VeVSbJ2zDSu1Ik4IRAI2fsA5D9MEZM5lZTbYqI6zalSwTm1HBjNiF9dg+B+bXh1hNrbAWS4GLomzISjoLu2Dl00O6FqazsGcsh5vOxj9S4riPhYXdxuljfWHNqUl4COux6lIyr/MDdZiwB6wavbojgoZF2DtWApGF12/bIYS12yGc60BW+y/sig1O5SwdcQboNk4XVrHc7sUasvqMpsoIC9dGSmH/GfsBwl29C8qbUYAAAAAASUVORK5CYII=",
+      "copywriterList": ["搞懂数据结构底层原理，打败 97% 的程序员。"]
+    }
+  },
+  {
+    "_id": "1_0",
+    "courseUrl": "https://kaiwu.lagou.com/course/courseInfo.htm?courseId=1&sid=30-aggregation-0",
+    "topNCourseLesson": [
+      {
+        "id": 1,
+        "courseId": 1,
+        "sectionId": 1,
+        "theme": "开篇：建立年薪50万的能力框架",
+        "isFree": true,
+        "fileId": "5285890785768558241",
+        "existMedia": true
+      },
+      {
+        "id": 2,
+        "courseId": 1,
+        "sectionId": 1,
+        "theme": "第01讲：技术人职业发展路径",
+        "isFree": false,
+        "fileId": "5285890785777554870",
+        "existMedia": true
+      },
+      {
+        "id": 3,
+        "courseId": 1,
+        "sectionId": 1,
+        "theme": "第02讲（上）：操作系统与计算机网络",
+        "isFree": false,
+        "fileId": "5285890785768503874",
+        "existMedia": true
+      },
+      {
+        "id": 4,
+        "courseId": 1,
+        "sectionId": 1,
+        "theme": "第02讲（下）：Java语言特性与设计模式",
+        "isFree": false,
+        "fileId": "5285890785768679445",
+        "existMedia": true
+      }
+    ],
+    "id": 1,
+    "courseCId": "32",
+    "courseName": "32个Java面试必考点",
+    "teachers": [
+      {
+        "id": 1,
+        "teacherName": "张雷",
+        "position": "新浪微博资深技术专家",
+        "teacherHeadPicUrl": "http://s0.lgstatic.com/i/image2/M01/A0/7C/CgoB5l22iuGAWP3pAAAuJwyqlzo252.png",
+        "description": "<p style=\"white-space: normal; font-variant-ligatures: normal; orphans: 2; widows: 2;\"><span style=\"font-size: 14px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">专注于高可用架构、微服务治理、中间件开发等方向，Motan 开源框架技术负责人。</span></p><p style=\"white-space: normal; font-variant-ligatures: normal; orphans: 2; widows: 2;\"><br/><span style=\"font-size: 14px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">2013 年加入新浪微博，作为核心技术成员参与微博服务化、混合云等多个重点项目，目前主要负责微博的 Service Mesh 项目的规划设计与推进。同时，作为新浪微博平台的技术评审官，也负责新员工的转正评审工作，对技术人才的选拔及考核颇有心得。</span></p><p style=\"white-space: normal; font-variant-ligatures: normal; orphans: 2; widows: 2;\"><br/></p><p style=\"white-space: normal; font-variant-ligatures: normal; orphans: 2; widows: 2;\"><span style=\"font-size: 14px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">曾在 ArchSummit、WOT、GIAC 等顶级会议上多次进行高可用架构、微服务实践等方面的分享。</span></p>"
+      }
+    ],
+    "totalDuration": 300,
+    "sales": 27879,
+    "pruchasedCount": "2.79w人购买",
+    "price": "",
+    "discounts": "98",
+    "courseImgUrl": "https://s0.lgstatic.com/i/image/M00/04/63/Ciqc1F6z9LqAP8nRAADqoD3PX6Y624.png",
+    "sellGoodsId": 11,
+    "sellGoodsPriceId": 556,
+    "lgCoinPrice": 98,
+    "isBuy": false,
+    "isFavorite": false,
+    "isNewDes": "",
+    "brief": "从原理到实战，全面提升你的Java核心技能",
+    "h5Url": "https://www.lagou.com/center/login?forward=https%3a%2f%2fkaiwu.lagou.com%2fcourse%2fcourseInfo.htm%3fcourseId%3d1%26sid%3d3-App_kaiwu_course-0",
+    "activityName": "",
+    "courseListImg": "https://s0.lgstatic.com/i/image/M00/04/63/Ciqc1F6z9LqAP8nRAADqoD3PX6Y624.png",
+    "tag": "专栏",
+    "courseType": 1,
+    "decorateId": 0,
+    "appDecorateId": 0,
+    "recruitAppDecorateId": 0,
+    "distributionBaseInfoVo": {
+      "courseName": "32个Java面试必考点",
+      "brief": "从原理到实战，全面提升你的Java核心技能",
+      "shareImage": "http://s0.lgstatic.com/i/image2/M01/A0/7C/CgoB5l22iuGAWP3pAAAuJwyqlzo252.png",
+      "url": "https://t.lagou.com/nR44RPRQR30AC",
+      "brokerage": "19.60"
+    },
+    "showDistributionButton": true,
+    "distributionDetail": {
+      "profile": "https://s0.lgstatic.com/images/myresume/default_headpic.png",
+      "nickName": "bolingboling",
+      "courseName": "32个Java面试必考点",
+      "posterImage": "https://s0.lgstatic.com/i/image3/M01/15/24/Ciqah16iqNOAIy2BAARI0hGmMUM170.png",
+      "url": "https://t.lagou.com/nRBDRwRQR3ECE",
+      "urlImageBase64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAEsAQAAAABRBrPYAAABqElEQVR42u3aW3LDMAgFUHbG1llSd0BjwQXZQZl8tjPXfTn1+WIkIZDFv7l+hIzsTzKTdamb2uv39VnXj9YTsonpFUFbTNcfz9t6QjYyBPNFMsorwoonZB/ZFUzchiT7grljQsedOtlnlpPWHTcxOn2e9WT39GHvX1OWIUtWl8XgRGxF510NWTGTnMc1HjEo499kE4uwdmSvtS+XwrwjG9m+P0Guzf/0Mkg2MYQ3tER5oTnBySaWZYRoL3yG+iy/ySaWJWwnDcMQxTpINjOMxm2r4pU7nGxmum9YPAsxZN1H24RsZ511sSeGiVCTTUzQX0J/rkdp1rdkA4sAS4xIzUWxknGV/2QPVvO35nJXGDlAyUamqC0Co5zNZEx2ZlaFRFVi6hVdspHpnm3RPMk9XzwkG5n3eU11gjOpxPpINrEYkr0I9gcsimQD8+6j1yzWrdX56IKSPc7r9x6dbTs/sgPT3uq1F6lGANmB1dmqVm+9rq4+yE5sq2ix7bPpFJvsdjxt934whqWQHdh+Kl3Zo6c42czqdS/RDm298KVvr8mR8UVKsv/MfgFcGfTT7F7P6gAAAABJRU5ErkJggg==",
+      "copywriterList": [
+        "《32个 Java 面试必考点》，剖析大厂 Java 面试考察点&加分项"
+      ]
+    }
+  },
+  {
+    "_id": "17_0",
+    "courseUrl": "https://kaiwu.lagou.com/course/courseInfo.htm?courseId=17&sid=30-aggregation-0",
+    "topNCourseLesson": [
+      {
+        "id": 317,
+        "courseId": 17,
+        "sectionId": 56,
+        "theme": "开篇词：功能测试如何成功转型测试开发？",
+        "isFree": true,
+        "existMedia": true
+      },
+      {
+        "id": 318,
+        "courseId": 17,
+        "sectionId": 56,
+        "theme": "加餐 1：测试技能的正确学习节奏与进阶之路",
+        "isFree": true,
+        "existMedia": true
+      },
+      {
+        "id": 319,
+        "courseId": 17,
+        "sectionId": 58,
+        "theme": "第01讲：Linux 与 Shell 环境搭建及介绍",
+        "isFree": false,
+        "existMedia": true
+      },
+      {
+        "id": 320,
+        "courseId": 17,
+        "sectionId": 58,
+        "theme": "第02讲：Linux 常用命令",
+        "isFree": false,
+        "existMedia": true
+      }
+    ],
+    "id": 17,
+    "courseCId": "",
+    "courseName": "测试开发核心技术 46 讲",
+    "teachers": [
+      {
+        "id": 18,
+        "teacherName": "黄延胜（思寒）",
+        "position": "TesterHome 社区知名测试专家",
+        "teacherHeadPicUrl": "https://s0.lgstatic.com/i/image2/M01/AF/66/CgotOV3kgh6ATCWuAAAvzaeXW7o330.png",
+        "description": "<p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 14px;\">10 余年测试老兵，开源项目 AppCrawler 作者。先后就职于阿里巴巴、百度等公司，担任测试工程师、测试开发工程师和测试架构师等。</span><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 14px;\">曾作为特邀顾问为阿里巴巴、华为、京东、小米等多家互联网名企做技术培训和指导</span><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 14px;\">；TesterHome 社区联合创始人，致力于帮助更多测试人成功转型。</span></p>"
+      }
+    ],
+    "totalDuration": 294,
+    "sales": 8915,
+    "pruchasedCount": "8915人购买",
+    "price": "",
+    "discounts": "98",
+    "courseImgUrl": "https://s0.lgstatic.com/i/image/M00/04/62/Ciqc1F6z9BeAdFZZAADVGP4K158147.png",
+    "sellGoodsId": 22,
+    "sellGoodsPriceId": 548,
+    "lgCoinPrice": 98,
+    "isBuy": false,
+    "isFavorite": false,
+    "isNewDes": "",
+    "brief": "「功能测试」到「测试开发」的升级锦囊",
+    "h5Url": "https://www.lagou.com/center/login?forward=https%3a%2f%2fkaiwu.lagou.com%2fcourse%2fcourseInfo.htm%3fcourseId%3d17%26sid%3d20-h5Url-0",
+    "activityName": "",
+    "courseListImg": "https://s0.lgstatic.com/i/image/M00/04/62/Ciqc1F6z9BeAdFZZAADVGP4K158147.png",
+    "tag": "专栏",
+    "courseType": 1,
+    "decorateId": 0,
+    "appDecorateId": 0,
+    "recruitAppDecorateId": 0,
+    "distributionBaseInfoVo": {
+      "courseName": "测试开发核心技术 46 讲",
+      "brief": "「功能测试」到「测试开发」的升级锦囊",
+      "shareImage": "https://s0.lgstatic.com/i/image2/M01/AF/66/CgotOV3kgh6ATCWuAAAvzaeXW7o330.png",
+      "url": "https://t.lagou.com/nRB0RkRQR3236",
+      "brokerage": "19.60"
+    },
+    "showDistributionButton": true,
+    "distributionDetail": {
+      "profile": "https://s0.lgstatic.com/images/myresume/default_headpic.png",
+      "nickName": "bolingboling",
+      "courseName": "测试开发核心技术 46 讲",
+      "posterImage": "https://s0.lgstatic.com/i/image3/M01/15/22/Ciqah16ippyAAKlQAAP-SORfO7I043.png",
+      "url": "https://t.lagou.com/nRC5RpRQR3FB0",
+      "urlImageBase64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAEsAQAAAABRBrPYAAABqElEQVR42u3aQXLDMAgFUN2Mq3Ok3EBtBHzAxpks25mfNq1jv2w0kkHgtb95vRYZ2Z9kus5L1N/vM6Ki59O5QjYyeY/g73l5Hx5oSOIK2czOwPpf/4oNeJwj+8DObDyz8miVTfYds9WssbKF7DPDct5+fftEfVj1ZC183H/GKEMmLV2x2OHBwy5PWQ0ZWIQPH1O/JXoEzuEl66yv5Ay7NtSxnMlubEX42OY05mTcCclG5ilKMEtbsMMgm1nNUfxTfNV/yUbm2clqICapljSPrLGFfGXnEJcgvMlGZodb08plrpINLBM8/I/NbExVsoH5cURcy/RwP2yzl6wwzEgo2VoKT2QPDOWl3db1QpmYbGKR2iGOrKwM+9QkGxlqJpEmK/b+uR0juzIUNqMH4SMuSPnIHpinc9HFQW1TW9uLrDNsH+JGWFo42WYl6yzLm4paeoyvnyEbWC/J5W625MdkE8N0VBQB8lao17Y+2bq1p9GDwMMQxsk+M99Z1DKdTt1/stvjENHBWehVlyhD1liWTrJvE3dCskdWwkepofvqHqMMGR+kJPu/7AcPmNTzChqv6gAAAABJRU5ErkJggg==",
+      "copywriterList": [
+        "告别功能测试，转型成为测试开发，资深测试架构师带你搭建完整的测试开发知识体系。"
+      ]
+    }
+  },
+  {
+    "_id": "16_0",
+    "courseUrl": "https://kaiwu.lagou.com/course/courseInfo.htm?courseId=16&sid=30-aggregation-0",
+    "topNCourseLesson": [
+      {
+        "id": 238,
+        "courseId": 16,
+        "sectionId": 39,
+        "theme": "开篇词： 由点及面，搭建你的 Java 并发知识网",
+        "isFree": true,
+        "existMedia": true
+      },
+      {
+        "id": 239,
+        "courseId": 16,
+        "sectionId": 40,
+        "theme": "第01讲：为何说只有 1 种实现线程的方法？",
+        "isFree": false,
+        "existMedia": true
+      },
+      {
+        "id": 240,
+        "courseId": 16,
+        "sectionId": 40,
+        "theme": "第02讲：如何正确停止线程？为什么 volatile 标记位的停止方法是错误的？",
+        "isFree": false,
+        "existMedia": true
+      },
+      {
+        "id": 241,
+        "courseId": 16,
+        "sectionId": 40,
+        "theme": "第03讲：线程是如何在 6 种状态之间转换的？",
+        "isFree": false,
+        "existMedia": true
+      }
+    ],
+    "id": 16,
+    "courseCId": "",
+    "courseName": "Java 并发编程 78 讲",
+    "teachers": [
+      {
+        "id": 17,
+        "teacherName": "徐隆曦",
+        "position": "滴滴出行高级工程师",
+        "teacherHeadPicUrl": "http://s0.lgstatic.com/i/image2/M01/A4/5B/CgotOV3BEHmAfRqHAAAtKPG2PnQ169.png",
+        "description": "<p style=\"white-space: normal;\"><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 14px;\"></span><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 14px;\">徐隆曦，现就职于滴滴出行，硕士毕业于慕尼黑工业大学。主要负责小桔车服驾驶安全平台开发，经历了滴滴出行小桔车服的驾驶安全平台、客服治理平台等重点项目从 0 到 1 搭建全过程。在 Java 并发编程方面有丰富的实战经验，对 JUC 包的源码有深入研究。&nbsp;</span></p>"
+      }
+    ],
+    "totalDuration": 500,
+    "sales": 8958,
+    "pruchasedCount": "8958人购买",
+    "price": "",
+    "discounts": "98",
+    "courseImgUrl": "https://s0.lgstatic.com/i/image/M00/04/62/CgqCHl6z9CmAUUKaAADp5J11oR0545.png",
+    "sellGoodsId": 21,
+    "sellGoodsPriceId": 549,
+    "lgCoinPrice": 98,
+    "isBuy": false,
+    "isFavorite": false,
+    "isNewDes": "",
+    "brief": "从理论到实战，搭建 Java 并发知识体系",
+    "h5Url": "https://www.lagou.com/center/login?forward=https%3a%2f%2fkaiwu.lagou.com%2fcourse%2fcourseInfo.htm%3fcourseId%3d16%26sid%3d20-h5Url-0",
+    "activityName": "",
+    "courseListImg": "https://s0.lgstatic.com/i/image/M00/04/62/CgqCHl6z9CmAUUKaAADp5J11oR0545.png",
+    "tag": "专栏",
+    "courseType": 1,
+    "decorateId": 0,
+    "appDecorateId": 65,
+    "recruitAppDecorateId": 65,
+    "distributionBaseInfoVo": {
+      "courseName": "Java 并发编程 78 讲",
+      "brief": "从理论到实战，搭建 Java 并发知识体系",
+      "shareImage": "http://s0.lgstatic.com/i/image2/M01/A4/5B/CgotOV3BEHmAfRqHAAAtKPG2PnQ169.png",
+      "url": "https://t.lagou.com/nR96RdRQR3E48",
+      "brokerage": "19.60"
+    },
+    "showDistributionButton": true,
+    "distributionDetail": {
+      "profile": "https://s0.lgstatic.com/images/myresume/default_headpic.png",
+      "nickName": "bolingboling",
+      "courseName": "Java 并发编程 78 讲",
+      "posterImage": "https://s0.lgstatic.com/i/image3/M01/15/22/Ciqah16iptGAFIvUAAQyp86SaVs139.png",
+      "url": "https://t.lagou.com/nR96RNRQR3123",
+      "urlImageBase64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAEsAQAAAABRBrPYAAABoklEQVR42u3aUXJDIQgFUHbG1llSd2BShQtWfJPPZuambdK8dyYfjghiZHzy+BEysn/JTOZDbf7O9zr/NO6QtUx/R/D9/L6Op/mKO2Qtw2Dihq0Bj2tkD2wCKfcH2SdsTUefjzajm+yRedAOw1I4TK5RT/YnfZw/bZYh061cQc71ZDL/OasassqW8Wy7ypWMbLKWzdBdsZyTFNUehpfsYCXtZh5ZdQvZndVEm6Wx510l61kkXE+3sQ+L8K7ZmWxjiOdIGLZXfWQt80Uv1r4Y4xXm05I1LAoTL1FiUTSN7ZmSXZgo8oY3nnxqrrAm65hJjKUOsOwJ5Owl21jNuxL9El8dvQQk61nsYb1WESyMImQ3FhUKRhcjHIFO1jKN1IHAxl6jbMfITlaqYx2Q+ASyC6vUO+o+5PuxF9nW3ozTmuyYlN6mkfWstDfRpFM0n8huDKNaNrLlCFF0kLUMR6uaScOiNjayK8N2vxZ5io6Akj2y0mvC3FTrTrHJtuFF4s2v4qxLZC1DRef3y8Z/b6eTVYYqJQ5YdWRz88wyZPwiJdlXsxe6Tuzbmh92ygAAAABJRU5ErkJggg==",
+      "copywriterList": [
+        "《Java并发编程核心78讲》从底层知识拆解100+面试真题，掌握78个工作中常用并发技巧。",
+        "「Java并发编程核心78讲」从面试到实战，带你搭建Java并发知识体系。"
+      ]
+    }
+  },
+  {
+    "_id": "2_0",
+    "courseUrl": "https://kaiwu.lagou.com/course/courseInfo.htm?courseId=2&sid=30-aggregation-0",
+    "topNCourseLesson": [
+      {
+        "id": 16,
+        "courseId": 2,
+        "sectionId": 2,
+        "theme": "开篇词：7分钟Get技术人进阶技巧",
+        "isFree": true,
+        "fileId": "5285890789915727093",
+        "existMedia": true
+      },
+      {
+        "id": 17,
+        "courseId": 2,
+        "sectionId": 2,
+        "theme": "第01讲：大型架构的演进之路",
+        "isFree": false,
+        "fileId": "5285890789592200124",
+        "existMedia": true
+      },
+      {
+        "id": 18,
+        "courseId": 2,
+        "sectionId": 2,
+        "theme": "第02讲：架构核心技术之分布式缓存（上）",
+        "isFree": false,
+        "fileId": "5285890789700464734",
+        "existMedia": true
+      },
+      {
+        "id": 19,
+        "courseId": 2,
+        "sectionId": 2,
+        "theme": "第02讲：架构核心技术之分布式缓存（下）",
+        "isFree": false,
+        "fileId": "5285890789700453566",
+        "existMedia": true
+      }
+    ],
+    "id": 2,
+    "courseCId": "34",
+    "courseName": "架构师的 36 项修炼",
+    "teachers": [
+      {
+        "id": 2,
+        "teacherName": "李智慧",
+        "position": "前阿里巴巴技术专家",
+        "teacherHeadPicUrl": "http://s0.lgstatic.com/i/image2/M01/A9/1E/CgotOV3OVbiAIJl3AAAsPTHY8tE354.png",
+        "description": "<p><span data-shimo-docs=\"[[20,&quot;李智慧&nbsp;前阿里巴巴技术专家&quot;,&quot;31:8|8:1&quot;],[20,&quot;\\n&quot;,&quot;linespacing:\\&quot;150\\&quot;&quot;],[20,&quot;拥有20余年软件开发与架构经验，曾任阿里巴巴技术专家、intel 大数据架构师，著有技术畅销书《大型网站技术架构：核心原理与案例分析》，更是各大技术峰会的常邀分享嘉宾。&quot;,&quot;31:8&quot;],[20,&quot;\\n\\n&quot;,&quot;7:3&quot;],[20,&quot;曾设计开发阿里巴巴分布式存储系统 Doris、阿里巴巴印度站，参与 Apache Spark 开源框架的开发，对架构代码进行多处优化；他拥有 5 项分布式系统发明专利，在互联网架构和大数据方面具有丰富的实战经验。&quot;,&quot;31:8&quot;]]\"></span></p><p line=\"u8Kt\" linespacing=\"150\"><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 14px;\">拥有20余年软件开发与架构经验，曾任阿里巴巴技术专家、intel 大数据架构师，著有技术畅销书《大型网站技术架构：核心原理与案例分析》，更是各大技术峰会的常邀分享嘉宾。</span></p><p line=\"26bK\"><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 14px;\">&nbsp;</span></p><p line=\"VoD6\"><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 14px;\">曾设计开发阿里巴巴分布式存储系统 Doris、阿里巴巴印度站，参与 Apache Spark 开源框架的开发，对架构代码进行多处优化；他拥有 5 项分布式系统发明专利，在互联网架构和大数据方面具有丰富的实战经验。</span></p><p><br/></p>"
+      }
+    ],
+    "totalDuration": 200,
+    "sales": 14881,
+    "pruchasedCount": "1.49w人购买",
+    "price": "",
+    "discounts": "98",
+    "courseImgUrl": "https://s0.lgstatic.com/i/image/M00/04/63/Ciqc1F6z9K6ATppCAADiqpPyUEA968.png",
+    "sellGoodsId": 6,
+    "sellGoodsPriceId": 555,
+    "lgCoinPrice": 98,
+    "isBuy": false,
+    "isFavorite": false,
+    "isNewDes": "",
+    "brief": "前阿里巴巴技术专家的架构私教课",
+    "h5Url": "https://www.lagou.com/center/login?forward=https%3a%2f%2fkaiwu.lagou.com%2fcourse%2fcourseInfo.htm%3fcourseId%3d2%26sid%3d20-h5Url-0",
+    "activityName": "",
+    "courseListImg": "https://s0.lgstatic.com/i/image/M00/04/63/Ciqc1F6z9K6ATppCAADiqpPyUEA968.png",
+    "tag": "专栏",
+    "courseType": 1,
+    "decorateId": 0,
+    "appDecorateId": 0,
+    "recruitAppDecorateId": 0,
+    "distributionBaseInfoVo": {
+      "courseName": "架构师的 36 项修炼",
+      "brief": "前阿里巴巴技术专家的架构私教课",
+      "shareImage": "http://s0.lgstatic.com/i/image2/M01/A9/1E/CgotOV3OVbiAIJl3AAAsPTHY8tE354.png",
+      "url": "https://t.lagou.com/nR2ARnRQR390A",
+      "brokerage": "19.60"
+    },
+    "showDistributionButton": true,
+    "distributionDetail": {
+      "profile": "https://s0.lgstatic.com/images/myresume/default_headpic.png",
+      "nickName": "bolingboling",
+      "courseName": "架构师的 36 项修炼",
+      "posterImage": "https://s0.lgstatic.com/i/image3/M01/07/F5/CgoCgV6iqJ6AekipAAO_d7EkqaA840.png",
+      "url": "https://t.lagou.com/nREBReRQR39F4",
+      "urlImageBase64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAEsAQAAAABRBrPYAAABo0lEQVR42u2aXXKDMAyEfTNdXUfqDdxga1cCBNO+tTNLMgnBH3nQWFr9MOZPjq8hTNifxHyswz4n5sf3OrH9a68I6zA7LPj53O9920HlirAWO4y6L60fy9D7plgR9obBom7CfoFhSy4vNtha2DNW3XmDy8BvXi+M8uH3V6cywgLDAfUostFlNcKIbcUIrZ3pzRQVYR3GCGgzJaSKr7AOC+Pu1HjZk1cs/kNYh1mYdkYtEdmKJyusw+jIMxUjA6KwJyyuhAOjHosdaiz/hV2wEI9xi4aOVE9Yg5GJzJhRMPsowhqsKkZdTAER1mEIhOasw8ruzG0p7IJBbZERO1wZHRRhTxiRear7ISnCOixLVz91TFBeTGEdBj+22gnwLM1KN09YLWNz+DCARnkRXQFhLZaG9cyKIxaeugTCKoapA4c47KnT3sIarNoW45uMhim7ws5YrfjP80ImfcI6jOObbMxl3uL3sb6wy5gVka+MbkYpY4W1WDZNcAMTPWFvWI4MoznMxp2wFmOqx+cgzsN9YS1Gr61OPDBCvD0mJ0wPUgr719g3RLvz4vYlyYAAAAAASUVORK5CYII=",
+      "copywriterList": [
+        "《架构师的36项修炼》由阿里巴巴前技术专家李智慧精心打造，从理论到实战，让你的架构师之梦不再遥远。",
+        "前阿里巴巴技术专家的「架构私教课」，助你成为优秀架构师。"
+      ]
+    }
+  },
+  {
+    "_id": "18_0",
+    "courseUrl": "https://kaiwu.lagou.com/course/courseInfo.htm?courseId=18&sid=30-aggregation-0",
+    "topNCourseLesson": [
+      {
+        "id": 374,
+        "courseId": 18,
+        "sectionId": 75,
+        "theme": "开篇词：了解面试“潜规则”，从海选中脱颖而出",
+        "isFree": true,
+        "existMedia": true
+      },
+      {
+        "id": 375,
+        "courseId": 18,
+        "sectionId": 76,
+        "theme": "第 01 讲：设计一份吸引面试官的简历",
+        "isFree": false,
+        "existMedia": true
+      },
+      {
+        "id": 376,
+        "courseId": 18,
+        "sectionId": 76,
+        "theme": "第 02 讲：读懂职位 JD，精准投递简历",
+        "isFree": true,
+        "existMedia": true
+      },
+      {
+        "id": 377,
+        "courseId": 18,
+        "sectionId": 77,
+        "theme": "第 03 讲：把握投递简历的黄金时间段",
+        "isFree": false,
+        "existMedia": true
+      }
+    ],
+    "id": 18,
+    "courseCId": "",
+    "courseName": "12步通关求职面试",
+    "teachers": [
+      {
+        "id": 19,
+        "teacherName": "杨宇堃",
+        "position": "拉勾网招聘总监",
+        "teacherHeadPicUrl": "https://s0.lgstatic.com/i/image2/M01/AF/45/CgoB5l3kgd6ATyedAAAtfzRltDc583.png",
+        "description": "<p><span data-shimo-docs=\"[[20,&quot;目前为拉勾网的招聘总监，曾就职于美团、新东方等大厂，具有近 10 年人力资源招聘方向的工作经验，帮助过企业招聘的岗位从助理岗到高管，从团队里的单个支撑岗位到整个新业务的建设。&quot;,&quot;31:8&quot;]]\"></span></p><p line=\"CP5G\" linespacing=\"115\"><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\"></span></p><p><span style=\"font-size: 14px;\">具有近 10 年人力资源—招聘方向的工作经验。目前担任拉勾网的招聘总监职务、内部培训讲师，以帮助企业内部管理者提升招聘的能力等。</span></p><p><span style=\"font-size: 14px;\"><br/></span></p><p><span style=\"font-size: 14px;\">曾就职于美团、新东方等大厂，面试过上万的候选人，也帮助过企业招聘的岗位从最初的助理岗到公司高管岗，比如CTO、COO等核心岗，从团队里的单个支撑岗位到整个新业务的建设，得到了企业的好评！</span></p><p line=\"CP5G\" linespacing=\"115\"><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\"></span></p>"
+      }
+    ],
+    "totalDuration": 120,
+    "sales": 7251,
+    "pruchasedCount": "7251人购买",
+    "price": "",
+    "discounts": "48",
+    "courseImgUrl": "https://s0.lgstatic.com/i/image/M00/04/62/Ciqc1F6z9AiAXNBRAADWKJFOwrA748.png",
+    "sellGoodsId": 23,
+    "sellGoodsPriceId": 403,
+    "lgCoinPrice": 48,
+    "isBuy": false,
+    "isFavorite": false,
+    "isNewDes": "",
+    "brief": "资深 HRD 教你轻松拿到满意 Offer",
+    "h5Url": "https://www.lagou.com/center/login?forward=https%3a%2f%2fkaiwu.lagou.com%2fcourse%2fcourseInfo.htm%3fcourseId%3d18%26sid%3d20-h5Url-0",
+    "activityName": "",
+    "courseListImg": "https://s0.lgstatic.com/i/image/M00/04/62/Ciqc1F6z9AiAXNBRAADWKJFOwrA748.png",
+    "tag": "专栏",
+    "courseType": 1,
+    "decorateId": 0,
+    "appDecorateId": 0,
+    "recruitAppDecorateId": 0,
+    "distributionBaseInfoVo": {
+      "courseName": "12步通关求职面试",
+      "brief": "资深 HRD 教你轻松拿到满意 Offer",
+      "shareImage": "https://s0.lgstatic.com/i/image2/M01/AF/45/CgoB5l3kgd6ATyedAAAtfzRltDc583.png",
+      "url": "https://t.lagou.com/nR6BRARQR3EC4",
+      "brokerage": "9.60"
+    },
+    "showDistributionButton": true,
+    "distributionDetail": {
+      "profile": "https://s0.lgstatic.com/images/myresume/default_headpic.png",
+      "nickName": "bolingboling",
+      "courseName": "12步通关求职面试",
+      "posterImage": "https://s0.lgstatic.com/i/image3/M01/13/D4/Ciqah16gLHOARFrEAAM3TMrEq1I225.png",
+      "url": "https://t.lagou.com/nR5FR4RQR3C1B",
+      "urlImageBase64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAEsAQAAAABRBrPYAAABqElEQVR42u2aXRLCMAiEuRlX50jeILYJPxtL1Ued2eo4tvmedggspDK+uR5CjNhPYibz0uOfmo75PX9Ec4VYh+mp4LF0PHdugvNmrhDrsUNGDVVPuae2A1aIfcDOGMx7Yt9iKwhnhI5B7BPmj+Izw3KlxW7XE9vLh10/XZUh5lhckQVB387VEAPMJHc0Ft6ITWItZhqwexbJnLg0J9ZgS9pMeyGvLNcynxFrsQpHc7uyMqCG8MQ6bHligEfYlSi+xBps1d21kQtQaDKItdhIK7xgicI774ndYAatGJiW6s6I9Zi4rasmLGI0siGxBgsrvO3kjM4tDRLTff5We7mmdRClxFoMvLHvZJGc1W12hdjWn5pArfBBumZHq8Q6LJuxHKNHXyGil7AkBu1/9K+ldBYVdDXEXjE13c5vYNpkNaYjhphJHdqEtGqpLbEbLBsLAYPsN15BiDVYjdNB1z0lEuuwbCYGtBIW8trrsT6x/bgQym0d3uCYjliLuTHWnARUb0vsHYZv39QM4CIvsT2/DcyAcDhB7AbL172up/suMbEG44uUxP4UewKSlAvZFlSAjgAAAABJRU5ErkJggg==",
+      "copywriterList": [
+        "面试如何谈到高薪？来看拉勾网资深 HRD 带你找准投递时间，把握面试关键点，做好准备去面试。",
+        "12 步了解面试必备“潜规则”。资深 HRD 带你打破面试误区，早日走进大厂。"
+      ]
+    }
+  },
+  {
+    "_id": "6_0",
+    "courseUrl": "https://kaiwu.lagou.com/course/courseInfo.htm?courseId=6&sid=30-aggregation-0",
+    "topNCourseLesson": [
+      {
+        "id": 59,
+        "courseId": 6,
+        "sectionId": 6,
+        "theme": "开篇寄语：缓存，你真的用对了吗？",
+        "isFree": true,
+        "fileId": "5285890792280884411",
+        "existMedia": true
+      },
+      {
+        "id": 160,
+        "courseId": 6,
+        "sectionId": 18,
+        "theme": "第01讲：业务数据访问性能太低怎么办？",
+        "isFree": false,
+        "existMedia": true
+      },
+      {
+        "id": 161,
+        "courseId": 6,
+        "sectionId": 18,
+        "theme": "第02讲：如何根据业务来选择缓存模式和组件？",
+        "isFree": false,
+        "existMedia": true
+      },
+      {
+        "id": 162,
+        "courseId": 6,
+        "sectionId": 18,
+        "theme": "第03讲：设计缓存架构时需要考量哪些因素？",
+        "isFree": false,
+        "existMedia": true
+      }
+    ],
+    "id": 6,
+    "courseCId": "43",
+    "courseName": "300分钟吃透分布式缓存",
+    "teachers": [
+      {
+        "id": 7,
+        "teacherName": "陈波",
+        "position": "新浪微博平台架构技术专家",
+        "teacherHeadPicUrl": "//s0.lgstatic.com/i/image2/M01/6D/54/CgoB5l1BYKOALUtsAAAyPyU8GWI430.png",
+        "description": "<p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 14px; color: rgb(102, 102, 102); text-align: justify; background-color: rgb(255, 255, 255);\">微博平台缓存从0到1主要工程师之一，曾参与撰写技术畅销书《深入分布式缓存》。</span><br style=\"white-space: normal; margin: 0px; padding: 0px; touch-action: pan-y; -webkit-tap-highlight-color: transparent; color: rgb(102, 102, 102); font-family: -apple-system-font, &quot;Helvetica Neue&quot;, sans-serif; font-size: 13.9875px; text-align: justify; background-color: rgb(255, 255, 255);\"/><br style=\"white-space: normal; margin: 0px; padding: 0px; touch-action: pan-y; -webkit-tap-highlight-color: transparent; color: rgb(102, 102, 102); font-family: -apple-system-font, &quot;Helvetica Neue&quot;, sans-serif; font-size: 13.9875px; text-align: justify; background-color: rgb(255, 255, 255);\"/><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 14px; color: rgb(102, 102, 102); text-align: justify; background-color: rgb(255, 255, 255);\">&nbsp;2008年加入新浪，2009年起着手微博 Feed 平台系统的研发及架构工作，深度参与了微博若干版本的所有业务的开发和架构改进。</span><br style=\"white-space: normal; margin: 0px; padding: 0px; touch-action: pan-y; -webkit-tap-highlight-color: transparent; color: rgb(102, 102, 102); font-family: -apple-system-font, &quot;Helvetica Neue&quot;, sans-serif; font-size: 13.9875px; text-align: justify; background-color: rgb(255, 255, 255);\"/><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 14px;\"></span><br style=\"white-space: normal; margin: 0px; padding: 0px; touch-action: pan-y; -webkit-tap-highlight-color: transparent; color: rgb(102, 102, 102); font-family: -apple-system-font, &quot;Helvetica Neue&quot;, sans-serif; font-size: 13.9875px; text-align: justify; background-color: rgb(255, 255, 255);\"/><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 14px; color: rgb(102, 102, 102); text-align: justify; background-color: rgb(255, 255, 255);\">从2013年至今，他负责微博平台基础架构相关的研发工作，经历了新浪微博从起步到月活数亿用户的大型互联网系统的技术演进过程。</span></p>"
+      }
+    ],
+    "totalDuration": 300,
+    "sales": 10626,
+    "pruchasedCount": "1.06w人购买",
+    "price": "",
+    "discounts": "98",
+    "courseImgUrl": "https://s0.lgstatic.com/i/image/M00/04/62/Ciqc1F6z9GaAZPIUAADQS-zDM8c567.png",
+    "sellGoodsId": 10,
+    "sellGoodsPriceId": 552,
+    "lgCoinPrice": 98,
+    "isBuy": false,
+    "isFavorite": false,
+    "isNewDes": "",
+    "brief": "微博大神教你支撑百万QPS的核心技术",
+    "h5Url": "https://www.lagou.com/center/login?forward=https%3a%2f%2fkaiwu.lagou.com%2fcourse%2fcourseInfo.htm%3fcourseId%3d6%26sid%3d60-h5Url-0",
+    "activityName": "",
+    "courseListImg": "https://s0.lgstatic.com/i/image/M00/04/62/Ciqc1F6z9GaAZPIUAADQS-zDM8c567.png",
+    "tag": "专栏",
+    "courseType": 1,
+    "decorateId": 0,
+    "appDecorateId": 0,
+    "recruitAppDecorateId": 0,
+    "distributionBaseInfoVo": {
+      "courseName": "300分钟吃透分布式缓存",
+      "brief": "微博大神教你支撑百万QPS的核心技术",
+      "shareImage": "//s0.lgstatic.com/i/image2/M01/6D/54/CgoB5l1BYKOALUtsAAAyPyU8GWI430.png",
+      "url": "https://t.lagou.com/nR35R1RQR3A28",
+      "brokerage": "19.60"
+    },
+    "showDistributionButton": true,
+    "distributionDetail": {
+      "profile": "https://s0.lgstatic.com/images/myresume/default_headpic.png",
+      "nickName": "bolingboling",
+      "courseName": "300分钟吃透分布式缓存",
+      "posterImage": "https://s0.lgstatic.com/i/image3/M01/15/23/Ciqah16iqAOAU8bEAAOa71U08ds706.png",
+      "url": "https://t.lagou.com/nRD7RFRQR3697",
+      "urlImageBase64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAEsAQAAAABRBrPYAAABsUlEQVR42u3aQXLDMAgFUG7G1TlSb6DaEh+Qjdos25nvZJo2ft0wkgDJMj65voSM7E8yk3np9Zuajvm+f4jGHbKO6R3B69b1vbsJ5x/zDlnPrjAqonqHe8Z2lDtkv7H1IeLhJfuAzcvmxF5RJvuZ+XReo9GjupbFbtaT7enD3q8uy5A5w2WS+cJynD6rGrLCMA4xlTWTyM3JWmaa1jBERSKhkHXM72oEeXillyOVrGXeS3imnXWyIL6lHSPbmXqVgvIY1bGXLjU7kxUWbZjFymf5TxLTmWxjqFfEp/V6D18PhezEIn0oyuQxoi1r0i5ZLoMiOYl9JXSYVTTZi2Vc0b5idNZlkGxjWqrjslsnOUrJOiYRVom0uw1TsgPzjRJnIMgjZCfm6cK37JB2n+0Y2aON9UDalj3QnwnZmZWWApWKxqaAknUMkzjKExwdSiyGZA3L7c04gcDyhwxC1jDLTmyLdTl1JevYvvr5Edia374ekrXMpFQs8WAEckds05G1bD9cxTZd7kqRHVh9+ib3AF7hJdvXt9rPajmcIDuwKFFGPq+EzGv5OATZzvggJdk/Zd9x/RvJgm2+/QAAAABJRU5ErkJggg==",
+      "copywriterList": [
+        "和新浪平台架构技术专家陈波一起掌握 Redis 必备知识，了解日活亿级的分布缓存经验。",
+        "很多大厂都要求面试者有分布式经验，但是又有多少人能够有机会了解，日活亿级的分布式缓存经验呢？",
+        "微博缓存平台主工程师陈波老师亲授《300分钟吃透分布式缓存》"
+      ]
+    }
+  },
+  {
+    "_id": "12_0",
+    "courseUrl": "https://kaiwu.lagou.com/course/courseInfo.htm?courseId=12&sid=30-aggregation-0",
+    "topNCourseLesson": [
+      {
+        "id": 143,
+        "courseId": 12,
+        "sectionId": 12,
+        "theme": "开篇寄语",
+        "isFree": true,
+        "existMedia": true
+      },
+      {
+        "id": 144,
+        "courseId": 12,
+        "sectionId": 12,
+        "theme": "第01讲：腾讯为何总能突破困境？",
+        "isFree": false,
+        "existMedia": true
+      },
+      {
+        "id": 145,
+        "courseId": 12,
+        "sectionId": 12,
+        "theme": "第02讲：如何做到产品进化式创新",
+        "isFree": false,
+        "existMedia": true
+      },
+      {
+        "id": 146,
+        "courseId": 12,
+        "sectionId": 12,
+        "theme": "第03讲：如何给你的产品做减法",
+        "isFree": false,
+        "existMedia": true
+      }
+    ],
+    "id": 12,
+    "courseCId": "",
+    "courseName": "腾讯产品启示录",
+    "teachers": [
+      {
+        "id": 13,
+        "teacherName": "薛军 Boots",
+        "position": "原腾讯 P12 资深专家，腾讯 391 号员工",
+        "teacherHeadPicUrl": "http://s0.lgstatic.com/i/image2/M01/8D/96/CgoB5l2AhtyAUKDnAAH_cb4NE_U007.png",
+        "description": "<p>从 PC 互联网时代的 QQ 到移动互联网时代的微信，11 年里领导、参与和见证了腾讯多款成功产品的诞生和成长。负责的 LBS 索骥定位平台及产品，为微信“附近的人”及“摇一摇”功能的诞生奠定了不可磨灭的基础。</p><p>&nbsp;</p><p>在腾讯学院作为首批高级讲师，连续 9 年分享内部产品创新与敏捷研发经验，帮助 5000+ 名腾讯骨干掌握产品创新方法论，促进公司各个业务的发展。近 5 年来作为专业培训师，培训了上百家企业的产研团队，成功指导 10 余个产品的转型升级</p>"
+      }
+    ],
+    "totalDuration": 300,
+    "sales": 19607,
+    "pruchasedCount": "1.96w人购买",
+    "price": "",
+    "discounts": "88",
+    "courseImgUrl": "https://s0.lgstatic.com/i/image/M00/04/62/Ciqc1F6z9EWAHZlhAADA997e8Og464.png",
+    "sellGoodsId": 17,
+    "sellGoodsPriceId": 550,
+    "lgCoinPrice": 88,
+    "isBuy": false,
+    "isFavorite": false,
+    "isNewDes": "",
+    "brief": "36式读懂腾讯产品思维",
+    "h5Url": "https://www.lagou.com/center/login?forward=https%3a%2f%2fkaiwu.lagou.com%2fcourse%2fcourseInfo.htm%3fcourseId%3d12%26sid%3d20-h5Url-0",
+    "activityName": "",
+    "courseListImg": "https://s0.lgstatic.com/i/image/M00/04/62/Ciqc1F6z9EWAHZlhAADA997e8Og464.png",
+    "tag": "专栏",
+    "courseType": 1,
+    "decorateId": 0,
+    "appDecorateId": 0,
+    "recruitAppDecorateId": 0,
+    "distributionBaseInfoVo": {
+      "courseName": "腾讯产品启示录",
+      "brief": "36式读懂腾讯产品思维",
+      "shareImage": "http://s0.lgstatic.com/i/image2/M01/8D/96/CgoB5l2AhtyAUKDnAAH_cb4NE_U007.png",
+      "url": "https://t.lagou.com/nR1CR0RQR3C00",
+      "brokerage": "17.60"
+    },
+    "showDistributionButton": true,
+    "distributionDetail": {
+      "profile": "https://s0.lgstatic.com/images/myresume/default_headpic.png",
+      "nickName": "bolingboling",
+      "courseName": "腾讯产品启示录",
+      "posterImage": "https://s0.lgstatic.com/i/image3/M01/07/F3/CgoCgV6ipvmAN9iRAALKF0HGgKk693.png",
+      "url": "https://t.lagou.com/nR67R7RQR32BD",
+      "urlImageBase64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAEsAQAAAABRBrPYAAABo0lEQVR42u2aUXLDMAhEdTOuriPlBm4k2BWyiNPPdmadTOxETz8MsIDSrt9cryZM2J/EepuXvR+sj/t8MP/mK8IqzIYF35/+9m2DWivCSmwY1X+aX6ahfVOsCHvCsOh7wjeFfcPgkjOKTdh3LIJ23iIPjs8PUS9sl49+viqVERYYLvohtKSuaoQRc8WA1EJwk6gIq7CVAZH9UulnCGdhNywZN0qUeLuRTdgHzCgXYVHfhN12CSuxBtuyIr7CssiHwipsuuDNymjGPA8KKzB0YegmYgCA7GjCaiyMCv805sU1RxFWY42jpbRIg5uwEoPzYTqX2zJbbinshlE+QCKUmSKFVZgl616QkjWyE1ZjURFvjknYvVRYgbFcoZ0ta28epwvLbexq9l0/2PlHPyusxtJkKZV3mNulKYGwjHWOmdDF5uOva+8+hJ3jTVv2bSzxKLvCbhjH6dAQ4/E0ij5hFcbjm25MfOuX41hf2HHMmlv/1tigCXvCOt2w79nQhD1iGV4zgFweC9uwHLwo7iyHtbAKY9TmII6B06kywvRHSmH/G/sBoU5kcoXZ7L0AAAAASUVORK5CYII=",
+      "copywriterList": [
+        "腾讯p12大佬带你解密不为人知的腾讯心法，掌握成功产品的「3条原则」和「6个方法」。"
+      ]
+    }
+  },
+  {
+    "_id": "9_0",
+    "courseUrl": "https://kaiwu.lagou.com/course/courseInfo.htm?courseId=9&sid=30-aggregation-0",
+    "topNCourseLesson": [
+      {
+        "id": 88,
+        "courseId": 9,
+        "sectionId": 9,
+        "theme": "服务治理为何选择Spring Cloud",
+        "isFree": true,
+        "existMedia": true
+      },
+      {
+        "id": 89,
+        "courseId": 9,
+        "sectionId": 9,
+        "theme": "第01讲：夯实基础-Spring Boot",
+        "isFree": false,
+        "existMedia": true
+      },
+      {
+        "id": 90,
+        "courseId": 9,
+        "sectionId": 9,
+        "theme": "第02讲：服务治理-Eureka",
+        "isFree": false,
+        "existMedia": true
+      },
+      {
+        "id": 91,
+        "courseId": 9,
+        "sectionId": 9,
+        "theme": "第03讲：客户端负载均衡-Ribbon",
+        "isFree": false,
+        "existMedia": true
+      }
+    ],
+    "id": 9,
+    "courseCId": "",
+    "courseName": "300分钟搞懂 Spring Cloud",
+    "teachers": [
+      {
+        "id": 10,
+        "teacherName": "尹吉欢",
+        "position": "资深 Java 技术专家",
+        "teacherHeadPicUrl": "https://s0.lgstatic.com/i/image2/M01/AE/17/CgoB5l3fbOmAAS_cAAAv5r1sT0s799.png",
+        "description": "<p><span style=\"font-size: 14px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; color: rgb(0, 0, 0);\"></span></p><p line=\"M9FT\"><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 14px;\">资深 Java 技术专家，微服务技术资深开发者。在 Spring Cloud 和微服务方面具有丰富的一线实战经验。</span></p><p line=\"z5Ba\"><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 14px;\">&nbsp;</span></p><p line=\"pdUa\"><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 14px;\">运营个人技术站”猿天地“，并活跃在各种技术大会上，分享自己的心得，还出版了《 Spring Cloud 微服务：入门、实战与进阶》和《 Spring Cloud 微服务：全栈技术与案例解析》两本图书。</span></p>"
+      }
+    ],
+    "totalDuration": 300,
+    "sales": 9867,
+    "pruchasedCount": "9867人购买",
+    "price": "",
+    "discounts": "98",
+    "courseImgUrl": "https://s0.lgstatic.com/i/image/M00/04/62/Ciqc1F6z9FeAM47DAADmqcuENSk571.png",
+    "sellGoodsId": 15,
+    "sellGoodsPriceId": 551,
+    "lgCoinPrice": 98,
+    "isBuy": false,
+    "isFavorite": false,
+    "isNewDes": "",
+    "brief": "Spring Cloud 微服务核心技术与实战",
+    "h5Url": "https://www.lagou.com/center/login?forward=https%3a%2f%2fkaiwu.lagou.com%2fcourse%2fcourseInfo.htm%3fcourseId%3d9%26sid%3d20-h5Url-0",
+    "activityName": "",
+    "courseListImg": "https://s0.lgstatic.com/i/image/M00/04/62/Ciqc1F6z9FeAM47DAADmqcuENSk571.png",
+    "tag": "专栏",
+    "courseType": 1,
+    "decorateId": 0,
+    "appDecorateId": 0,
+    "recruitAppDecorateId": 0,
+    "distributionBaseInfoVo": {
+      "courseName": "300分钟搞懂 Spring Cloud",
+      "brief": "Spring Cloud 微服务核心技术与实战",
+      "shareImage": "https://s0.lgstatic.com/i/image2/M01/AE/17/CgoB5l3fbOmAAS_cAAAv5r1sT0s799.png",
+      "url": "https://t.lagou.com/nRE8RqRQR347C",
+      "brokerage": "19.60"
+    },
+    "showDistributionButton": true,
+    "distributionDetail": {
+      "profile": "https://s0.lgstatic.com/images/myresume/default_headpic.png",
+      "nickName": "bolingboling",
+      "courseName": "300分钟搞懂 Spring Cloud",
+      "posterImage": "https://s0.lgstatic.com/i/image3/M01/15/23/Ciqah16ip8WAa0EUAAIHVIrR_Oc256.jpg",
+      "url": "https://t.lagou.com/nRB3RlRQR3E08",
+      "urlImageBase64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAEsAQAAAABRBrPYAAABo0lEQVR42u2aWZLDMAhEdTOuzpFyA2YsaEAOTuVzpqqzOLH8/EOxtrzsm9drESP2JzFd+yUa32tFVHSf7SvERkwuC/6uy/V3gw4JrhCbsW3YOMYtbnCsEfuAbW9c9SNG7DtM/ETCwkLsM2a5vq0b7vkU9cRu5eP9PVYZYnK0Kyp5WO6UY1dDLDGFcRfsaeGgcSA2YR636PKib/HC60WE2Iwh8VmUjryMTEhsxKJWZO47JwxiM+bW9eHLq+5C6xIfYhNmZVxLYzu0wjOJDVjLfQZfjDEDhiY2YDlORLPXS24ENbEZ64jHdriq9y7ERqxdS4XOwkOtpUFiB9ZkOtNq82q4JfaAuWVrJINKjGgmNmPpmK3BK5WuyenEDuzUzm9yXZfTiR1YGBKWFoR43kTsAcvBtbKiWUY2sRnTttOFspvCiR3Zkti7vLl65ksf1bssTOyU09HYaZfWV44VxO4Y4je7ZMxi2BIjNmPYnsY8lhMscGIfsS6ZQKbTafef2NvjEIonb6Sck9iMVTjXzipET2KPWJaPmiNK3ByqDDE+SEnsP2M/U7UE0opqYI0AAAAASUVORK5CYII=",
+      "copywriterList": [
+        "Java 工程师如何斩获高薪？300分钟带你走入 Spring Cloud 微服务的进阶之路。"
+      ]
+    }
+  },
+  {
+    "_id": "5_0",
+    "courseUrl": "https://kaiwu.lagou.com/course/courseInfo.htm?courseId=5&sid=30-aggregation-0",
+    "topNCourseLesson": [
+      {
+        "id": 47,
+        "courseId": 5,
+        "sectionId": 5,
+        "theme": "开篇寄语：建立完整的MySQL知识体系",
+        "isFree": true,
+        "fileId": "5285890791390518109",
+        "existMedia": true
+      },
+      {
+        "id": 48,
+        "courseId": 5,
+        "sectionId": 5,
+        "theme": "第01讲：MySQL体系结构与存储引擎",
+        "isFree": false,
+        "fileId": "5285890791589496160",
+        "existMedia": true
+      },
+      {
+        "id": 49,
+        "courseId": 5,
+        "sectionId": 5,
+        "theme": "第02讲：深入理解事务与锁机制（上）",
+        "isFree": false,
+        "fileId": "5285890792000511480",
+        "existMedia": true
+      },
+      {
+        "id": 50,
+        "courseId": 5,
+        "sectionId": 5,
+        "theme": "第02讲：深入理解事务与锁机制（下）",
+        "isFree": false,
+        "fileId": "5285890792001931258",
+        "existMedia": true
+      }
+    ],
+    "id": 5,
+    "courseCId": "41",
+    "courseName": "高性能MySQL实战",
+    "teachers": [
+      {
+        "id": 5,
+        "teacherName": "周彦伟",
+        "position": "极数云舟 CEO",
+        "teacherHeadPicUrl": "https://s0.lgstatic.com/i/image2/M01/AE/37/CgotOV3fbUaAUSNtAAAvnfaOiq4286.png",
+        "description": "<p>从事数据库开发和运维工作近15年，曾担任人人网数据库主管和去哪儿网数据库总监，在数据库的架构设计、性能调优、大规模数据库集群运维等方面积累了丰富的实战经验。<br/>2017年创立极数云舟，现任CEO，致力于企业级云原生数据库ArkDB的产品研发和相关企业级数据库解决方案的架构和实施。<br/>他著有技术畅销书《MySQL运维内参》，另有译著《MySQL 8 Cookbook》中文版。<br/>同时，他还担任Oracle ACE Director，及中国计算机行业协会开源数据库专业委员会会长。</p>"
+      },
+      {
+        "id": 6,
+        "teacherName": "许子文",
+        "position": "极数云舟 项目总监",
+        "teacherHeadPicUrl": "//s0.lgstatic.com/i/image2/M01/5E/A1/CgoB5l0m1GmAeGvrAACKyWLSiM8542.png",
+        "description": "<p>现任极数云舟项目总监，先后就职于达梦数据库、去哪儿网。<br/>在去哪儿网时，负责整个去哪儿网的支付和金融体系数据库架构设计、运维管理和性能优化</p>"
+      }
+    ],
+    "totalDuration": 300,
+    "sales": 11827,
+    "pruchasedCount": "1.18w人购买",
+    "price": "",
+    "discounts": "98",
+    "courseImgUrl": "https://s0.lgstatic.com/i/image/M00/04/62/CgqCHl6z9HyAFR2HAADY71KXaqY243.png",
+    "sellGoodsId": 9,
+    "sellGoodsPriceId": 553,
+    "lgCoinPrice": 98,
+    "isBuy": false,
+    "isFavorite": false,
+    "isNewDes": "",
+    "brief": "快速掌握MySQL要领，支撑互联网高并发请求",
+    "h5Url": "https://www.lagou.com/center/login?forward=https%3a%2f%2fkaiwu.lagou.com%2fcourse%2fcourseInfo.htm%3fcourseId%3d5%26sid%3d50-h5Url-0",
+    "activityName": "",
+    "courseListImg": "https://s0.lgstatic.com/i/image/M00/04/62/CgqCHl6z9HyAFR2HAADY71KXaqY243.png",
+    "tag": "专栏",
+    "courseType": 1,
+    "decorateId": 0,
+    "appDecorateId": 0,
+    "recruitAppDecorateId": 0,
+    "distributionBaseInfoVo": {
+      "courseName": "高性能MySQL实战",
+      "brief": "快速掌握MySQL要领，支撑互联网高并发请求",
+      "shareImage": "https://s0.lgstatic.com/i/image2/M01/AE/37/CgotOV3fbUaAUSNtAAAvnfaOiq4286.png",
+      "url": "https://t.lagou.com/nR9DRXRQR37BA",
+      "brokerage": "19.60"
+    },
+    "showDistributionButton": true,
+    "distributionDetail": {
+      "profile": "https://s0.lgstatic.com/images/myresume/default_headpic.png",
+      "nickName": "bolingboling",
+      "courseName": "高性能MySQL实战",
+      "posterImage": "https://s0.lgstatic.com/i/image3/M01/07/F5/CgoCgV6iqCWAIMy1AANX2f-GtcM189.png",
+      "url": "https://t.lagou.com/nR26RRR6R3A15",
+      "urlImageBase64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAEsAQAAAABRBrPYAAABqElEQVR42u2aW47DMAhF2RlbZ0mzg7QxcMEJqfo5la5b5WEf/yDejhzfjD8hRuxfYiZr6PtB7byvB/U3XyE2YXpK8H31v287qVohNmKnUH1qvSxB+6ZYIfYJMxfqOaEHsW+xhYRxl6yJPWNlzusmUMonqyfWwofdf1OUIRZYjlRLF3JI/Z7VEAPmESO1Ma25BRViExbhwl1hJCpI/TTNmdgFi2kNuYYXzDTPlNgDFhEjywqTTFegmcQmDKVYqSdCsD8RmzA9yhci04tizBeJDVgBqYkxBe0kNmKovARlGXTV9xObMCsf2LtOhpSZ2IS5ZKMxF8VsCygKqye2Y6GL1djsJSzUktgVa5lK84dgDmIzlkYMf4hUJdWT2IRpKiNEXaJt5RixHWtpSrWCM1u21m4itmOtsZQ9AElfuHUJiHUsS/005OzWWfXViQ1YiTYzFQi4h11iFwztdJx9RS+9kj5iE6ZwhSjDqqdut2N9YsMxa8lXcrR0hdiADU2T9I3EPmHSLTk/xdmiDLENK3M2HH1pHX8psRGD1XYjFmknh8QGjB9SEvtR7AVmNZRCOE3WRAAAAABJRU5ErkJggg==",
+      "copywriterList": [
+        "极数云周CEO-周彦伟，带你掌握MySQL的底层运行机制，会学如何处理海量业务数据和高并发请求。"
+      ]
+    }
+  }
+]
