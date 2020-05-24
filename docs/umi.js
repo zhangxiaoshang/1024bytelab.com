@@ -49,7 +49,7 @@
     (n.o = function(e, t) {
       return Object.prototype.hasOwnProperty.call(e, t);
     }),
-    (n.p = 'https://zhangxiaoshang.github.io/1024bytelab.com/'),
+    (n.p = 'https://1024bytelab.com/'),
     n((n.s = 0));
 })({
   '++zV': function(e, t, n) {
