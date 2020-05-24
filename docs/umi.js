@@ -15436,7 +15436,7 @@
       });
     n('k1fw');
     var r = n('YS25'),
-      o = { basename: '/1024bytelab.com' };
+      o = { basename: '/' };
     window.routerBase && (o.basename = window.routerBase);
     var i = Object({ NODE_ENV: 'production' }).__IS_SERVER
         ? null
