@@ -65,7 +65,7 @@ class BookItemLagouContent extends React.Component {
             </p>
           </div>
           <div className={styles.footer}>
-            <span className={styles.brokerage}>返现¥{book.brokerage}</span>
+            <span className={styles.brokerage}>奖励金¥{book.brokerage}</span>
 
             <button
               className={styles.buyButton}
